@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="37" height="37" viewBox="0 0 37 37">
+  <g id="벡터_고급_개체" data-name="벡터 고급 개체" transform="translate(6 7)">
+    <path id="사각형_14494" data-name="사각형 14494" d="M1,1V36H36V1H1M0,0H37V37H0Z" transform="translate(-6 -7)" fill="#f1f3f6"/>
+    <g id="레이어_1" data-name="레이어 1">
+      <path id="패스_45120" data-name="패스 45120" d="M22,3H2l8,9.46V19l4,2V12.46Z" fill="#fff"/>
+    </g>
+    <g id="레이어_1_사본" data-name="레이어 1 사본">
+      <path id="패스_45121" data-name="패스 45121" d="M2,2H22a1,1,0,0,1,.764,1.646L15,12.826V21a1,1,0,0,1-1.447.894l-4-2A1,1,0,0,1,9,19V12.826L1.236,3.646A1,1,0,0,1,2,2ZM19.845,4H4.155l6.608,7.814A1,1,0,0,1,11,12.46v5.922l2,1V12.46a1,1,0,0,1,.236-.646Z"/>
+    </g>
+  </g>
+</svg>
