@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+<title>퍼블리싱 UI가이드</title>
+	
+<!-- 공통 CSS -->		
+<link rel="stylesheet" type="text/css" href="../css/common.css">
+	
+<!-- 레이아웃 CSS -->	
+<link rel="stylesheet" type="text/css" href="../css/guide.css">
+<link rel="stylesheet" type="text/css" href="../css/jquery.syntax.core.css">
+
+<!-- 콘텐츠 CSS -->		
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../css/gnb.css">
+<link rel="stylesheet" type="text/css" href="../css/btn.css">
+<link rel="stylesheet" type="text/css" href="../css/board.css">
+<link rel="stylesheet" type="text/css" href="../css/dingbat_xeicon.css">
+	
+<!-- 팝업 -->
+<script src="../js/jquery-1.11.3.min.js"></script>
+<script src="../js/common.js"></script>	
+	
+<!-- 복사 -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<!--1. clipboard.js 파일 cdn을 통해서 로드-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	
+<!-- 공용 스타일 -->
+<script src="../js/jquery-1.9.1.min.js"></script>
+<script src="../js/sub.js"></script>
+<!-- 공용 스타일 -->	
+	
+<!-- 탭 -->
+	
+</head>
+	
+	
+	 
+	 
+<body>
+	<!-- diWrap -->
+    <div id="diWrap">
+		
+    		<div id="skipnavigation" class="blind" title="스킵메뉴">
+				<ul>
+					<li><a href="#diContents">본문으로 바로가기</a></li>
+				</ul>
+			</div>
+		
+			<!-- diHeader -->
+			<header id="diHeader" class="dcHeader">
+
+			<div class="dcHeaderMenu">
+				<div class="basicWrapCenter">
+					<div class="dcLogoWarp">
+						<h1 id="diLogo">
+							<a href="../index.html" target="_self" title="시스템게이트 로고"><img src="../images/logo.png" alt="시스템게이트 로고"></a>
+						</h1>
+					</div>
+					<div class="dcMenuWrap" id="diNav">
+						<h2 class="blind">주메뉴</h2>
+						<ol>
+							<li><a href="../design_guide/sub_01_01_01.html" target="_self" class="dc1depthTit">퍼플리싱 방향</a></li>
+							<li><a href="../template/sub_02_01_01.html" target="_self" class="dc1depthTit">템플릿</a></li>
+							<li><a href="sub_03_01.html" target="_self" class="dc1depthTit dc1depthTit_on">웹 접근성</a></li>
+						</ol>
+					</div>
+					<div class="dcSiteMap">
+						 <button class="dcBtnAllMenuOpen" title="클릭하시면 전체메뉴를 확인할 수 있습니다." data-tooltip="chart02">전체메뉴</button>
+					</div>
+				</div>
+			</div>
+			</header>
+			<!-- //diHeader -->
+<!-- //diHeader -->
+
+
+<!-- diContainer -->
+<article id="diContainer">
+  <!-- diContents -->
+  <div id="diContents" class="">
+
+    <div class="dcSubConWarp">
+      <div class="basicWrapCenter positionRelative clearfix">
+        <div id="diSideMenu" class="leftMenuMv">
+          <div class="dcLeftMenuWrap">
+            <div class="dcLeftMenu">
+				<nav id="diLeftMenuList">
+				  <ul>
+					<li class="dc1depth" style="border-radius:1rem 0 0 0;">
+						<a href="sub_03_01.html" class="dc1Title">웹 접근성 개요</a>
+						 <ul class="dc2depth">
+						<li><a href="sub_03_01.html#section01_01">웹 접근성이란?</a></li>
+						<li><a href="sub_03_01.html#section01_02">웹 접근성 필요성</a></li>
+						<li><a href="sub_03_01.html#section01_03">웹 접근성 법률 및 제도</a></li>
+					  </ul>
+					  </li>
+					<li class="dc2depth active">
+						<a href="sub_03_02_01.html" class="dc1Title">웹 접근성 실무 가이드</a>
+						<ul class="dc2depth">
+							<li><a href="sub_03_02_02.html">핵심 체크 리스트</a></li>
+							<li><a href="sub_03_02_01.html">텍스트 명도 대비</a></li>
+					  </ul>
+					  </li>
+					 <li class="dc3depth"><a href="sub_03_03.html" class="dc1Title">웹 접근성 지침</a>
+					  <ul class="dc2depth">
+						<li><a href="sub_03_03.html#section03_01">인식의 용이성</a></li>
+						<li><a href="sub_03_03.html#section03_02">명료성</a></li>
+						<li><a href="sub_03_03.html#section03_03">운용의 용이성</a></li>
+						<li><a href="sub_03_03.html#section03_04">이해의 용이성</a></li>
+					  </ul>
+					</li>
+					<li class="dc4depth">
+						<a href="sub_03_04.html" class="dc1Title">웹 접근성 체크리스트</a>
+						<ul class="dc2depth">
+						<li><a href="sub_03_04.html#section04_01">인식의 용이성</a></li>
+						<li><a href="sub_03_04.html#section04_02">운용의 용이성</a></li>
+						<li><a href="sub_03_04.html#section04_03">이해의 용이성</a></li>
+						<li><a href="sub_03_04.html#section04_04">견고성</a></li>
+					  </ul>
+					  </li>
+				  </ul>
+				</nav>
+				</div>
+            <a href="#skipnavigation" class="dcBtnTop">↑ TOP</a>
+          </div>
+        </div>
+        <div class="dcContentsWrap" id="diContent">
+          <div class="dcCon">
+			<!-- 콘텐츠 시작 -->
+			<div id="diBIZWrap" class="greeting guide-content">
+				
+				<h2>웹 접근성 실무 가이드</h2>
+				<hr class="lg">
+				<h3>텍스트 명도 대비</h3>
+				<h4>저시력 및 색각 이상을 위한 웹접근성 가이드 - 텍스트 콘텐츠의 명도 대비</h4>
+				<ul class="desc-guide">
+		<li>구체적으로 사용하려는 색의 전경 색과 배경색의 RGB 16진수 코드를 입력하여 해당 색상 값의 명도 대비가 적절한지 아닌지를 확인할 수 있습니다.</li>
+		<li>아래 표를 참고하여 준수 가능한 명도 대비 기준을 확인하고 실제로 적용할 수 있는 부분을 살펴본다면 잘못된 색상으로 콘텐츠를 제작하는 문제를 줄이는 데 도움이 될 것입니다.</li>
+	</ul>
+				<h5>명도 대비 측정 샘플 (배경색 : White, 전경색 : Gray 계열)</h5>
+				<div class="tableStyle01">
+		<table class="borderTop">
+<caption>명도 대비 측정 샘플 (배경색 : White, 전경색 : Gray 계열)</caption>
+<tbody><tr><th>샘플</th><th>텍스트 크기</th><th>전경색</th><th>배경색</th><th>명도 대비</th><th>준수 여부</th></tr>
+<tr><td style="font-size:18pt;color:#000;background:#fff">● 샘플 콘텐츠</td><td rowspan="5">18pt</td><td>#000000 (Black)</td><td rowspan="13">#ffffff</td><td>21 : 1</td><td>준수</td></tr>
+
+<tr><td style="font-size:18pt;color:#777;background:#fff">● 샘플 콘텐츠</td><td>#777777</td><td>4.4 : 1</td><td>준수</td></tr>
+<tr><td style="font-size:18pt;color:#888;background:#fff">● 샘플 콘텐츠</td><td>#888888</td><td>3.5 : 1</td><td>준수</td></tr>
+<tr><td style="font-size:18pt;color:#999;background:#fff">● 샘플 콘텐츠</td><td>#999999</td><td>2.8 : 1</td><td>미준수</td></tr>
+<tr><td style="font-size:18pt;color:#aaa;background:#fff">● 샘플 콘텐츠</td><td>#aaaaaa</td><td>2.3 : 1</td><td>미준수</td></tr>
+
+<tr><td style="font-size:14pt;color:#777;background:#fff;font-weight:bold">● 샘플 콘텐츠</td><td rowspan="4">14pt Bold</td><td>#777777</td><td>4.4 : 1</td><td>준수</td></tr>
+<tr><td style="font-size:14pt;color:#888;background:#fff;font-weight:bold">● 샘플 콘텐츠</td><td>#888888</td><td>3.5 : 1</td><td>준수</td></tr>
+<tr><td style="font-size:14pt;color:#999;background:#fff;font-weight:bold">● 샘플 콘텐츠</td><td>#999999</td><td>2.8 : 1</td><td>미준수</td></tr>
+<tr><td style="font-size:14pt;color:#aaa;background:#fff;font-weight:bold">● 샘플 콘텐츠</td><td>#aaaaaa</td><td>2.3 : 1</td><td>미준수</td></tr>
+
+<tr><td style="font-size:10pt;color:#555;background:#fff">● 샘플 콘텐츠</td><td rowspan="4">10pt</td><td>#555555</td><td>7.4 : 1</td><td>준수</td></tr>
+<tr><td style="font-size:10pt;color:#666;background:#fff">● 샘플 콘텐츠</td><td>#666666</td><td>6.7 : 1</td><td>준수</td></tr>
+<tr><td style="font-size:10pt;color:#777;background:#fff">● 샘플 콘텐츠</td><td>#777777</td><td>4.4 : 1</td><td>미준수</td></tr>
+<tr><td style="font-size:10pt;color:#888;background:#fff">● 샘플 콘텐츠</td><td>#888888</td><td>3.5 : 1</td><td>미준수</td></tr>
+</tbody></table>
+	</div>
+			<h5>명도 대비 측정 샘플 (배경색 : Black, 전경색 : Gray 계열)</h5>
+				<div class="tableStyle01">
+		<table class="borderTop">
+<caption>명도 대비 측정 샘플 (배경색 : Black, 전경색 : Gray 계열)</caption>
+<tbody><tr><th>샘플</th><th>텍스트 크기</th><th>전경색</th><th>배경색</th><th>명도 대비</th><th>준수 여부</th></tr>
+<tr><td style="font-size:18pt;color:#fff;background:#000">● 샘플 콘텐츠</td><td rowspan="5">18pt</td><td>#ffffff (White)</td><td rowspan="13">#000000</td><td>21 : 1</td><td>준수</td></tr>
+
+<tr><td style="font-size:18pt;color:#777;background:#000">● 샘플 콘텐츠</td><td>#777777</td><td>4.6 : 1</td><td>준수</td></tr>
+<tr><td style="font-size:18pt;color:#666;background:#000">● 샘플 콘텐츠</td><td>#666666</td><td>3.6 : 1</td><td>준수</td></tr>
+<tr><td style="font-size:18pt;color:#555;background:#000">● 샘플 콘텐츠</td><td>#555555</td><td>2.8 : 1</td><td>미준수</td></tr>
+<tr><td style="font-size:18pt;color:#444;background:#000">● 샘플 콘텐츠</td><td>#444444</td><td>2.1 : 1</td><td>미준수</td></tr>
+
+<tr><td style="font-size:14pt;color:#777;background:#000;font-weight:bold">● 샘플 콘텐츠</td><td rowspan="4">14pt Bold</td><td>#777777</td><td>4.6 : 1</td><td>준수</td></tr>
+<tr><td style="font-size:14pt;color:#666;background:#000;font-weight:bold">● 샘플 콘텐츠</td><td>#666666</td><td>3.6 : 1</td><td>준수</td></tr>
+<tr><td style="font-size:14pt;color:#555;background:#000;font-weight:bold">● 샘플 콘텐츠</td><td>#555555</td><td>2.8 : 1</td><td>미준수</td></tr>
+<tr><td style="font-size:14pt;color:#444;background:#000;font-weight:bold">● 샘플 콘텐츠</td><td>#444444</td><td>2.1 : 1</td><td>미준수</td></tr>
+
+<tr><td style="font-size:10pt;color:#888;background:#000">● 샘플 콘텐츠</td><td rowspan="4">10pt</td><td>#888888</td><td>5.9 : 1</td><td>준수</td></tr>
+<tr><td style="font-size:10pt;color:#777;background:#000">● 샘플 콘텐츠</td><td>#777777</td><td>4.6 : 1</td><td>준수</td></tr>
+<tr><td style="font-size:10pt;color:#666;background:#000">● 샘플 콘텐츠</td><td>#666666</td><td>3.6 : 1</td><td>미준수</td></tr>
+<tr><td style="font-size:10pt;color:#555;background:#000">● 샘플 콘텐츠</td><td>#555555</td><td>2.8 : 1</td><td>미준수</td></tr>
+</tbody></table>
+	</div>
+				<p>기본적으로 단색 배경과 텍스트의 조합에서는 약간의 조정만으로 대비를 향상시킬 수 있습니다. 중요한 것은 폰트 크기에 따라 준수 여부가 결정되는 명도 대비 3 : 1과 4.5 : 1의 적용 가능한 차이를 이해하고 실수로 잘 못 적용되지 않도록 면밀히 살펴보아야 할 것입니다.</p>
+				<h5>명도 대비 측정 샘플 (배경색 : White, 전경색 : Red 계열)</h5>
+				<div class="tableStyle01">
+		<table class="borderTop">
+<caption>명도 대비 측정 샘플 (배경색 : White, 전경색 : Red 계열)</caption>
+<tbody><tr><th>샘플</th><th>텍스트 크기</th><th>전경색</th><th>배경색</th><th>명도 대비</th><th>준수 여부</th></tr>
+<tr><td style="font-size:18pt;color:#330000;background:#fff">● 샘플 콘텐츠</td><td rowspan="9">18pt</td><td>#330000</td><td rowspan="27">#ffffff</td><td>18.4 : 1</td><td>준수</td></tr>
+<tr><td style="font-size:18pt;color:#660000;background:#fff">● 샘플 콘텐츠</td><td>#660000</td><td>13.4 : 1</td><td>준수</td></tr>
+<tr><td style="font-size:18pt;color:#990000;background:#fff">● 샘플 콘텐츠</td><td>#990000</td><td>8.9 : 1</td><td>준수</td></tr>
+<tr><td style="font-size:18pt;color:#cc0000;background:#fff">● 샘플 콘텐츠</td><td>#cc0000</td><td>5.8 : 1</td><td>준수</td></tr>
+<tr><td style="font-size:18pt;color:#ff0000;background:#fff">● 샘플 콘텐츠</td><td>#ff0000</td><td>3.9 : 1</td><td>준수</td></tr>
+<tr><td style="font-size:18pt;color:#ff3333;background:#fff">● 샘플 콘텐츠</td><td>#ff3333</td><td>3.6 : 1</td><td>준수</td></tr>
+<tr><td style="font-size:18pt;color:#ff6666;background:#fff">● 샘플 콘텐츠</td><td>#ff6666</td><td>2.8 : 1</td><td>미준수</td></tr>
+<tr><td style="font-size:18pt;color:#ff9999;background:#fff">● 샘플 콘텐츠</td><td>#ff9999</td><td>2.0 : 1</td><td>미준수</td></tr>
+<tr><td style="font-size:18pt;color:#ffcccc;background:#fff">● 샘플 콘텐츠</td><td>#ffcccc</td><td>1.4 : 1</td><td>미준수</td></tr>
+
+<tr><td style="font-size:14pt;color:#330000;background:#fff;font-weight:bold">● 샘플 콘텐츠</td><td rowspan="9">14pt Bold</td><td>#330000</td><td>18.4 : 1</td><td>준수</td></tr>
+<tr><td style="font-size:14pt;color:#660000;background:#fff;font-weight:bold">● 샘플 콘텐츠</td><td>#660000</td><td>13.4 : 1</td><td>준수</td></tr>
+<tr><td style="font-size:14pt;color:#990000;background:#fff;font-weight:bold">● 샘플 콘텐츠</td><td>#990000</td><td>8.9 : 1</td><td>준수</td></tr>
+<tr><td style="font-size:14pt;color:#cc0000;background:#fff;font-weight:bold">● 샘플 콘텐츠</td><td>#cc0000</td><td>5.8 : 1</td><td>준수</td></tr>
+<tr><td style="font-size:14pt;color:#ff0000;background:#fff;font-weight:bold">● 샘플 콘텐츠</td><td>#ff0000</td><td>3.9 : 1</td><td>준수</td></tr>
+<tr><td style="font-size:14pt;color:#ff3333;background:#fff;font-weight:bold">● 샘플 콘텐츠</td><td>#ff3333</td><td>3.6 : 1</td><td>준수</td></tr>
+<tr><td style="font-size:14pt;color:#ff6666;background:#fff;font-weight:bold">● 샘플 콘텐츠</td><td>#ff6666</td><td>2.8 : 1</td><td>미준수</td></tr>
+<tr><td style="font-size:14pt;color:#ff9999;background:#fff;font-weight:bold">● 샘플 콘텐츠</td><td>#ff9999</td><td>2.0 : 1</td><td>미준수</td></tr>
+<tr><td style="font-size:14pt;color:#ffcccc;background:#fff;font-weight:bold">● 샘플 콘텐츠</td><td>#ffcccc</td><td>1.4 : 1</td><td>미준수</td></tr>
+
+<tr><td style="font-size:10pt;color:#330000;background:#fff;">● 샘플 콘텐츠</td><td rowspan="9">10pt</td><td>#330000</td><td>18.4 : 1</td><td>준수</td></tr>
+<tr><td style="font-size:10pt;color:#660000;background:#fff;">● 샘플 콘텐츠</td><td>#660000</td><td>13.4 : 1</td><td>준수</td></tr>
+<tr><td style="font-size:10pt;color:#990000;background:#fff;">● 샘플 콘텐츠</td><td>#990000</td><td>8.9 : 1</td><td>준수</td></tr>
+<tr><td style="font-size:10pt;color:#cc0000;background:#fff;">● 샘플 콘텐츠</td><td>#cc0000</td><td>5.8 : 1</td><td>준수</td></tr>
+<tr><td style="font-size:10pt;color:#ff0000;background:#fff;">● 샘플 콘텐츠</td><td>#ff0000</td><td>3.9 : 1</td><td>미준수</td></tr>
+<tr><td style="font-size:10pt;color:#ff3333;background:#fff;">● 샘플 콘텐츠</td><td>#ff3333</td><td>3.6 : 1</td><td>미준수</td></tr>
+<tr><td style="font-size:10pt;color:#ff6666;background:#fff;">● 샘플 콘텐츠</td><td>#ff6666</td><td>2.8 : 1</td><td>미준수</td></tr>
+<tr><td style="font-size:10pt;color:#ff9999;background:#fff;">● 샘플 콘텐츠</td><td>#ff9999</td><td>2.0 : 1</td><td>미준수</td></tr>
+<tr><td style="font-size:10pt;color:#ffcccc;background:#fff;">● 샘플 콘텐츠</td><td>#ffcccc</td><td>1.4 : 1</td><td>미준수</td></tr>
+</tbody></table>
+	</div>
+				<h5>명도 대비 측정 샘플 (배경색 : White, 전경색 : Green 계열)</h5>
+				<div class="tableStyle01">
+		<table class="borderTop">
+<caption>명도 대비 측정 샘플 (배경색 : White, 전경색 : Green 계열)</caption>
+<tbody><tr><th>샘플</th><th>텍스트 크기</th><th>전경색</th><th>배경색</th><th>명도 대비</th><th>준수 여부</th></tr>
+<tr><td style="font-size:18pt;color:#003300;background:#fff">● 샘플 콘텐츠</td><td rowspan="9">18pt</td><td>#003300</td><td rowspan="27">#ffffff</td><td>14.2 : 1</td><td>준수</td></tr>
+<tr><td style="font-size:18pt;color:#006600;background:#fff">● 샘플 콘텐츠</td><td>#006600</td><td>7.2 : 1</td><td>준수</td></tr>
+<tr><td style="font-size:18pt;color:#009900;background:#fff">● 샘플 콘텐츠</td><td>#009900</td><td>3.7 : 1</td><td>준수</td></tr>
+<tr><td style="font-size:18pt;color:#00cc00;background:#fff">● 샘플 콘텐츠</td><td>#00cc00</td><td>2.1 : 1</td><td>미준수</td></tr>
+<tr><td style="font-size:18pt;color:#00ff00;background:#fff">● 샘플 콘텐츠</td><td>#00ff00</td><td>1.3 : 1</td><td>미준수</td></tr>
+<tr><td style="font-size:18pt;color:#33ff33;background:#fff">● 샘플 콘텐츠</td><td>#33ff33</td><td>1.3 : 1</td><td>미준수</td></tr>
+<tr><td style="font-size:18pt;color:#66ff66;background:#fff">● 샘플 콘텐츠</td><td>#66ff66</td><td>1.3 : 1</td><td>미준수</td></tr>
+<tr><td style="font-size:18pt;color:#99ff99;background:#fff">● 샘플 콘텐츠</td><td>#99ff99</td><td>1.2 : 1</td><td>미준수</td></tr>
+<tr><td style="font-size:18pt;color:#ccffcc;background:#fff">● 샘플 콘텐츠</td><td>#ccffcc</td><td>1.1 : 1</td><td>미준수</td></tr>
+
+<tr><td style="font-size:14pt;color:#003300;background:#fff;font-weight:bold">● 샘플 콘텐츠</td><td rowspan="9">14pt Bold</td><td>#003300</td><td>14.2 : 1</td><td>준수</td></tr>
+<tr><td style="font-size:14pt;color:#006600;background:#fff;font-weight:bold">● 샘플 콘텐츠</td><td>#006600</td><td>7.2 : 1</td><td>준수</td></tr>
+<tr><td style="font-size:14pt;color:#009900;background:#fff;font-weight:bold">● 샘플 콘텐츠</td><td>#009900</td><td>3.7 : 1</td><td>준수</td></tr>
+<tr><td style="font-size:14pt;color:#00cc00;background:#fff;font-weight:bold">● 샘플 콘텐츠</td><td>#00cc00</td><td>2.1 : 1</td><td>미준수</td></tr>
+<tr><td style="font-size:14pt;color:#00ff00;background:#fff;font-weight:bold">● 샘플 콘텐츠</td><td>#00ff00</td><td>1.3 : 1</td><td>미준수</td></tr>
+<tr><td style="font-size:14pt;color:#33ff33;background:#fff;font-weight:bold">● 샘플 콘텐츠</td><td>#33ff33</td><td>1.3 : 1</td><td>미준수</td></tr>
+<tr><td style="font-size:14pt;color:#66ff66;background:#fff;font-weight:bold">● 샘플 콘텐츠</td><td>#66ff66</td><td>1.3 : 1</td><td>미준수</td></tr>
+<tr><td style="font-size:14pt;color:#99ff99;background:#fff;font-weight:bold">● 샘플 콘텐츠</td><td>#99ff99</td><td>1.2 : 1</td><td>미준수</td></tr>
+<tr><td style="font-size:14pt;color:#ccffcc;background:#fff;font-weight:bold">● 샘플 콘텐츠</td><td>#ccffcc</td><td>1.1 : 1</td><td>미준수</td></tr>
+
+<tr><td style="font-size:10pt;color:#003300;background:#fff">● 샘플 콘텐츠</td><td rowspan="9">10pt</td><td>#003300</td><td>14.2 : 1</td><td>준수</td></tr>
+<tr><td style="font-size:10pt;color:#006600;background:#fff">● 샘플 콘텐츠</td><td>#006600</td><td>7.2 : 1</td><td>준수</td></tr>
+<tr><td style="font-size:10pt;color:#009900;background:#fff">● 샘플 콘텐츠</td><td>#009900</td><td>3.7 : 1</td><td>미준수</td></tr>
+<tr><td style="font-size:10pt;color:#00cc00;background:#fff">● 샘플 콘텐츠</td><td>#00cc00</td><td>2.1 : 1</td><td>미준수</td></tr>
+<tr><td style="font-size:10pt;color:#00ff00;background:#fff">● 샘플 콘텐츠</td><td>#00ff00</td><td>1.3 : 1</td><td>미준수</td></tr>
+<tr><td style="font-size:10pt;color:#33ff33;background:#fff">● 샘플 콘텐츠</td><td>#33ff33</td><td>1.3 : 1</td><td>미준수</td></tr>
+<tr><td style="font-size:10pt;color:#66ff66;background:#fff">● 샘플 콘텐츠</td><td>#66ff66</td><td>1.3 : 1</td><td>미준수</td></tr>
+<tr><td style="font-size:10pt;color:#99ff99;background:#fff">● 샘플 콘텐츠</td><td>#99ff99</td><td>1.2 : 1</td><td>미준수</td></tr>
+<tr><td style="font-size:10pt;color:#ccffcc;background:#fff">● 샘플 콘텐츠</td><td>#ccffcc</td><td>1.1 : 1</td><td>미준수</td></tr>
+</tbody></table>
+	</div>
+				<h5>명도 대비 측정 샘플 (배경색 : White, 전경색 : Blue 계열)</h5>
+				<div class="tableStyle01">
+		<table class="borderTop">
+<caption>명도 대비 측정 샘플 (배경색 : White, 전경색 : Blue 계열)</caption>
+<tbody><tr><th>샘플</th><th>텍스트 크기</th><th>전경색</th><th>배경색</th><th>명도 대비</th><th>준수 여부</th></tr>
+<tr><td style="font-size:18pt;color:#000033;background:#fff">● 샘플 콘텐츠</td><td rowspan="9">18pt</td><td>#000033</td><td rowspan="27">#ffffff</td><td>20.0 : 1</td><td>준수</td></tr>
+<tr><td style="font-size:18pt;color:#000066;background:#fff">● 샘플 콘텐츠</td><td>#000066</td><td>17.6 : 1</td><td>준수</td></tr>
+<tr><td style="font-size:18pt;color:#000099;background:#fff">● 샘플 콘텐츠</td><td>#000099</td><td>14.3 : 1</td><td>준수</td></tr>
+<tr><td style="font-size:18pt;color:#0000cc;background:#fff">● 샘플 콘텐츠</td><td>#0000cc</td><td>11.2 : 1</td><td>준수</td></tr>
+<tr><td style="font-size:18pt;color:#0000ff;background:#fff">● 샘플 콘텐츠</td><td>#0000ff</td><td>8.5 : 1</td><td>준수</td></tr>
+<tr><td style="font-size:18pt;color:#3333ff;background:#fff">● 샘플 콘텐츠</td><td>#3333ff</td><td>6.8 : 1</td><td>준수</td></tr>
+<tr><td style="font-size:18pt;color:#6666ff;background:#fff">● 샘플 콘텐츠</td><td>#6666ff</td><td>4.2 : 1</td><td>준수</td></tr>
+<tr><td style="font-size:18pt;color:#9999ff;background:#fff">● 샘플 콘텐츠</td><td>#9999ff</td><td>2.5 : 1</td><td>미준수</td></tr>
+<tr><td style="font-size:18pt;color:#ccccff;background:#fff">● 샘플 콘텐츠</td><td>#ccccff</td><td>1.5 : 1</td><td>미준수</td></tr>
+
+<tr><td style="font-size:14pt;color:#000033;background:#fff;font-weight:bold">● 샘플 콘텐츠</td><td rowspan="9">14pt Bold</td><td>#000033</td><td>20.0 : 1</td><td>준수</td></tr>
+<tr><td style="font-size:14pt;color:#000066;background:#fff;font-weight:bold">● 샘플 콘텐츠</td><td>#000066</td><td>17.6 : 1</td><td>준수</td></tr>
+<tr><td style="font-size:14pt;color:#000099;background:#fff;font-weight:bold">● 샘플 콘텐츠</td><td>#000099</td><td>14.3 : 1</td><td>준수</td></tr>
+<tr><td style="font-size:14pt;color:#0000cc;background:#fff;font-weight:bold">● 샘플 콘텐츠</td><td>#0000cc</td><td>11.2 : 1</td><td>준수</td></tr>
+<tr><td style="font-size:14pt;color:#0000ff;background:#fff;font-weight:bold">● 샘플 콘텐츠</td><td>#0000ff</td><td>8.5 : 1</td><td>준수</td></tr>
+<tr><td style="font-size:14pt;color:#3333ff;background:#fff;font-weight:bold">● 샘플 콘텐츠</td><td>#3333ff</td><td>6.8 : 1</td><td>준수</td></tr>
+<tr><td style="font-size:14pt;color:#6666ff;background:#fff;font-weight:bold">● 샘플 콘텐츠</td><td>#6666ff</td><td>4.2 : 1</td><td>준수</td></tr>
+<tr><td style="font-size:14pt;color:#9999ff;background:#fff;font-weight:bold">● 샘플 콘텐츠</td><td>#9999ff</td><td>2.5 : 1</td><td>미준수</td></tr>
+<tr><td style="font-size:14pt;color:#ccccff;background:#fff;font-weight:bold">● 샘플 콘텐츠</td><td>#ccccff</td><td>1.5 : 1</td><td>미준수</td></tr>
+
+<tr><td style="font-size:10pt;color:#000033;background:#fff;">● 샘플 콘텐츠</td><td rowspan="9">10pt</td><td>#000033</td><td>20.0 : 1</td><td>준수</td></tr>
+<tr><td style="font-size:10pt;color:#000066;background:#fff;">● 샘플 콘텐츠</td><td>#000066</td><td>17.6 : 1</td><td>준수</td></tr>
+<tr><td style="font-size:10pt;color:#000099;background:#fff;">● 샘플 콘텐츠</td><td>#000099</td><td>14.3 : 1</td><td>준수</td></tr>
+<tr><td style="font-size:10pt;color:#0000cc;background:#fff;">● 샘플 콘텐츠</td><td>#0000cc</td><td>11.2 : 1</td><td>준수</td></tr>
+<tr><td style="font-size:10pt;color:#0000ff;background:#fff;">● 샘플 콘텐츠</td><td>#0000ff</td><td>8.5 : 1</td><td>준수</td></tr>
+<tr><td style="font-size:10pt;color:#3333ff;background:#fff;">● 샘플 콘텐츠</td><td>#3333ff</td><td>6.8 : 1</td><td>준수</td></tr>
+<tr><td style="font-size:10pt;color:#6666ff;background:#fff;">● 샘플 콘텐츠</td><td>#6666ff</td><td>4.2 : 1</td><td>미준수</td></tr>
+<tr><td style="font-size:10pt;color:#9999ff;background:#fff;">● 샘플 콘텐츠</td><td>#9999ff</td><td>2.5 : 1</td><td>미준수</td></tr>
+<tr><td style="font-size:10pt;color:#ccccff;background:#fff;">● 샘플 콘텐츠</td><td>#ccccff</td><td>1.5 : 1</td><td>미준수</td></tr>
+</tbody></table>	
+	</div>
+				<h5>명도 대비 측정 샘플 (배경색 : White, 전경색 : Yellow 계열)</h5>
+				<div class="tableStyle01">
+		<table class="borderTop">
+<caption>명도 대비 측정 샘플 (배경색 : White, 전경색 : Yellow 계열)</caption>
+<tbody><tr><th>샘플</th><th>텍스트 크기</th><th>전경색</th><th>배경색</th><th>명도 대비</th><th>준수 여부</th></tr>
+<tr><td style="font-size:18pt;color:#333300;background:#fff">● 샘플 콘텐츠</td><td rowspan="9">18pt</td><td>#333300</td><td rowspan="27">#ffffff</td><td>20.0 : 1</td><td>준수</td></tr>
+<tr><td style="font-size:18pt;color:#666600;background:#fff">● 샘플 콘텐츠</td><td>#666600</td><td>17.6 : 1</td><td>준수</td></tr>
+<tr><td style="font-size:18pt;color:#999900;background:#fff">● 샘플 콘텐츠</td><td>#999900</td><td>14.3 : 1</td><td>준수</td></tr>
+<tr><td style="font-size:18pt;color:#cccc00;background:#fff">● 샘플 콘텐츠</td><td>#cccc00</td><td>11.2 : 1</td><td>준수</td></tr>
+<tr><td style="font-size:18pt;color:#ffff00;background:#fff">● 샘플 콘텐츠</td><td>#ffff00</td><td>8.5 : 1</td><td>준수</td></tr>
+<tr><td style="font-size:18pt;color:#ffff33;background:#fff">● 샘플 콘텐츠</td><td>#ffff33</td><td>6.8 : 1</td><td>준수</td></tr>
+<tr><td style="font-size:18pt;color:#ffff66;background:#fff">● 샘플 콘텐츠</td><td>#ffff66</td><td>4.2 : 1</td><td>준수</td></tr>
+<tr><td style="font-size:18pt;color:#ffff99;background:#fff">● 샘플 콘텐츠</td><td>#ffff99</td><td>2.5 : 1</td><td>미준수</td></tr>
+<tr><td style="font-size:18pt;color:#ffffcc;background:#fff">● 샘플 콘텐츠</td><td>#ffffcc</td><td>1.5 : 1</td><td>미준수</td></tr>
+
+<tr><td style="font-size:14pt;color:#333300;background:#fff;font-weight:bold">● 샘플 콘텐츠</td><td rowspan="9">14pt Bold</td><td>#333300</td><td>20.0 : 1</td><td>준수</td></tr>
+<tr><td style="font-size:14pt;color:#666600;background:#fff;font-weight:bold">● 샘플 콘텐츠</td><td>#666600</td><td>17.6 : 1</td><td>준수</td></tr>
+<tr><td style="font-size:14pt;color:#999900;background:#fff;font-weight:bold">● 샘플 콘텐츠</td><td>#999900</td><td>14.3 : 1</td><td>준수</td></tr>
+<tr><td style="font-size:14pt;color:#cccc00;background:#fff;font-weight:bold">● 샘플 콘텐츠</td><td>#cccc00</td><td>11.2 : 1</td><td>준수</td></tr>
+<tr><td style="font-size:14pt;color:#ffff00;background:#fff;font-weight:bold">● 샘플 콘텐츠</td><td>#ffff00</td><td>8.5 : 1</td><td>준수</td></tr>
+<tr><td style="font-size:14pt;color:#ffff33;background:#fff;font-weight:bold">● 샘플 콘텐츠</td><td>#ffff33</td><td>6.8 : 1</td><td>준수</td></tr>
+<tr><td style="font-size:14pt;color:#ffff66;background:#fff;font-weight:bold">● 샘플 콘텐츠</td><td>#ffff66</td><td>4.2 : 1</td><td>준수</td></tr>
+<tr><td style="font-size:14pt;color:#ffff99;background:#fff;font-weight:bold">● 샘플 콘텐츠</td><td>#ffff99</td><td>2.5 : 1</td><td>미준수</td></tr>
+<tr><td style="font-size:14pt;color:#ffffcc;background:#fff;font-weight:bold">● 샘플 콘텐츠</td><td>#ffffcc</td><td>1.5 : 1</td><td>미준수</td></tr>
+
+<tr><td style="font-size:10pt;color:#333300;background:#fff">● 샘플 콘텐츠</td><td rowspan="9">10pt</td><td>#333300</td><td>20.0 : 1</td><td>준수</td></tr>
+<tr><td style="font-size:10pt;color:#666600;background:#fff">● 샘플 콘텐츠</td><td>#666600</td><td>17.6 : 1</td><td>준수</td></tr>
+<tr><td style="font-size:10pt;color:#999900;background:#fff">● 샘플 콘텐츠</td><td>#999900</td><td>14.3 : 1</td><td>준수</td></tr>
+<tr><td style="font-size:10pt;color:#cccc00;background:#fff">● 샘플 콘텐츠</td><td>#cccc00</td><td>11.2 : 1</td><td>준수</td></tr>
+<tr><td style="font-size:10pt;color:#ffff00;background:#fff">● 샘플 콘텐츠</td><td>#ffff00</td><td>8.5 : 1</td><td>준수</td></tr>
+<tr><td style="font-size:10pt;color:#ffff33;background:#fff">● 샘플 콘텐츠</td><td>#ffff33</td><td>6.8 : 1</td><td>준수</td></tr>
+<tr><td style="font-size:10pt;color:#ffff66;background:#fff">● 샘플 콘텐츠</td><td>#ffff66</td><td>4.2 : 1</td><td>미준수</td></tr>
+<tr><td style="font-size:10pt;color:#ffff99;background:#fff">● 샘플 콘텐츠</td><td>#ffff99</td><td>2.5 : 1</td><td>미준수</td></tr>
+<tr><td style="font-size:10pt;color:#ffffcc;background:#fff">● 샘플 콘텐츠</td><td>#ffffcc</td><td>1.5 : 1</td><td>미준수</td></tr>
+</tbody></table>
+	</div>
+				<p>녹색과 노란색 계열은 다른 색에 비해 상대적으로 명도 대비가 낮게 측정되므로 사용에 주의가 필요합니다.</p>
+				<h5>명도 대비 측정 샘플 (배경색 : White, 전경색 : Yellow 계열)</h5>
+				<div class="tableStyle01">
+		<table class="borderTop">
+<caption>명도 대비 측정 샘플 (기타)</caption>
+<tbody><tr><th>샘플</th><th>텍스트 크기</th><th>전경색</th><th>배경색</th><th>명도 대비</th><th>준수 여부</th></tr>
+<tr><td style="font-size:10pt;color:#ff0033;background:#fff">● 샘플 콘텐츠</td><td rowspan="10">10pt</td><td rowspan="2">#ff0033</td><td>#ffffff</td><td>3.9 : 1</td><td>미준수</td></tr>
+<tr><td style="font-size:10pt;color:#ff0033;background:#000">● 샘플 콘텐츠</td><td>#000000</td><td>5.2 : 1</td><td>준수</td></tr>
+
+<tr><td style="font-size:10pt;color:#009900;background:#fff">● 샘플 콘텐츠</td><td rowspan="2">#009900</td><td>#ffffff</td><td>3.7 : 1</td><td>미준수</td></tr>
+<tr><td style="font-size:10pt;color:#009900;background:#000">● 샘플 콘텐츠</td><td>#000000</td><td>5.5 : 1</td><td>준수</td></tr>
+
+<tr><td style="font-size:10pt;color:#0000ff;background:#fff">● 샘플 콘텐츠</td><td rowspan="2">#0000ff</td><td>#ffffff</td><td>8.5 : 1</td><td>준수</td></tr>
+<tr><td style="font-size:10pt;color:#0000ff;background:#000">● 샘플 콘텐츠</td><td>#000000</td><td>2.4 : 1</td><td>미준수</td></tr>
+
+<tr><td style="font-size:10pt;color:#cccc00;background:#fff">● 샘플 콘텐츠</td><td rowspan="2">#cccc00</td><td>#ffffff</td><td>1.7 : 1</td><td>미준수</td></tr>
+<tr><td style="font-size:10pt;color:#cccc00;background:#000">● 샘플 콘텐츠</td><td>#000000</td><td>12.2 : 1</td><td>준수</td></tr>
+</tbody></table>
+	</div>
+				<p>같은 전경 색이라도 배경색에 따라 명도 대비가 큰 차이를 보이며 Black 배경색이라도 항상 높게 측정되지는 않는 것을 확인할 수 있습니다. 따라서 적절한 전경 색과 배경색의 조합을 고민해야 합니다.</p>
+				<h4>기타 이미지 텍스트 및 아이콘 명도 대비</h4>
+				<p>본 지침에 자세하게 언급되지는 않았지만, 이미지로 제작된 텍스트는 가급적 사용을 자제하고 부득이 사용해야 할 경우 특히 앤티 앨리어싱으로 적용된 텍스트라면 가장자리를 제외한 중심 색상의 명도 대비를 체크해 볼 수 있습니다. 또한, 아이콘의 사용에서는 가능한 추가로 텍스트로 이름을 명시하고 부득이한 경우라도 아이콘의 의미를 명확히 인식할 수 있도록 노력을 기울여야 합니다.</p>
+				
+			 </div>
+            <!-- //콘텐츠 끝 -->
+    
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- diFooter -->
+
+<!-- 전체메뉴 박스 -->
+		
+
+<article class="dcSiteMapWrap">
+	<div class="dcSiteMapLi">
+		<h2 class="blind">주메뉴</h2>
+		<ol>
+			<li id="di1depthm001"><button class="mo_sub_btn" type="button">퍼플리싱 방향</button>
+				<div class="depth_wrap">
+					<ul class="dc2depthWrap">
+						<li>
+							<a href="javascript:void(0);" class="child">개요</a>
+							<ul class="dc3depth">
+								<li><a href="sub_01_01_01.html#section01_01">목적</a></li>
+								<li><a href="sub_01_01_01.html#section01_02">구성</a></li>
+								<li><a href="sub_01_01_01.html#section01_03">활용 방법</a></li>
+								<li><a href="sub_01_01_01.html#section01_04">적용 범위</a></li>
+								<li><a href="sub_01_01_01.html#section01_05">적용 기준</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="javascript:void(0);" class="child">기본규칙</a>
+							<ul class="dc3depth">
+								<li><a href="sub_01_02_01.html#section02_01">기본정책</a></li>
+								<li><a href="sub_01_02_01.html#section02_02">네이밍 규칙</a></li>
+								<li><a href="sub_01_02_01.html#section02_03">HTML 코드 작성 규칙</a></li>
+								<li><a href="sub_01_02_01.html#section02_04">HTML 엘리먼트 작성 규칙</a></li>
+								<li><a href="sub_01_02_01.html#section02_05">CSS 코드 작성 규칙</a></li>
+								<li><a href="sub_01_02_01.html#section02_06">속성의 축약/약식 속성 사용</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="javascript:void(0);" class="child">화면규칙</a>
+							<ul class="dc3depth">
+								<li><a href="sub_01_03_01.html#section03_01">레이아웃 구조</a></li>
+								<li><a href="sub_01_03_01.html#section03_02">반응형 분기</a></li>
+								<li><a href="sub_01_03_01.html#section03_03">서체</a></li>
+							</ul>
+						</li>
+					</ul>					
+				</div>
+			</li>
+			<li id="di1depthm002"><button class="mo_sub_btn" type="button">템플릿</button>
+				<div class="depth_wrap">
+					<ul class="dc2depthWrap">
+						<li><a href="javascript:void(0);" class="child">04</a>
+							<ul class="depth3">
+								<li><a href="#" target="_self">04</a></li>
+							</ul>					
+						</li>
+						
+					</ul>
+				</div>
+			</li>
+		</ol>
+	 <button class="dcBtnAllMenuClose tooltip-close" title="클릭하시면 전체메뉴를 닫습니다"><span>　</span></button>
+	</div>
+</article>
+<div class="bgAllmenu"></div>
+			<!-- //전체메뉴 박스 -->
+
+
+		</div> 
+	  <!-- //div = diContents --> 
+		 </article> <!-- //<article id="diContainer"> --> 
+		
+		
+		</div>  
+	 <!-- //div = diWrap -->
+	
+<!-- 20240319 스크립트 수정 start -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+	<script>
+		// 3. 웹 문서가 로드되면 클립보드 객체 생성
+		$(document).ready(function(){
+
+			var clipboard = new Clipboard('.btn');
+		// 알림창 옵션 설정
+	var toastrOptions = {
+	  "debug": false,
+	  "newestOnTop": false,
+	  "progressBar": false,
+	  "positionClass": "toast-top-right",
+	  "preventDuplicates": true,
+	  "onclick": null,
+	  "showDuration": "100",
+	  "hideDuration": "100",
+	  "timeOut": "100",
+	  "extendedTimeOut": "100",
+	  "showEasing": "swing",
+	  "hideEasing": "linear",
+	  "showMethod": "fadeIn",
+	  "hideMethod": "fadeOut",
+	};
+
+	// 스크립트 복사 성공 시 알림창 띄우기
+	clipboard.on('success', function(e) {
+	  console.log("Success");
+	  var selection = window.getSelection();
+	  selection.removeAllRanges();
+	  toastr.success("클립보드에 복사 되었습니다.", toastrOptions);
+	});
+
+			clipboard.on('error', function(e) {
+				console.log("Fail");
+			});
+
+			 var btns = document.querySelectorAll('button');
+			var clipboard = new Clipboard(btns);
+
+		});
+	</script>
+<!-- 20240319 스크립트 수정 end -->
+</body>
+</html>

@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+<title>퍼블리싱 UI가이드</title>
+	
+<!-- 공통 CSS -->		
+<link rel="stylesheet" type="text/css" href="../css/common.css">
+	
+<!-- 레이아웃 CSS -->	
+<link rel="stylesheet" type="text/css" href="../css/guide.css">
+<link rel="stylesheet" type="text/css" href="../css/jquery.syntax.core.css">
+
+<!-- 콘텐츠 CSS -->		
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../css/gnb.css">
+<link rel="stylesheet" type="text/css" href="../css/btn.css">
+<link rel="stylesheet" type="text/css" href="../css/board.css">
+<link rel="stylesheet" type="text/css" href="../css/dingbat_xeicon.css">
+	
+<!-- 팝업 -->
+<script src="../js/jquery-1.11.3.min.js"></script>
+<script src="../js/common.js"></script>	
+	
+<!-- 복사 -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<!--1. clipboard.js 파일 cdn을 통해서 로드-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	
+<!-- 공용 스타일 -->
+<script src="../js/jquery-1.9.1.min.js"></script>
+<script src="../js/sub.js"></script>
+<!-- 공용 스타일 -->	
+	
+<!-- 탭 -->
+	
+</head>
+	
+	
+	 
+	 
+<body>
+	<!-- diWrap -->
+    <div id="diWrap">
+		
+    		<div id="skipnavigation" class="blind" title="스킵메뉴">
+				<ul>
+					<li><a href="#diContents">본문으로 바로가기</a></li>
+				</ul>
+			</div>
+		
+			<!-- diHeader -->
+			<header id="diHeader" class="dcHeader">
+
+			<div class="dcHeaderMenu">
+				<div class="basicWrapCenter">
+					<div class="dcLogoWarp">
+						<h1 id="diLogo">
+							<a href="../index.html" target="_self" title="시스템게이트 로고"><img src="../images/logo.png" alt="시스템게이트 로고"></a>
+						</h1>
+					</div>
+					<div class="dcMenuWrap" id="diNav">
+						<h2 class="blind">주메뉴</h2>
+						<ol>
+							<li><a href="../design_guide/sub_01_01_01.html" target="_self" class="dc1depthTit">퍼플리싱 방향</a></li>
+							<li><a href="../template/sub_02_01_01.html" target="_self" class="dc1depthTit">템플릿</a></li>
+							<li><a href="sub_03_01.html" target="_self" class="dc1depthTit dc1depthTit_on">웹 접근성</a></li>
+						</ol>
+					</div>
+					<div class="dcSiteMap">
+						 <button class="dcBtnAllMenuOpen" title="클릭하시면 전체메뉴를 확인할 수 있습니다." data-tooltip="chart02">전체메뉴</button>
+					</div>
+				</div>
+			</div>
+			</header>
+			<!-- //diHeader -->
+<!-- //diHeader -->
+
+
+<!-- diContainer -->
+<article id="diContainer">
+  <!-- diContents -->
+  <div id="diContents" class="">
+
+    <div class="dcSubConWarp">
+      <div class="basicWrapCenter positionRelative clearfix">
+        <div id="diSideMenu" class="leftMenuMv">
+          <div class="dcLeftMenuWrap">
+            <div class="dcLeftMenu">
+				<nav id="diLeftMenuList">
+				  <ul>
+					<li class="dc1depth active" style="border-radius:1rem 0 0 0;">
+						<a href="sub_03_01.html" class="dc1Title">웹 접근성 개요</a>
+						 <ul class="dc2depth">
+						<li><a href="sub_03_01.html#section01_01">웹 접근성이란?</a></li>
+						<li><a href="sub_03_01.html#section01_02">웹 접근성 필요성</a></li>
+						<li><a href="sub_03_01.html#section01_03">웹 접근성 법률 및 제도</a></li>
+					  </ul>
+					  </li>
+					<li class="dc2depth">
+						<a href="sub_03_02_01.html" class="dc1Title">웹 접근성 실무 가이드</a>
+						<ul class="dc2depth">
+							<li><a href="sub_03_02_02.html">핵심 체크 리스트</a></li>
+							<li><a href="sub_03_02_01.html">텍스트 명도 대비</a></li>
+					  </ul>
+					  </li>
+					 <li class="dc3depth"><a href="sub_03_03.html" class="dc1Title">웹 접근성 지침</a>
+					  <ul class="dc2depth">
+						<li><a href="sub_03_03.html#section03_01">인식의 용이성</a></li>
+						<li><a href="sub_03_03.html#section03_02">명료성</a></li>
+						<li><a href="sub_03_03.html#section03_03">운용의 용이성</a></li>
+						<li><a href="sub_03_03.html#section03_03">이해의 용이성</a></li>
+						<li><a href="sub_03_03.html#section03_03">자주 사용하는 태그</a></li>
+					  </ul>
+					</li>
+					<li class="dc4depth">
+						<a href="sub_03_04.html" class="dc1Title">웹 접근성 체크리스트</a>
+						<ul class="dc2depth">
+						<li><a href="sub_03_04.html#section04_01">인식의 용이성</a></li>
+						<li><a href="sub_03_04.html#section04_02">운용의 용이성</a></li>
+						<li><a href="sub_03_04.html#section04_03">이해의 용이성</a></li>
+						<li><a href="sub_03_04.html#section04_04">견고성</a></li>
+					  </ul>
+					  </li>
+				  </ul>
+				</nav>
+				</div>
+            <a href="#skipnavigation" class="dcBtnTop">↑ TOP</a>
+          </div>
+        </div>
+        <div class="dcContentsWrap" id="diContent">
+          <div class="dcCon">
+			<!-- 콘텐츠 시작 -->
+			<div id="diBIZWrap" class="greeting guide-content">
+				
+				<h2>웹 접근성 개요</h2>
+				<hr class="lg">
+				<h3 id="section01_01">웹 접근성이란?</h3>
+				<h4>웹 접근성(Web Accessibility) 이란 장애인, 고령자 등이 웹 사이트에서 제공하는 정보에 비장애인과 동등하게 접근하고 이해할 수 있도록 보장하는 것입니다.</h4>
+				<p>비장애인이 웹상에서 제공되는 텍스트와 이미지, 영상 등을 접했을 경우, 한눈에 재빨리 내용 파악이 가능하지만, 장애인은 그렇지 않습니다. 그림이나 사진들을 제공할 때 눈으로 볼 수 없는 경우를 대비하여 그림이나 사진을 대신 할 수 있는 설명을 텍스트로 제공해야 하며, 동영상이나 오디오의 경우 청각장애인을 위한 음성정보를 문자로 제공해야 합니다. 또한, 마우스를 사용할 수 없는 사용자를 위하여 키보드만으로도 모든 콘텐츠에 접근하여 이용할 수 있도록 해야 하며, 움직임이 느린 사용자를 위해 시간조절기능을 제공해야 합니다.</p>
+				<h4>정보통신 환경의 이해</h4>
+				<div class="tableStyle01">
+	<table class="borderTop" summary="장애유형, 특징, 보완대책의 정보를 제공하는 표입니다." border="0" cellspacing="1" cellpadding="0" bgcolor="#ffffff">
+		<caption>정보통신 환경의 이해</caption>
+		<colgroup>
+		<col style="width:10%">
+		<col style="width:10%">
+		<col style="width:40%">
+		<col style="width:40%">
+		</colgroup>
+		<thead>
+			<tr>
+				<th colspan="2" scope="col" class="t_col">장애유형</th>
+				<th scope="col" class="t_col">특징</th>
+				<th scope="col" class="t_col">보완대책</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th rowspan="3" scope="row" class="t_row">시각장애</th>
+				<th scope="row" class="t_row">전맹</th>
+				<td class="pl10">모니터를 볼 수 없음</td>
+				<td class="pl10">스크린리더</td>
+			</tr>
+			<tr>
+				<th scope="row" class="t_row">저시력</th>
+				<td class="pl10">모니터 사용이 일부 가능함</td>
+				<td class="pl10">화면확대/고대비</td>
+			</tr>
+			<tr>
+				<th scope="row" class="t_row">색맹</th>
+				<td class="pl10">색을 구별할 수 없음</td>
+				<td class="pl10">색상에만 의존하지 않기/고대비</td>
+			</tr>
+			<tr>
+				<th colspan="2" scope="row" class="t_row">청각장애</th>
+				<td class="pl10">사운드, 오디오 등을 창취할 수 없음</td>
+				<td class="pl10">수화, 시각정보 제공</td>
+			</tr>
+			<tr>
+				<th rowspan="2" scope="row" class="t_row">지체장애</th>
+				<th scope="row" class="t_row">상지장애</th>
+				<td class="pl10">손을 사용할 수 없음</td>
+				<td class="pl10">마우스 대체 방법, 키보드만 사용</td>
+			</tr>
+			<tr>
+				<th scope="row" class="t_row">기타</th>
+				<td class="pl10">움직임이 어려움</td>
+				<td class="pl10">충분한 시간 제공</td>
+			</tr>
+			<tr>
+				<th colspan="2" scope="row" class="t_row">언어장애</th>
+				<td class="pl10">복잡한 용어, 어려운 용어의 이해 불가능</td>
+				<td class="pl10">쉬운 용어 사용</td>
+			</tr>
+		</tbody>
+	</table>
+	</div>
+				<h3 id="section01_02">웹 접근성 필요성</h3>
+				<h4>누구에게나 동등한 기회 제공을 위해 웹 접근성 준수 필요</h4>
+				<ul class="desc-guide">
+		<li>웹 접근성을 준수하게 되면 장애인, 고령자 등이 웹 사이트에서 제공하는 정보에 비장애인과 동등하게 접근하고 이용할 수 있게 됩니다. 현대사회에서 웹은 교육, 고용, 정부, 전자상거래, 건강, 여가 등 삶의 여러 가지 측면들에서 점점 더 중요한 자원으로 활용되고 있습니다. 하지만 아직까지 우리나라의 많은 웹 사이트들이 웹 접근성을 고려하지 않음으로서 장애인 및 고령자들의 인터넷 이용률이 비장애인에 비해 크게 낮은 실정입니다.</li>
+		<li>※ 인터넷이용률 - 장애인 56.7% 고령자 48.5% 2013 정보격차지수 및 실태조사보고서, 한국정보화진흥원</li>
+	</ul>
+				<h4>웹 접근성 보장은 법률에 명시된 의무사항</h4>
+				<p>웹 접근성 보장은 「국가정보화기본법」과 「장애인차별금지 및 권리구제 등에 관한 법률(이하 "장애인차별금지법")」등 법률에 명시된 의무사항입니다. 특히 장애인차별금지법은 행위자에 대한 단계적 범위를 명확히 하였으며, 불이행시 처벌 등이 구체적으로 성문화된 법입니다. 이에 따라 모든 공공기관은 2009년 4월 11일 부터 웹 접근성을 준수해야 하고, 단계적으로 2015년까지 모든 웹 사이트가 웹 접근성을 준수해야 합니다.</p>
+				
+				<h3 id="section01_03">웹 접근성 법률 및 제도</h3>
+				<h4>국가정보화기본법(2009년 5월 22일 개정)</h4>
+				<p>
+					제 32조(장애인·고령자 등의 정보접근 및 이용 보장)<br>
+① 국가기관 등은 인터넷을 통하여 정보나 서비스를 제공할 때 장애인·고령자 등이 쉽게 웹사이트를 이용할 수 있도록 접근성을 보장하여야 한다.
+				</p>
+				<h4>장애인차별금지법(2008년 4월 11일 시행)</h4>
+				<p>
+				제 21조(정보통신·의사소통에서의 정당한 편의제공의무)<br>
+① (중략) 행위자는 당해 행위자 등이 생산·배포하는 전자정보 및 비전자정보에 대하여 장애인이 장애인 아닌 사람과 동등하게 접근·이용할 수 있도록 수화, 문자 등 다양한 수단을 제공해야 한다. 시행령 제 14조(정보통신•의사소통에서의 정당한 편의제공의 단계적 범위 및 편의의 내용)<br>
+② 법 제 21조 제 1항에 따라 제공하여야 하는 필요한 수단의 구체적인 내용은 다음 각 호와 같다.<br>
+1. 누구든지 신체적·기술적 여건과 관계없이 웹사이트를 통하여 원하는 서비스를 이용할 수 있도록 접근성이 보장되는 웹사이트<br>
+2. 수화통역사, 음성통역사, 점자자료, 점자 정보단말기, 큰 활자로 확대된 문서, 확대경, 녹음테이프, 표준텍스트파일, 개인형 보청기기, 자막, 수화통역, 인쇄물 음성변환 출력기, 장애인용복사기, 화상전화기, 통신중계용 전화기 또는 이에 상응하는 수단
+				</p>
+				<h4>장애인차별금지법의 단계적 범위</h4>
+				<div>
+		<ul class="bg_process">
+					<li>
+						<dl>
+							<dt class="h_title">1단계 (2009.4.11)</dt>
+								<dd class="dd_position">
+										<dl>
+											<dt>공공기관</dt>
+											<dd>- 공공기관</dd>
+											<dt>교육기관(책임자)</dt>
+											<dd>- 국 · 공 · 사립 특수학교</dd>							
+											<dd>- 특수학급이 설치된 국 · 공립학교</dd>
+											<dd>- 국 · 공립유치원 중 특수반이 설치된<br>&nbsp;&nbsp;유치원</dd>
+											<dd>- 장애아전담 보육시설</dd>
+											<dt>의료기관</dt>
+											<dd>- 종합병원</dd>
+											<dt>복지시설</dt>
+											<dd>- 사회복지시설 (사회복지관 등)</dd>
+											<dd>- 장애복지시설 (요양 및 재활시설 등)</dd>
+										</dl>
+								</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt class="h_title">2단계 (2010.4.11)</dt>
+								<dd class="dd_position">
+									<dl>
+										<dt>문화예술체육</dt>
+										<dd>- 국공립 문화예술기관</dd>
+										<dd>- 국공립(대학)박물관 · 미술관</dd>							
+										<dd>- 국립중앙도서관, 공공도서관</dd>
+								   </dl>
+							  </dd>
+						</dl>
+					</li>
+					<li class="bpli_none">
+						<dl>
+							<dt class="h_title">3단계 (2011.4.11)</dt>
+								<dd class="dd_position">
+									<dl>
+										<dt>교육기관(책임자)</dt>
+										<dd>- 국 · 공 · 유치원</dd>
+										<dd>- 국 · 공 · 사립각급학교</dd>							
+										<dd>- 보육시설 (100인 이상)</dd>
+										<dd>- 영재학교 및 영재교육원</dd>
+										<dt>의료기관</dt>
+										<dd>- 일반병원 치과 · 한방 병원<br>&nbsp;&nbsp;(입원 30일 이상)</dd>
+									</dl>
+								</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt class="h_title">4단계 (2012.4.11)</dt>
+							<dd class="dd_position">
+								<dl>
+									<dt>문화예술체육</dt>
+									<dd>- 민간종합공연장</dd>
+									<dd>- 사립대학·박물관 · 미술관</dd>		
+								</dl>
+							</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt class="h_title">5단계 (2013.4.11)</dt>
+								<dd class="dd_position">
+									<dl>
+										<dt>교육기관(책임자)</dt>
+										<dd>- 사립유치원</dd>
+										<dd>- 평생 교육시설, 연수기관</dd>	
+										<dd>- 직업훈련기관(1,000㎡이상)</dd>		
+										<dd>- 보육시설(100인 이하)</dd>		
+										<dt>의료기관</dt>
+										<dd>- 그 외 병원 (입원 30인 이하)</dd>
+										<dt>문화예술체육</dt>
+										<dd>- 체육관련 행위자</dd>
+										<dt>법인</dt>
+										<dd>- 모든 법인</dd>
+									</dl>
+								</dd>
+						</dl>
+					</li>
+					<li class="bpli_none">
+						<dl>
+							<dt class="h_title">6단계 (2015.4.11)</dt>
+								<dd class="dd_position">
+									<dl>
+										<dt>문화예술체육</dt>
+										<dd>- 민간종합공연장 및 소공연장</dd>
+										<dd>- 영화상영관(300석 이상)</dd>		
+										<dd>- 사립박물관 · 미술관</dd>
+									</dl>
+								</dd>
+						</dl>
+					</li>
+				</ul>
+	</div>
+				
+				
+			 </div>
+            <!-- //콘텐츠 끝 -->
+    
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- diFooter -->
+
+<!-- 전체메뉴 박스 -->
+		
+
+<article class="dcSiteMapWrap">
+	<div class="dcSiteMapLi">
+		<h2 class="blind">주메뉴</h2>
+		<ol>
+			<li id="di1depthm001"><button class="mo_sub_btn" type="button">퍼플리싱 방향</button>
+				<div class="depth_wrap">
+					<ul class="dc2depthWrap">
+						<li>
+							<a href="javascript:void(0);" class="child">개요</a>
+							<ul class="dc3depth">
+								<li><a href="sub_01_01_01.html#section01_01">목적</a></li>
+								<li><a href="sub_01_01_01.html#section01_02">구성</a></li>
+								<li><a href="sub_01_01_01.html#section01_03">활용 방법</a></li>
+								<li><a href="sub_01_01_01.html#section01_04">적용 범위</a></li>
+								<li><a href="sub_01_01_01.html#section01_05">적용 기준</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="javascript:void(0);" class="child">기본규칙</a>
+							<ul class="dc3depth">
+								<li><a href="sub_01_02_01.html#section02_01">기본정책</a></li>
+								<li><a href="sub_01_02_01.html#section02_02">네이밍 규칙</a></li>
+								<li><a href="sub_01_02_01.html#section02_03">HTML 코드 작성 규칙</a></li>
+								<li><a href="sub_01_02_01.html#section02_04">HTML 엘리먼트 작성 규칙</a></li>
+								<li><a href="sub_01_02_01.html#section02_05">CSS 코드 작성 규칙</a></li>
+								<li><a href="sub_01_02_01.html#section02_06">속성의 축약/약식 속성 사용</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="javascript:void(0);" class="child">화면규칙</a>
+							<ul class="dc3depth">
+								<li><a href="sub_01_03_01.html#section03_01">레이아웃 구조</a></li>
+								<li><a href="sub_01_03_01.html#section03_02">반응형 분기</a></li>
+								<li><a href="sub_01_03_01.html#section03_03">서체</a></li>
+							</ul>
+						</li>
+					</ul>					
+				</div>
+			</li>
+			<li id="di1depthm002"><button class="mo_sub_btn" type="button">템플릿</button>
+				<div class="depth_wrap">
+					<ul class="dc2depthWrap">
+						<li><a href="javascript:void(0);" class="child">04</a>
+							<ul class="depth3">
+								<li><a href="#" target="_self">04</a></li>
+							</ul>					
+						</li>
+						
+					</ul>
+				</div>
+			</li>
+		</ol>
+	 <button class="dcBtnAllMenuClose tooltip-close" title="클릭하시면 전체메뉴를 닫습니다"><span>　</span></button>
+	</div>
+</article>
+<div class="bgAllmenu"></div>
+			<!-- //전체메뉴 박스 -->
+
+
+		</div> 
+	  <!-- //div = diContents --> 
+		 </article> <!-- //<article id="diContainer"> --> 
+		
+		
+		</div>  
+	 <!-- //div = diWrap -->
+	
+<!-- 20240319 스크립트 수정 start -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+	<script>
+		// 3. 웹 문서가 로드되면 클립보드 객체 생성
+		$(document).ready(function(){
+
+			var clipboard = new Clipboard('.btn');
+		// 알림창 옵션 설정
+	var toastrOptions = {
+	  "debug": false,
+	  "newestOnTop": false,
+	  "progressBar": false,
+	  "positionClass": "toast-top-right",
+	  "preventDuplicates": true,
+	  "onclick": null,
+	  "showDuration": "100",
+	  "hideDuration": "100",
+	  "timeOut": "100",
+	  "extendedTimeOut": "100",
+	  "showEasing": "swing",
+	  "hideEasing": "linear",
+	  "showMethod": "fadeIn",
+	  "hideMethod": "fadeOut",
+	};
+
+	// 스크립트 복사 성공 시 알림창 띄우기
+	clipboard.on('success', function(e) {
+	  console.log("Success");
+	  var selection = window.getSelection();
+	  selection.removeAllRanges();
+	  toastr.success("클립보드에 복사 되었습니다.", toastrOptions);
+	});
+
+			clipboard.on('error', function(e) {
+				console.log("Fail");
+			});
+
+			 var btns = document.querySelectorAll('button');
+			var clipboard = new Clipboard(btns);
+
+		});
+	</script>
+<!-- 20240319 스크립트 수정 end -->
+</body>
+</html>
