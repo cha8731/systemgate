@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+<title>퍼블리싱 UI가이드</title>
+	
+<!-- 공통 CSS -->		
+<link rel="stylesheet" type="text/css" href="../css/common.css">
+	
+<!-- 레이아웃 CSS -->	
+<link rel="stylesheet" type="text/css" href="../css/guide.css">
+<link rel="stylesheet" type="text/css" href="../css/jquery.syntax.core.css">
+
+<!-- 콘텐츠 CSS -->		
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../css/gnb.css">
+<link rel="stylesheet" type="text/css" href="../css/btn.css">
+<link rel="stylesheet" type="text/css" href="../css/board.css">
+<link rel="stylesheet" type="text/css" href="../css/dingbat_xeicon.css">
+	
+<!-- 팝업 -->
+<script src="../js/jquery-1.11.3.min.js"></script>
+<script src="../js/common.js"></script>	
+	
+<!-- 복사 -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<!--1. clipboard.js 파일 cdn을 통해서 로드-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	
+<!-- 공용 스타일 -->
+<script src="../js/jquery-1.9.1.min.js"></script>
+<script src="../js/sub.js"></script>
+<!-- 공용 스타일 -->	
+</head>
+	
+	
+	 
+	 
+<body>
+	<!-- diWrap -->
+    <div id="diWrap">
+		
+    		<div id="skipnavigation" class="blind" title="스킵메뉴">
+				<ul>
+					<li><a href="#diContents">본문으로 바로가기</a></li>
+				</ul>
+			</div>
+		
+			<!-- diHeader -->
+			<header id="diHeader" class="dcHeader">
+
+			<div class="dcHeaderMenu">
+				<div class="basicWrapCenter">
+					<div class="dcLogoWarp">
+						<h1 id="diLogo">
+							<a href="../index.html" target="_self" title="시스템게이트 로고"><img src="../images/logo.png" alt="시스템게이트 로고"></a>
+						</h1>
+					</div>
+					<div class="dcMenuWrap" id="diNav">
+						<h2 class="blind">주메뉴</h2>
+						<ol>
+							<li><a href="../design_guide/sub_01_01_01.html" target="_self" class="dc1depthTit">퍼플리싱 방향</a></li>
+							<li><a href="sub_02_01_01.html" target="_self" class="dc1depthTit dc1depthTit_on">템플릿</a></li>
+							<li><a href="../w3c_site/sub_03_01.html" target="_self" class="dc1depthTit">웹 접근성</a></li>
+						</ol>
+					</div>
+					<div class="dcSiteMap">
+						 <button class="dcBtnAllMenuOpen" title="클릭하시면 전체메뉴를 확인할 수 있습니다." data-tooltip="chart02">전체메뉴</button>
+					</div>
+				</div>
+			</div>
+			</header>
+			<!-- //diHeader -->
+<!-- //diHeader -->
+
+
+<!-- diContainer -->
+<article id="diContainer">
+  <!-- diContents -->
+  <div id="diContents" class="">
+
+    <div class="dcSubConWarp">
+      <div class="basicWrapCenter positionRelative clearfix">
+        <div id="diSideMenu" class="leftMenuMv">
+          <div class="dcLeftMenuWrap">
+            <div class="dcLeftMenu">
+				<nav id="diLeftMenuList">
+				  <ul>
+					<li class="dc1depth active" style="border-radius:1rem 0 0 0;">
+						<a href="sub_02_01_01.html" class="dc1Title">템플릿</a>
+						 <ul class="dc2depth">
+						<li><a href="sub_02_01_01.html">버튼</a></li>
+						<li><a href="sub_02_01_02.html">테이블·공동 페이지네이션</a></li>
+						<li><a href="sub_02_01_03.html">검색창</a></li>
+						<li><a href="sub_02_01_04.html">탭</a></li>
+						<li><a href="sub_02_01_05.html">체크박스·인풋·셀렉트 박스</a></li>
+						<li><a href="sub_02_01_06.html">도움말·로딩·에러페이지</a></li>
+						<li><a href="sub_02_01_07.html">구획 제목 요소·정렬·박스</a></li>
+						<li><a href="sub_02_01_08.html">네비게이션</a></li>
+						<li><a href="sub_02_01_09.html">브라우저 스크롤</a></li>
+					  </ul>
+					  </li>
+					<li class="dc2depth"><a href="sub_02_02_01.html" class="dc1Title">주요태그</a>
+					  <ul class="dc2depth">
+						<li><a href="sub_02_02_01.html#section02_01">버튼</a></li>
+						<li><a href="sub_02_02_01.html#section02_02">input</a></li>
+						<li><a href="sub_02_02_01.html#section02_03">aria-labe</a></li>
+						<li><a href="sub_02_02_01.html#section02_04">title</a></li>
+					  </ul>
+					</li>
+					 <li class="dc2depth"><a href="sub_02_03_01.html" class="dc1Title">화면설정</a>
+					  <ul class="dc2depth">
+						<li><a href="sub_02_03_01.html#section03_01">개요</a></li>
+						<li><a href="sub_02_03_01.html#section03_02">엘리먼트 적용</a></li>
+						<li><a href="sub_02_03_01.html#section03_03">화면설정</a></li>
+					  </ul>
+					</li>
+				  </ul>
+				</nav>
+				</div>
+            <a href="#skipnavigation" class="dcBtnTop">↑ TOP</a>
+          </div>
+        </div>
+        <div class="dcContentsWrap" id="diContent">
+          <div class="dcCon">
+			<!-- 콘텐츠 시작 -->
+			<div id="diBIZWrap" class="greeting guide-content">
+				
+				<h2>템플릿 - 게시판</h2>
+				<hr class="lg">
+				<h3>테이블·공동 페이지네이션</h3>
+				<h4>테이블 - 게시판 기본형</h4>
+				<div>
+<div class="nxb-list_header-top">
+	<strong>총 <strong>1</strong> 건이 검색되었습니다.</strong>
+		<div class="nxb-list_search">
+			<div class="nxb-list_search-select-wrap">
+				<select name="s_selectCtgrDsncCd" class="nxb-list_search-select" title="검색조건 분류 선택" tabindex="1">
+					<option value="all">전체</option>
+					<option value="C0106701">일반공지</option>
+					<option value="C0106702">사업안내</option>
+				</select>
+			</div>
+			<div class="nxb-list_search-input-wrap">
+				<input type="text" name="s_noticeTtl" id="s_noticeTtl" class="nxb-list_search-keyword" placeholder="제목을 입력해주세요." value="">
+				<a href="#" class="nxb-list_search-submit">검색</a>
+			</div>
+		</div>
+	</div>	
+<div class="base_table_area width_type">
+	<table class="base_table">
+		<caption>기본테이블:번호, 연도, 제목, 등록일</caption>
+		<colgroup>
+			<col style="width:15%;">
+			<col style="width:15%;">
+			<col style="width:55%;">
+			<col style="width:15%;">
+		</colgroup>
+		<thead>
+			<tr>
+				<th scope="col">번호</th>
+				<th scope="col">연도</th>
+				<th scope="col">제목</th>
+				<th scope="col">등록일</th>
+			</tr>
+		</thead>
+		<tbody>
+		<tr>
+			<td data-title="번호">4</td> <!-- td에 th해당되는 제목을 data-title로 추가 -->
+			<td data-title="연도">2024</td>
+			<td data-title="제목" class="text_con slide_animation"><a href="#">이 기상과 이 맘으로 충성을 다하여 괴로우나 즐거우나 나라 사랑하세</a></td>
+			<td data-title="등록일">2024-01-05</td>
+		</tr>
+		<tr>
+			<td data-title="번호">3</td>
+			<td data-title="연도">2024</td>
+			<td data-title="제목" class="text_con slide_animation"><a href="#">가을 하늘 공활한데 높고 구름 없이 밝은 달은 우리 가슴 일편단심일세</a></td>
+			<td data-title="등록일">2024-01-01</td>
+		</tr>
+		<tr>
+			<td data-title="번호">2</td>
+			<td data-title="연도">2023</td>
+			<td data-title="제목" class="text_con slide_animation"><a href="#">남산 위에 저 소나무 철갑을 두른 듯 바람 서리 불변함은 우리 기상일세</a></td>
+			<td data-title="등록일">2023-12-25</td>
+		</tr>
+		<tr>
+			<td data-title="번호">1</td>
+			<td data-title="연도">2023</td>
+			<td data-title="제목" class="text_con slide_animation"><a href="#">동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세</a></td>
+			<td data-title="등록일">2023-12-20</td>
+		</tr>
+		</tbody>
+	</table>
+</div>
+	<h4>모바일</h4>
+	<div class="notice_list_l report">
+		<div class="base_table_area width_type_m">
+			<table class="base_table">
+				<caption>기본테이블:번호, 연도, 제목, 등록일</caption>
+				<colgroup>
+					<col style="width:15%;">
+					<col style="width:15%;">
+					<col style="width:55%;">
+					<col style="width:15%;">
+				</colgroup>
+				<thead>
+					<tr>
+						<th scope="col">번호</th>
+						<th scope="col">연도</th>
+						<th scope="col">제목</th>
+						<th scope="col">등록일</th>
+					</tr>
+				</thead>
+				<tbody>
+				<tr>
+					<td data-title="번호">4</td> <!-- td에 th해당되는 제목을 data-title로 추가 -->
+					<td data-title="연도">2024</td>
+					<td data-title="제목" class="text_con slide_animation"><a href="#">이 기상과 이 맘으로 충성을 다하여 괴로우나 즐거우나 나라 사랑하세</a></td>
+					<td data-title="등록일">2024-01-05</td>
+				</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+</div>
+				<div class="guide-code">
+<button class="code_btn btn" data-clipboard-target="#foo7">copy</button>
+<pre id="foo7"><code class="syntax highlighted syntax-theme-base syntax-theme-bright"><span class="html xml"><span class="text"><span class="xml-tag">&lt;!-- 검색 --&gt;
+&lt;div class="nxb-list_header-top"&gt;
+	&lt;strong&gt;총 &lt;strong&gt;1&lt;/strong&gt; 건이 검색되었습니다.&lt;/strong&gt;
+	&lt;div class="nxb-list_search"&gt;
+		&lt;div class="nxb-list_search-select-wrap"&gt;
+			&lt;select title="검색조건 분류 선택" tabindex="1"&gt;
+				&lt;option value="all"&gt;전체&lt;/option&gt;
+				&lt;option value="C0106701"&gt;일반공지&lt;/option&gt;
+				&lt;option value="C0106702"&gt;사업안내&lt;/option&gt;
+			&lt;/select&gt;
+		&lt;/div&gt;
+		&lt;div class="nxb-list_search-input-wrap"&gt;
+			&lt;input type="text" class="nxb-list_search-keyword" placeholder="제목을 입력해주세요."&gt;
+			&lt;a href="#" class="nxb-list_search-submit"&gt;검색&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;	
+&lt;!-- 리스트 --&gt;
+&lt;div class="base_table_area width_type"&gt;
+	&lt;table class="base_table"&gt;
+		&lt;caption&gt;기본테이블:번호, 연도, 제목, 등록일&lt;/caption&gt;
+		&lt;colgroup&gt;
+			&lt;col style="width:15%;"&gt;
+			&lt;col style="width:15%;"&gt;
+			&lt;col style="width:55%;"&gt;
+			&lt;col style="width:15%;"&gt;
+		&lt;/colgroup&gt;
+		&lt;thead&gt;
+			&lt;tr&gt;
+				&lt;th scope="col"&gt;번호&lt;/th&gt;
+				&lt;th scope="col"&gt;연도&lt;/th&gt;
+				&lt;th scope="col"&gt;제목&lt;/th&gt;
+				&lt;th scope="col"&gt;등록일&lt;/th&gt;
+			&lt;/tr&gt;
+		&lt;/thead&gt;
+		&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td data-title="번호"&gt;4&lt;/td&gt; &lt;!-- td에 th해당되는 제목을 data-title로 추가 --&gt;
+			&lt;td data-title="연도"&gt;2024&lt;/td&gt;
+			&lt;td data-title="제목" class="text_con slide_animation"&gt;&lt;a href="#"&gt;이 기상과 이 맘으로 충성을 다하여 괴로우나 즐거우나 나라 사랑하세&lt;/a&gt;&lt;/td&gt;
+			&lt;td data-title="등록일"&gt;2024-01-05&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td data-title="번호"&gt;3&lt;/td&gt;
+			&lt;td data-title="연도"&gt;2024&lt;/td&gt;
+			&lt;td data-title="제목" class="text_con slide_animation"&gt;&lt;a href="#"&gt;가을 하늘 공활한데 높고 구름 없이 밝은 달은 우리 가슴 일편단심일세&lt;/a&gt;&lt;/td&gt;
+			&lt;td data-title="등록일"&gt;2024-01-01&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td data-title="번호"&gt;2&lt;/td&gt;
+			&lt;td data-title="연도"&gt;2023&lt;/td&gt;
+			&lt;td data-title="제목" class="text_con slide_animation"&gt;&lt;a href="#"&gt;남산 위에 저 소나무 철갑을 두른 듯 바람 서리 불변함은 우리 기상일세&lt;/a&gt;&lt;/td&gt;
+			&lt;td data-title="등록일"&gt;2023-12-25&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td data-title="번호"&gt;1&lt;/td&gt;
+			&lt;td data-title="연도"&gt;2023&lt;/td&gt;
+			&lt;td data-title="제목" class="text_con slide_animation"&gt;&lt;a href="#"&gt;동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세&lt;/a&gt;&lt;/td&gt;
+			&lt;td data-title="등록일"&gt;2023-12-20&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;/tbody&gt;
+	&lt;/table&gt;
+&lt;/div&gt;</span>
+</span></span></code></pre>
+	</div>
+				<h4 id="jumpTarget3_2">테이블 - 게시판 기본형 상세조회</h4>
+				<div class="notice_view">
+	<div class="tit">
+		<h1 class="bbsTitle">테스트 01</h1>
+	</div>
+
+	<table class="borad_view border_Tnone">
+		<caption>기본 테이블 상세화면</caption>
+		<colgroup>
+			<col data-view="th" style="width:15%">
+			<col data-view="td" style="width:35%">
+			<col data-view="th" style="width:15%">
+			<col data-view="td" style="width:35%">
+		</colgroup>
+		<tbody>
+			<tr class="nxb-list-table_num">
+				<th scope="row" data-view="date" class="nxb-list-table_num">작성자</th>
+				<td class="textLenter nxb-list-table_num">홍길동</td>
+				<th scope="row" data-view="count" class="nxb-list-table_num">조회수</th>
+				<td class="textLenter nxb-list-table_num">743</td>
+			</tr>
+			<tr class="">
+				<th scope="row">등록 일자</th>
+				<td class="textLenter">2023-12-29</td>
+				<th scope="row" class="nxb-list-table_num">수정 일자</th>
+				<td class="textLenter nxb-list-table_num">2023-12-29</td>
+			</tr>
+			<tr>
+				<td colspan="4" class="conts">
+					<div class="conts textLenter" style="min-height: 200px;">
+						테스트01
+					</div>
+				</td>
+			</tr>
+				<tr>
+					<th scope="row">첨부파일</th>
+					<td colspan="3">등록된 첨부파일이 없습니다.</td>	
+				</tr>
+
+		</tbody>
+	</table>
+
+	<div>
+		<a href="#" class="btn_board_view"><span>목록</span></a>
+	</div>
+</div>
+				<br>
+				<h4>모바일</h4>
+				<div class="borad_view_m report">
+	<div class="tit">
+		<h1 class="bbsTitle">테스트 01</h1>
+	</div>
+
+	<table class="borad_view border_Tnone">
+		<caption>기본 테이블 상세화면</caption>
+		<colgroup>
+			<col data-view="th" style="width:15%">
+			<col data-view="td" style="width:35%">
+			<col data-view="th" style="width:15%">
+			<col data-view="td" style="width:35%">
+		</colgroup>
+		<tbody>
+			<tr class="nxb-list-table_num">
+				<th scope="row" data-view="date" class="nxb-list-table_num">작성자</th>
+				<td class="textLenter nxb-list-table_num">홍길동</td>
+				<th scope="row" data-view="count" class="nxb-list-table_num">조회수</th>
+				<td class="textLenter nxb-list-table_num">743</td>
+			</tr>
+			<tr class="">
+				<th scope="row">등록 일자</th>
+				<td class="textLenter">2023-12-29</td>
+				<th scope="row" class="nxb-list-table_num">수정 일자</th>
+				<td class="textLenter nxb-list-table_num">2023-12-29</td>
+			</tr>
+			<tr>
+				<td colspan="4" class="conts">
+					<div class="conts textLenter" style="min-height: 200px;">
+						테스트01
+					</div>
+				</td>
+			</tr>
+				<tr>
+					<th scope="row">첨부파일</th>
+					<td colspan="3">등록된 첨부파일이 없습니다.</td>	
+				</tr>
+
+		</tbody>
+	</table>
+
+	<div>
+		<a href="#" class="btn_board_view"><span>목록</span></a>
+	</div>
+</div>
+				<div class="guide-code">
+<button class="code_btn btn" data-clipboard-target="#foo8">copy</button>
+<pre id="foo8"><code class="syntax highlighted syntax-theme-base syntax-theme-bright"><span class="html xml"><span class="text"><span class="xml-tag">&lt;div class="notice_view"&gt;
+	&lt;div class="tit"&gt;
+		&lt;h1 class="bbsTitle"&gt;테스트 01&lt;/h1&gt;
+	&lt;/div&gt;
+
+	&lt;table class="borad_view border_Tnone"&gt;
+		&lt;caption&gt;기본 테이블 상세화면&lt;/caption&gt;
+		&lt;colgroup&gt;
+			&lt;col data-view="th" style="width:15%"&gt;
+			&lt;col data-view="td" style="width:35%"&gt;
+			&lt;col data-view="th" style="width:15%"&gt;
+			&lt;col data-view="td" style="width:35%"&gt;
+		&lt;/colgroup&gt;
+		&lt;tbody&gt;
+			&lt;tr class="nxb-list-table_num"&gt;
+				&lt;th scope="row" data-view="date" class="nxb-list-table_num"&gt;작성자&lt;/th&gt;
+				&lt;td class="textLenter nxb-list-table_num"&gt;홍길동&lt;/td&gt;
+				&lt;th scope="row" data-view="count" class="nxb-list-table_num"&gt;조회수&lt;/th&gt;
+				&lt;td class="textLenter nxb-list-table_num"&gt;743&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr class=""&gt;
+				&lt;th scope="row"&gt;등록 일자&lt;/th&gt;
+				&lt;td class="textLenter"&gt;2023-12-29&lt;/td&gt;
+				&lt;th scope="row" class="nxb-list-table_num"&gt;수정 일자&lt;/th&gt;
+				&lt;td class="textLenter nxb-list-table_num"&gt;2023-12-29&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td colspan="4" class="conts"&gt;
+					&lt;div class="conts textLenter" style="min-height: 200px;"&gt;
+						테스
+					&lt;/div&gt;
+				&lt;/td&gt;
+			&lt;/tr&gt;
+				&lt;tr&gt;
+					&lt;th scope="row"&gt;첨부파일&lt;/th&gt;
+					&lt;td colspan="3"&gt;등록된 첨부파일이 없습니다.&lt;/td&gt;	
+				&lt;/tr&gt;
+
+		&lt;/tbody&gt;
+	&lt;/table&gt;
+
+	&lt;div&gt;
+		&lt;a href="#" class="btn_board_view"&gt;&lt;span&gt;목록&lt;/span&gt;&lt;/a&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</span>
+</span></span></code></pre>
+	</div>
+				<h4>테이블 - 기본 테이블  세로형</h4>
+				<div class="tableStyle01">
+	<table class="borderTop">
+		<caption>
+		기본 테이블 세로형
+		</caption>
+		<colgroup>
+			<col width="20%;">
+			<col width="80%;">
+		</colgroup>
+		<tbody>
+			<tr>
+				<th scope="row">제목</th> 
+				
+				 
+				<td class="taL">내용</td>
+			</tr>
+			<tr>
+				<th scope="row">제목</th>
+				<td class="taL">내용</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+				<div class="guide-code">
+<button class="code_btn btn" data-clipboard-target="#foo9">copy</button>
+<pre id="foo9"><code class="syntax highlighted syntax-theme-base syntax-theme-bright"><span class="html xml"><span class="text"><span class="xml-tag">&lt;div class="tableStyle01"&gt;
+	&lt;table class="borderTop"&gt;
+		&lt;caption&gt;
+		기본 테이블 세로형
+		&lt;/caption&gt;
+		&lt;colgroup&gt;
+			&lt;col class="cell-th"&gt;
+			&lt;col class="cell-td"&gt;
+		&lt;/colgroup&gt;
+		&lt;tbody&gt;
+			&lt;tr&gt;
+				&lt;th scope="row"&gt;제목&lt;/th&gt;
+				&lt;td class="taL"&gt;내용&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;th scope="row"&gt;제목&lt;/th&gt;
+				&lt;td class="taL"&gt;내용&lt;/td&gt;
+			&lt;/tr&gt;
+		&lt;/tbody&gt;
+	&lt;/table&gt;
+&lt;/div&gt;</span>
+</span></span></code></pre>
+	</div>
+				<h4>테이블 - 기본 테이블  가로형</h4>
+				<div class="tableStyle01">
+	<table class="borderTop">
+		<caption>
+		기본 테이블 세로형
+		</caption>
+		<colgroup>
+			<col width="50%;">
+			<col width="50%;">
+		</colgroup>
+		<thead>
+			<tr><th scope="col">제목</th>
+			<th scope="col">제목</th>
+		</tr></thead>
+		<tbody>
+			<tr>
+				<td>내용</td>
+				<td>내용</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+				<div class="guide-code">
+<button class="code_btn btn" data-clipboard-target="#foo10">copy</button>
+<pre id="foo10"><code class="syntax highlighted syntax-theme-base syntax-theme-bright"><span class="html xml"><span class="text"><span class="xml-tag">&lt;div class="tableStyle01"&gt;
+	&lt;table class="borderTop"&gt;
+		&lt;caption&gt;
+		기본 테이블 세로형
+		&lt;/caption&gt;
+		&lt;colgroup&gt;
+			&lt;col class="cell-th"&gt;
+			&lt;col class="cell-td"&gt;
+		&lt;/colgroup&gt;
+		&lt;thead&gt;
+			&lt;th scope="col"&gt;제목&lt;/th&gt;
+			&lt;th scope="col"&gt;제목&lt;/th&gt;
+		&lt;/thead&gt;
+		&lt;tbody&gt;
+			&lt;tr&gt;
+				&lt;td&gt;내용&lt;/td&gt;
+				&lt;td&gt;내용&lt;/td&gt;
+			&lt;/tr&gt;
+		&lt;/tbody&gt;
+	&lt;/table&gt;
+&lt;/div&gt;</span></span></span></code></pre>
+	</div>
+				<h4>공동 페이지네이션</h4>
+				<div class="paging">
+		<ul>
+			<li class="pg first"><a href="#" class="prevAll"><span class="blind">처음페이지</span></a></li>
+			<li class="pg prev"><a href="#" class="prev"><span class="blind">이전페이지</span></a></li>
+			<li class="pg"><a href="#" class="active">1</a></li>
+			<li class="pg"><a href="#">2</a></li>
+			<li class="pg"><a href="#">3</a></li>
+			<li class="pg"><a href="#">4</a></li>
+			<li class="pg"><a href="#">5</a></li>
+			<li class="pg"><a href="#">6</a></li>
+			<li class="pg"><a href="#">7</a></li>
+			<li class="pg next"><a href="#" class="next"><span class="blind">다음페이지</span></a></li>
+			<li class="pg last"><a href="#" class="nextAll"><span class="blind">마지막페이지</span></a></li>
+		</ul>
+	</div>
+				<div class="guide-code">
+<button class="code_btn btn" data-clipboard-target="#foo12">copy</button>
+<pre id="foo12"><code class="syntax highlighted syntax-theme-base syntax-theme-bright"><span class="html xml"><span class="text"><span class="xml-tag">&lt;div class="paging"&gt;
+		&lt;ul&gt;
+			&lt;li class="pg first"&gt;&lt;a href="#" class="prevAll"&gt;&lt;span class="blind"&gt;처음페이지&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+			&lt;li class="pg prev"&gt;&lt;a href="#" class="prev"&gt;&lt;span class="blind"&gt;이전페이지&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+			&lt;li class="pg"&gt;&lt;a href="#" class="active"&gt;1&lt;/a&gt;&lt;/li&gt;
+			&lt;li class="pg"&gt;&lt;a href="#"&gt;2&lt;/a&gt;&lt;/li&gt;
+			&lt;li class="pg"&gt;&lt;a href="#"&gt;3&lt;/a&gt;&lt;/li&gt;
+			&lt;li class="pg"&gt;&lt;a href="#"&gt;4&lt;/a&gt;&lt;/li&gt;
+			&lt;li class="pg"&gt;&lt;a href="#"&gt;5&lt;/a&gt;&lt;/li&gt;
+			&lt;li class="pg"&gt;&lt;a href="#"&gt;6&lt;/a&gt;&lt;/li&gt;
+			&lt;li class="pg"&gt;&lt;a href="#"&gt;7&lt;/a&gt;&lt;/li&gt;
+			&lt;li class="pg next"&gt;&lt;a href="#" class="next"&gt;&lt;span class="blind"&gt;다음페이지&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+			&lt;li class="pg last"&gt;&lt;a href="#" class="nextAll"&gt;&lt;span class="blind"&gt;마지막페이지&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/div&gt;</span>
+</span></span></code></pre>
+	</div>
+								
+				
+				
+			 </div>
+            <!-- //콘텐츠 끝 -->
+    
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- diFooter -->
+
+<!-- 전체메뉴 박스 -->
+		
+
+<article class="dcSiteMapWrap">
+	<div class="dcSiteMapLi">
+		<h2 class="blind">주메뉴</h2>
+		<ol>
+			<li id="di1depthm001"><button class="mo_sub_btn" type="button">퍼플리싱 방향</button>
+				<div class="depth_wrap">
+					<ul class="dc2depthWrap">
+						<li>
+							<a href="javascript:void(0);" class="child">개요</a>
+							<ul class="dc3depth">
+								<li><a href="sub_01_01_01.html#section01_01">목적</a></li>
+								<li><a href="sub_01_01_01.html#section01_02">구성</a></li>
+								<li><a href="sub_01_01_01.html#section01_03">활용 방법</a></li>
+								<li><a href="sub_01_01_01.html#section01_04">적용 범위</a></li>
+								<li><a href="sub_01_01_01.html#section01_05">적용 기준</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="javascript:void(0);" class="child">기본규칙</a>
+							<ul class="dc3depth">
+								<li><a href="sub_01_02_01.html#section02_01">기본정책</a></li>
+								<li><a href="sub_01_02_01.html#section02_02">네이밍 규칙</a></li>
+								<li><a href="sub_01_02_01.html#section02_03">HTML 코드 작성 규칙</a></li>
+								<li><a href="sub_01_02_01.html#section02_04">HTML 엘리먼트 작성 규칙</a></li>
+								<li><a href="sub_01_02_01.html#section02_05">CSS 코드 작성 규칙</a></li>
+								<li><a href="sub_01_02_01.html#section02_06">속성의 축약/약식 속성 사용</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="javascript:void(0);" class="child">화면규칙</a>
+							<ul class="dc3depth">
+								<li><a href="sub_01_03_01.html#section03_01">레이아웃 구조</a></li>
+								<li><a href="sub_01_03_01.html#section03_02">반응형 분기</a></li>
+								<li><a href="sub_01_03_01.html#section03_03">서체</a></li>
+							</ul>
+						</li>
+					</ul>					
+				</div>
+			</li>
+			<li id="di1depthm002"><button class="mo_sub_btn" type="button">템플릿</button>
+				<div class="depth_wrap">
+					<ul class="dc2depthWrap">
+						<li><a href="javascript:void(0);" class="child">04</a>
+							<ul class="depth3">
+								<li><a href="#" target="_self">04</a></li>
+							</ul>					
+						</li>
+						
+					</ul>
+				</div>
+			</li>
+		</ol>
+	 <button class="dcBtnAllMenuClose tooltip-close" title="클릭하시면 전체메뉴를 닫습니다"><span>　</span></button>
+	</div>
+</article>
+<div class="bgAllmenu"></div>
+			<!-- //전체메뉴 박스 -->
+
+
+		</div> 
+	  <!-- //div = diContents --> 
+		 </article> <!-- //<article id="diContainer"> --> 
+		
+		
+		</div>  
+	 <!-- //div = diWrap -->
+	
+<!-- 20240319 스크립트 수정 start -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+	<script>
+		// 3. 웹 문서가 로드되면 클립보드 객체 생성
+		$(document).ready(function(){
+
+			var clipboard = new Clipboard('.btn');
+		// 알림창 옵션 설정
+	var toastrOptions = {
+	  "debug": false,
+	  "newestOnTop": false,
+	  "progressBar": false,
+	  "positionClass": "toast-top-right",
+	  "preventDuplicates": true,
+	  "onclick": null,
+	  "showDuration": "100",
+	  "hideDuration": "100",
+	  "timeOut": "100",
+	  "extendedTimeOut": "100",
+	  "showEasing": "swing",
+	  "hideEasing": "linear",
+	  "showMethod": "fadeIn",
+	  "hideMethod": "fadeOut",
+	};
+
+	// 스크립트 복사 성공 시 알림창 띄우기
+	clipboard.on('success', function(e) {
+	  console.log("Success");
+	  var selection = window.getSelection();
+	  selection.removeAllRanges();
+	  toastr.success("클립보드에 복사 되었습니다.", toastrOptions);
+	});
+
+			clipboard.on('error', function(e) {
+				console.log("Fail");
+			});
+
+			 var btns = document.querySelectorAll('button');
+			var clipboard = new Clipboard(btns);
+
+		});
+	</script>
+<!-- 20240319 스크립트 수정 end -->
+</body>
+</html>

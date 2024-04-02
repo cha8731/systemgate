@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	
+	
+	 
+	 
+	 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+<title>퍼블리싱 UI가이드</title>
+	
+<!-- 공통 CSS -->		
+<link rel="stylesheet" type="text/css" href="../css/common.css">
+	
+<!-- 레이아웃 CSS -->	
+<link rel="stylesheet" type="text/css" href="../css/guide.css">
+<link rel="stylesheet" type="text/css" href="../css/jquery.syntax.core.css">
+
+<!-- 콘텐츠 CSS -->		
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../css/gnb.css">
+<link rel="stylesheet" type="text/css" href="../css/btn.css">
+<link rel="stylesheet" type="text/css" href="../css/board.css">
+<link rel="stylesheet" type="text/css" href="../css/dingbat_xeicon.css">
+	
+<!-- 팝업 -->
+<script src="../js/jquery-1.11.3.min.js"></script>
+<script src="../js/common.js"></script>	
+	
+<!-- 복사 -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<!--1. clipboard.js 파일 cdn을 통해서 로드-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	
+<!-- 공용 스타일 -->
+<script src="../js/jquery-1.9.1.min.js"></script>
+<script src="../js/sub.js"></script>
+<!-- 공용 스타일 -->	
+	
+<!-- 탭 -->
+	
+</head>
+	
+	
+	 
+	 
+<body>
+	<!-- diWrap -->
+    <div id="diWrap">
+		
+    		<div id="skipnavigation" class="blind" title="스킵메뉴">
+				<ul>
+					<li><a href="#diContents">본문으로 바로가기</a></li>
+				</ul>
+			</div>
+		
+			<!-- diHeader -->
+			<header id="diHeader" class="dcHeader">
+
+			<div class="dcHeaderMenu">
+				<div class="basicWrapCenter">
+					<div class="dcLogoWarp">
+						<h1 id="diLogo">
+							<a href="../index.html" target="_self" title="시스템게이트 로고"><img src="../images/logo.png" alt="시스템게이트 로고"></a>
+						</h1>
+					</div>
+					<div class="dcMenuWrap" id="diNav">
+						<h2 class="blind">주메뉴</h2>
+						<ol>
+							<li><a href="../design_guide/sub_01_01_01.html" target="_self" class="dc1depthTit">퍼플리싱 방향</a></li>
+							<li><a href="sub_02_01_01.html" target="_self" class="dc1depthTit dc1depthTit_on">템플릿</a></li>
+							<li><a href="../w3c_site/sub_03_01.html" target="_self" class="dc1depthTit">웹 접근성</a></li>
+						</ol>
+					</div>
+					<div class="dcSiteMap">
+						 <button class="dcBtnAllMenuOpen" title="클릭하시면 전체메뉴를 확인할 수 있습니다." data-tooltip="chart02">전체메뉴</button>
+					</div>
+				</div>
+			</div>
+			</header>
+			<!-- //diHeader -->
+<!-- //diHeader -->
+
+
+<!-- diContainer -->
+<article id="diContainer">
+  <!-- diContents -->
+  <div id="diContents" class="">
+
+    <div class="dcSubConWarp">
+      <div class="basicWrapCenter positionRelative clearfix">
+        <div id="diSideMenu" class="leftMenuMv">
+          <div class="dcLeftMenuWrap">
+            <div class="dcLeftMenu">
+				<nav id="diLeftMenuList">
+				  <ul>
+					<li class="dc1depth" style="border-radius:1rem 0 0 0;">
+						<a href="sub_02_01_01.html" class="dc1Title">템플릿</a>
+						 <ul class="dc2depth">
+						<li><a href="sub_02_01_01.html">버튼</a></li>
+						<li><a href="sub_02_01_02.html">테이블·공동 페이지네이션</a></li>
+						<li><a href="sub_02_01_03.html">검색창</a></li>
+						<li><a href="sub_02_01_04.html">탭</a></li>
+						<li><a href="sub_02_01_05.html">체크박스·인풋·셀렉트 박스</a></li>
+						<li><a href="sub_02_01_06.html">도움말·로딩·에러페이지</a></li>
+						<li><a href="sub_02_01_07.html">구획 제목 요소·정렬·박스</a></li>
+						<li><a href="sub_02_01_08.html">네비게이션</a></li>
+						<li><a href="sub_02_01_09.html">브라우저 스크롤</a></li>
+					  </ul>
+					  </li>
+					<li class="dc2depth active"><a href="sub_02_02_01.html" class="dc1Title">주요태그</a>
+					  <ul class="dc2depth">
+						<li><a href="sub_02_02_01.html#section02_01">버튼</a></li>
+						<li><a href="sub_02_02_01.html#section02_02">input</a></li>
+						<li><a href="sub_02_02_01.html#section02_03">aria-labe</a></li>
+						<li><a href="sub_02_02_01.html#section02_04">title</a></li>
+					  </ul>
+					</li>
+					 <li class="dc2depth"><a href="sub_02_03_01.html" class="dc1Title">화면설정</a>
+					  <ul class="dc2depth">
+						<li><a href="sub_02_03_01.html#section03_01">개요</a></li>
+						<li><a href="sub_02_03_01.html#section03_02">엘리먼트 적용</a></li>
+						<li><a href="sub_02_03_01.html#section03_03">화면설정</a></li>
+					  </ul>
+					</li>
+				  </ul>
+				</nav>
+				</div>
+            <a href="#skipnavigation" class="dcBtnTop">↑ TOP</a>
+          </div>
+        </div>
+        <div class="dcContentsWrap" id="diContent">
+          <div class="dcCon">
+			<!-- 콘텐츠 시작 -->
+			<div id="diBIZWrap" class="greeting guide-content">
+				
+				<h2>주요태그</h2>
+				<hr class="lg">
+				<h3 id="section02_01">버튼</h3>
+				<p>a태그 : 페이지에서 다른 페이지로 이동할 경우, 페이지 안에서 다른 컨텐츠로 이동할 경우 a태그를 사용한다.</p>				
+				<div class="guide-code">
+<button class="code_btn btn" data-clipboard-target="#foo9">copy</button>
+	<pre id="foo9"><code class="syntax highlighted syntax-theme-base syntax-theme-bright"><span class="html xml"><span class="text"><span class="xml-tag">&lt;a href="naver.com" target="_blank" title="새창열림"&gt;네이버&lt;/a&gt;</span></span></span></code></pre>
+	</div>
+				<p>button태그 : 클릭 이벤트를 적용할 경우 button태그를 사용한다.</p>
+				<div class="guide-code">
+<button class="code_btn btn" data-clipboard-target="#foo10">copy</button>
+	<pre id="foo10"><code class="syntax highlighted syntax-theme-base syntax-theme-bright"><span class="html xml"><span class="text"><span class="xml-tag">&lt;button&gt;이동&lt;/button&gt;</span></span></span></code></pre>
+	</div>
+				
+				<h3 id="section02_02">input</h3>
+				<h5>생년월일 input 태그 사용방법</h5>
+				<div>
+	  <label for="memberyy">생년월일</label>
+	  <div>
+		<input type="text" id="memberyy" placeholder="년도(4자)" maxlength="4" title="년도(4자)">
+		<select id="membermm" title="월" aria-label="선택하세요">
+		  <option>월</option>
+		  <option value="01">1</option>
+		  <option value="02">2</option>
+		  <option value="03">3</option>
+		  <option value="04">4</option>
+		  <option value="05">5</option>
+		  <option value="06">6</option>
+		  <option value="07">7</option>
+		  <option value="08">8</option>
+		  <option value="09">9</option>
+		  <option value="10">10</option>
+		  <option value="11">11</option>
+		  <option value="12">12</option>
+		</select>
+		<input type="text" id="memberdd" placeholder="일" maxlength="2" title="일">
+	  </div>
+	</div>
+				<div class="guide-code">
+<button class="code_btn btn" data-clipboard-target="#foo11">copy</button>
+	<pre id="foo11"><code class="syntax highlighted syntax-theme-base syntax-theme-bright"><span class="html xml"><span class="text"><span class="xml-tag">&lt;div&gt;
+  &lt;label for="memberyy"&gt;생년월일&lt;/label&gt;
+  &lt;div&gt;
+	&lt;input type="text" id="memberyy" placeholder="년도(4자)" maxlength="4" title="년도(4자)"&gt;
+	&lt;select id="membermm" title="월" aria-label="선택하세요"&gt;
+	  &lt;option&gt;월&lt;/option&gt;
+	  &lt;option value="01"&gt;1&lt;/option&gt;
+	  &lt;option value="02"&gt;2&lt;/option&gt;
+	  &lt;option value="03"&gt;3&lt;/option&gt;
+	  &lt;option value="04"&gt;4&lt;/option&gt;
+	  &lt;option value="05"&gt;5&lt;/option&gt;
+	  &lt;option value="06"&gt;6&lt;/option&gt;
+	  &lt;option value="07"&gt;7&lt;/option&gt;
+	  &lt;option value="08"&gt;8&lt;/option&gt;
+	  &lt;option value="09"&gt;9&lt;/option&gt;
+	  &lt;option value="10"&gt;10&lt;/option&gt;
+	  &lt;option value="11"&gt;11&lt;/option&gt;
+	  &lt;option value="12"&gt;12&lt;/option&gt;
+	&lt;/select&gt;
+	&lt;input type="text" id="memberdd" placeholder="일" maxlength="2" title="일"&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</span></span></span></code></pre>
+	</div>
+			<h5>휴대폰번호 input 태그 사용방법</h5>	
+				<div>
+  <label for="phonefirst">휴대폰번호</label>
+  <div>
+	<select id="phonefirst" title="앞 번호" aria-label="선택하세요">
+	  <option>앞 번호</option>
+	  <option value="010" selected="selected">010</option>
+		<option value="011">011</option>
+		<option value="016">016</option>
+		<option value="017">017</option>
+		<option value="018">018</option>
+	</select>
+	 <input type="text" id="phonemiddle" placeholder="중간 번호" maxlength="4" title="중간 번호">
+	<input type="text" id="phoneend" placeholder="끝 번호" maxlength="4" title="끝 번호">
+  </div>
+</div>
+				<div class="guide-code">
+<button class="code_btn btn" data-clipboard-target="#foo12">copy</button>
+	<pre id="foo12"><code class="syntax highlighted syntax-theme-base syntax-theme-bright"><span class="html xml"><span class="text"><span class="xml-tag">&lt;div&gt;
+  &lt;label for="phonefirst"&gt;휴대폰번호&lt;/label&gt;
+  &lt;div&gt;
+	&lt;select id="phonefirst" title="앞 번호" aria-label="선택하세요"&gt;
+	  &lt;option&gt;앞 번호&lt;/option&gt;
+	  &lt;option value="010" selected="selected"&gt;010&lt;/option&gt;
+		&lt;option value="011"&gt;011&lt;/option&gt;
+		&lt;option value="016"&gt;016&lt;/option&gt;
+		&lt;option value="017"&gt;017&lt;/option&gt;
+		&lt;option value="018"&gt;018&lt;/option&gt;
+	&lt;/select&gt;
+	 &lt;input type="text" id="phonemiddle" placeholder="중간 번호" maxlength="4" title="중간 번호"&gt;
+	&lt;input type="text" id="phoneend" placeholder="끝 번호" maxlength="4" title="끝 번호"&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</span></span></span></code></pre>
+	</div>
+				<h5>이메일 input 태그 사용방법</h5>
+				<div>
+  <label for="emailfirst">이메일</label>
+  <div>
+	<input type="text" id="emailfirst" placeholder="이메일 입력" maxlength="4" title="이메일 입력">
+	<select id="emailselect" title="이메일 주소 선택" aria-label="선택하세요">
+	  <option>이메일 주소 선택</option>
+		<option value="naver.com">naver.com</option>
+		<option value="gmail.com">gmail.com</option>
+		<option value="hanmail.net">hanmail.net</option>
+		<option value="daum.net">daum.net</option>
+	</select>
+  </div>
+</div>
+				<div class="guide-code">
+<button class="code_btn btn" data-clipboard-target="#foo13">copy</button>
+	<pre id="foo13"><code class="syntax highlighted syntax-theme-base syntax-theme-bright"><span class="html xml"><span class="text"><span class="xml-tag">&lt;div&gt;
+  &lt;label for="emailfirst"&gt;이메일&lt;/label&gt;
+  &lt;div&gt;
+	&lt;input type="text" id="emailfirst" placeholder="이메일 입력" maxlength="4" title="이메일 입력"&gt;
+	&lt;select id="phonefirst" title="이메일 주소 선택" aria-label="선택하세요"&gt;
+	  &lt;option&gt;이메일 주소 선택&lt;/option&gt;
+		&lt;option value="naver.com"&gt;naver.com&lt;/option&gt;
+		&lt;option value="gmail.com"&gt;gmail.com&lt;/option&gt;
+		&lt;option value="hanmail.net"&gt;hanmail.net&lt;/option&gt;
+		&lt;option value="daum.net"&gt;daum.net&lt;/option&gt;
+	&lt;/select&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</span></span></span></code></pre>
+	</div>
+			<h3 id="section02_04">aria-label</h3>	
+				<p>html 모든 태그에 사용가능 하며 이미지를 사용해 시각적 표현을 할 경우 대체 텍스트 역할로 사용한다.</p>
+				<div class="report">
+		<p><img style="width:4%;" src="../images/example/baner16-1.png" alt=""></p>
+		<div class="guide-code">
+<button class="code_btn btn" data-clipboard-target="#foo14">copy</button>
+	<pre id="foo14"><code class="syntax highlighted syntax-theme-base syntax-theme-bright"><span class="html xml"><span class="text"><span class="xml-tag">&lt;button aria-label="전체메뉴"&gt;&lt;/button&gt;</span></span></span></code></pre>
+	</div>
+	</div>
+			<h3 id="section02_05">title</h3>	
+		<p>title 속성이 있는 요소에 대한 지침 또는 설명 등의 참고할 만한 정보제공 한다.</p>
+		<div class="report">
+		<ul class="desc-guide">
+			<li>링크에서의 사용 : 링크에서는 대상 리소스에 대한 설명이나 제목이 될 수 있습니다</li>
+		</ul>
+		<div class="guide-code">
+<button class="code_btn btn" data-clipboard-target="#foo15">copy</button>
+	<pre id="foo15"><code class="syntax highlighted syntax-theme-base syntax-theme-bright"><span class="html xml"><span class="text"><span class="xml-tag">&lt;a href="naver.com" target="_blank" title="새창열림"&gt;네이버&lt;/a&gt;</span></span></span></code></pre>
+	</div>
+		<ul class="desc-guide">
+			<li>문단에서의 사용 : 문단에서는 텍스트에 대한 각주나 해설이 될 수 있습니다.</li>
+		</ul>
+		<div class="guide-code">
+<button class="code_btn btn" data-clipboard-target="#foo16">copy</button>
+	<pre id="foo16"><code class="syntax highlighted syntax-theme-base syntax-theme-bright"><span class="html xml"><span class="text"><span class="xml-tag">&lt;p&gt;쉽고 재미있는 &lt;p title="Hypertext Markup Language"&gt;HTML&lt;/p&gt;을 배웁시다!&lt;/p&gt;</span></span></span></code></pre>
+	</div>
+	<ul class="desc-guide">
+		<li>인용에서의 사용 : 인용의 경우 출처에 대한 추가 정보가 될 수 있습니다.</li>
+	</ul>
+		<div class="guide-code">
+<button class="code_btn btn" data-clipboard-target="#foo17">copy</button>
+	<pre id="foo17"><code class="syntax highlighted syntax-theme-base syntax-theme-bright"><span class="html xml"><span class="text"><span class="xml-tag">&lt;blockquote title="위키백과에서 인용한 월드 와이드 웹의 정의"&gt;
+    월드 와이드 웹(World Wide Web, WWW, W3)은 인터넷에 연결된 컴퓨터를 통해
+    사람들이 정보를 공유할 수 있는 전 세계적인 정보 공간을 말한다.
+&lt;/blockquote&gt;</span></span></span></code></pre>
+	</div>
+	<ul class="desc-guide">
+		<li>대화형 콘텐츠에서의 사용 : 대화형 콘텐츠에서는 요소 사용에 대한 레이블이나 지침이 될 수 있습니다.</li>
+	</ul>
+		<div class="guide-code">
+<button class="code_btn btn" data-clipboard-target="#foo18">copy</button>
+	<pre id="foo18"><code class="syntax highlighted syntax-theme-base syntax-theme-bright"><span class="html xml"><span class="text"><span class="xml-tag">&lt;button title="이 버튼을 클릭하여 확인하세요."&gt;확인&lt;/button&gt;</span></span></span></code></pre>
+	</div>
+	<ul class="desc-guide">
+		<li>콘텐츠의 접근성을 고려한 조언 정보 : 기타 웹 콘텐츠의 접근성을 고려한 조언 정보를 나타냅니다. 이것은 사용자들이 스크린 리더 및 보조 기술을 통해 웹 페이지를 이해하고 상호 작용할 수 있도록 돕습니다.</li>
+	</ul>
+		<div class="guide-code">
+<button class="code_btn btn" data-clipboard-target="#foo19">copy</button>
+	<pre id="foo19"><code class="syntax highlighted syntax-theme-base syntax-theme-bright"><span class="html xml"><span class="text"><span class="xml-tag">&lt;div title="이 부분은 중요합니다."&gt;
+    &lt;p&gt;페이지 내용의 중요한 부분입니다.&lt;/p&gt;
+&lt;/div&gt;</span></span></span></code></pre>
+	</div>
+		
+		
+	</div>
+				
+				
+			 </div>
+            <!-- //콘텐츠 끝 -->
+    
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- diFooter -->
+
+<!-- 전체메뉴 박스 -->
+		
+
+<article class="dcSiteMapWrap">
+	<div class="dcSiteMapLi">
+		<h2 class="blind">주메뉴</h2>
+		<ol>
+			<li id="di1depthm001"><button class="mo_sub_btn" type="button">퍼플리싱 방향</button>
+				<div class="depth_wrap">
+					<ul class="dc2depthWrap">
+						<li>
+							<a href="javascript:void(0);" class="child">개요</a>
+							<ul class="dc3depth">
+								<li><a href="sub_01_01_01.html#section01_01">목적</a></li>
+								<li><a href="sub_01_01_01.html#section01_02">구성</a></li>
+								<li><a href="sub_01_01_01.html#section01_03">활용 방법</a></li>
+								<li><a href="sub_01_01_01.html#section01_04">적용 범위</a></li>
+								<li><a href="sub_01_01_01.html#section01_05">적용 기준</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="javascript:void(0);" class="child">기본규칙</a>
+							<ul class="dc3depth">
+								<li><a href="sub_01_02_01.html#section02_01">기본정책</a></li>
+								<li><a href="sub_01_02_01.html#section02_02">네이밍 규칙</a></li>
+								<li><a href="sub_01_02_01.html#section02_03">HTML 코드 작성 규칙</a></li>
+								<li><a href="sub_01_02_01.html#section02_04">HTML 엘리먼트 작성 규칙</a></li>
+								<li><a href="sub_01_02_01.html#section02_05">CSS 코드 작성 규칙</a></li>
+								<li><a href="sub_01_02_01.html#section02_06">속성의 축약/약식 속성 사용</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="javascript:void(0);" class="child">화면규칙</a>
+							<ul class="dc3depth">
+								<li><a href="sub_01_03_01.html#section03_01">레이아웃 구조</a></li>
+								<li><a href="sub_01_03_01.html#section03_02">반응형 분기</a></li>
+								<li><a href="sub_01_03_01.html#section03_03">서체</a></li>
+							</ul>
+						</li>
+					</ul>					
+				</div>
+			</li>
+			<li id="di1depthm002"><button class="mo_sub_btn" type="button">템플릿</button>
+				<div class="depth_wrap">
+					<ul class="dc2depthWrap">
+						<li><a href="javascript:void(0);" class="child">04</a>
+							<ul class="depth3">
+								<li><a href="#" target="_self">04</a></li>
+							</ul>					
+						</li>
+						
+					</ul>
+				</div>
+			</li>
+		</ol>
+	 <button class="dcBtnAllMenuClose tooltip-close" title="클릭하시면 전체메뉴를 닫습니다"><span>　</span></button>
+	</div>
+</article>
+<div class="bgAllmenu"></div>
+			<!-- //전체메뉴 박스 -->
+
+
+		</div> 
+	  <!-- //div = diContents --> 
+		 </article> <!-- //<article id="diContainer"> --> 
+		
+		
+		</div>  
+	 <!-- //div = diWrap -->
+	
+<!-- 20240319 스크립트 수정 start -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+	<script>
+		// 3. 웹 문서가 로드되면 클립보드 객체 생성
+		$(document).ready(function(){
+
+			var clipboard = new Clipboard('.btn');
+		// 알림창 옵션 설정
+	var toastrOptions = {
+	  "debug": false,
+	  "newestOnTop": false,
+	  "progressBar": false,
+	  "positionClass": "toast-top-right",
+	  "preventDuplicates": true,
+	  "onclick": null,
+	  "showDuration": "100",
+	  "hideDuration": "100",
+	  "timeOut": "100",
+	  "extendedTimeOut": "100",
+	  "showEasing": "swing",
+	  "hideEasing": "linear",
+	  "showMethod": "fadeIn",
+	  "hideMethod": "fadeOut",
+	};
+
+	// 스크립트 복사 성공 시 알림창 띄우기
+	clipboard.on('success', function(e) {
+	  console.log("Success");
+	  var selection = window.getSelection();
+	  selection.removeAllRanges();
+	  toastr.success("클립보드에 복사 되었습니다.", toastrOptions);
+	});
+
+			clipboard.on('error', function(e) {
+				console.log("Fail");
+			});
+
+			 var btns = document.querySelectorAll('button');
+			var clipboard = new Clipboard(btns);
+
+		});
+	</script>
+<!-- 20240319 스크립트 수정 end -->
+</body>
+</html>
