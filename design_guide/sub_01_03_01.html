@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+<title>퍼블리싱 UI가이드</title>
+	
+<!-- 공통 CSS -->		
+<link rel="stylesheet" type="text/css" href="../css/common.css">
+	
+<!-- 레이아웃 CSS -->	
+<link rel="stylesheet" type="text/css" href="../css/guide.css">
+<link rel="stylesheet" type="text/css" href="../css/jquery.syntax.core.css">
+
+<!-- 콘텐츠 CSS -->		
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../css/gnb.css">
+<link rel="stylesheet" type="text/css" href="../css/btn.css">
+<link rel="stylesheet" type="text/css" href="../css/board.css">
+<link rel="stylesheet" type="text/css" href="../css/dingbat_xeicon.css">
+	
+<!-- 팝업 -->
+<script src="../js/jquery-1.11.3.min.js"></script>
+<script src="../js/common.js"></script>	
+	
+<!-- 복사 -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<!--1. clipboard.js 파일 cdn을 통해서 로드-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	
+<!-- 공용 스타일 -->
+<script src="../js/jquery-1.9.1.min.js"></script>
+<script src="../js/sub.js"></script>
+<!-- 공용 스타일 -->	
+</head>
+	
+	
+	 
+	 
+<body>
+	<!-- diWrap -->
+    <div id="diWrap">
+		
+    		<div id="skipnavigation" class="blind" title="스킵메뉴">
+				<ul>
+					<li><a href="#diContents">본문으로 바로가기</a></li>
+				</ul>
+			</div>
+		
+			<!-- diHeader -->
+			<header id="diHeader" class="dcHeader">
+
+			<div class="dcHeaderMenu">
+				<div class="basicWrapCenter">
+					<div class="dcLogoWarp">
+						<h1 id="diLogo">
+							<a href="../index.html" target="_self" title="시스템게이트 로고"><img src="../images/logo.png" alt="시스템게이트 로고"></a>
+						</h1>
+					</div>
+					<div class="dcMenuWrap" id="diNav">
+						<h2 class="blind">주메뉴</h2>
+						<ol>
+							<li><a href="sub_01_01_01.html" target="_self" class="dc1depthTit dc1depthTit_on">퍼플리싱 방향</a></li>
+							<li><a href="../template/sub_02_01_01.html" target="_self" class="dc1depthTit">템플릿</a></li>
+							<li><a href="../w3c_site/sub_03_01.html" target="_self" class="dc1depthTit">웹 접근성</a></li>
+						</ol>
+					</div>
+					<div class="dcSiteMap">
+						 <button class="dcBtnAllMenuOpen" title="클릭하시면 전체메뉴를 확인할 수 있습니다." data-tooltip="chart02">전체메뉴</button>
+					</div>
+				</div>
+			</div>
+			</header>
+			<!-- //diHeader -->
+<!-- //diHeader -->
+
+
+<!-- diContainer -->
+<article id="diContainer">
+  <!-- diContents -->
+  <div id="diContents" class="">
+
+    <div class="dcSubConWarp">
+      <div class="basicWrapCenter positionRelative clearfix">
+        <div id="diSideMenu" class="leftMenuMv">
+          <div class="dcLeftMenuWrap">
+            <div class="dcLeftMenu">
+				<nav id="diLeftMenuList">
+				  <ul>
+					<li class="dc1depth" style="border-radius:1rem 0 0 0;">
+						<a href="sub_01_01_01.html" class="dc1Title">개요</a>
+						 <ul class="dc2depth">
+						<li><a href="sub_01_01_01.html#section01_01">목적</a></li>
+						<li><a href="sub_01_01_01.html#section01_02">구성</a></li>
+						<li><a href="sub_01_01_01.html#section01_03">활용 방법</a></li>
+						<li><a href="sub_01_01_01.html#section01_04">적용 범위</a></li>
+						<li><a href="sub_01_01_01.html#section01_05">적용 기준</a></li>
+					  </ul>
+					  </li>
+					<li class="dc2depth"><a href="sub_01_02_01.html" class="dc1Title">기본규칙</a>
+					  <ul class="dc2depth">
+						<li><a href="sub_01_02_01.html#section02_02">네이밍 규칙</a></li>
+						<li><a href="sub_01_02_01.html#section02_03">HTML 코드 작성 규칙</a></li>
+						<li><a href="sub_01_02_01.html#section02_04">HTML 엘리먼트 작성 규칙</a></li>
+						<li><a href="sub_01_02_01.html#section02_05">CSS 코드 작성 규칙</a></li>
+						<li><a href="sub_01_02_01.html#section02_06">속성의 축약/약식 속성 사용</a></li>
+					  </ul>
+					</li>
+					<li class="dc3depth active"><a href="sub_01_03_01.html" class="dc1Title">화면규칙</a>
+					  <ul class="dc2depth">
+							<li><a href="sub_01_03_01.html">레이아웃 구조</a></li>
+							<li><a href="sub_01_03_02.html">반응형 분기</a></li>
+							<li><a href="sub_01_03_03.html">서체</a></li>
+					  </ul>
+					</li>
+				  </ul>
+				</nav>
+				</div>
+            <a href="#skipnavigation" class="dcBtnTop">↑ TOP</a>
+          </div>
+        </div>
+        <div class="dcContentsWrap" id="diContent">
+          <div class="dcCon">
+			<!-- 콘텐츠 시작 -->
+			<div id="diBIZWrap" class="greeting guide-content">
+				
+				<h2>화면규칙</h2>
+				<hr class="lg">
+			
+				<h3>레이아웃</h3>
+				<p>레이아웃(Layout)이란 텍스트와 이미지 정보, 기능적 요소 등 여러 가지 구성 요소를 시각적, 기능적 계획에 맞춰 특정한 공간에 효과적으로 배열 또는 배치하는 것을 의미합니다.</p>
+				<h4>MAIN</h4>
+				<p>LAYOUT 3단 구조(HEADER + CONTAINER + FOOTER) : width:100%(min-width:1000px), CENTER 정렬</p>
+				<div class="tempGrid gridMain">
+		<div class="gridDsc">
+			<div class="gridID"><span><strong>#wrap.main</strong></span>
+				<div class="gridBox">
+					<div class="gridDsc">&nbsp;
+						<div class="gridID"><span><strong>#header</strong></span></div>
+					</div>
+				</div>
+
+				<div class="gridBox gridContainer">
+					<div class="gridDsc">&nbsp;
+						<div class="gridID"><span><strong>#container</strong></span>
+
+							<div class="gridBox bg1 gridVisual">
+								<div class="gridDsc">&nbsp;
+									<div class="gridID"><span><strong>#visual</strong></span></div>
+								</div>
+							</div>
+
+							<div class="gridBox bg1 gridContents">
+								<div class="gridDsc">&nbsp;
+									<div class="gridID"><span><strong>#contents</strong></span></div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+				<div class="gridBox">
+					<div class="gridDsc">&nbsp;
+						<div class="gridID"><span><strong>#footer</strong></span></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+				<h4>SUB - TYPE.1</h4>
+				<ul class="desc-guide">
+		<li>SUB LAYOUT 2단(LEFT + CONTENTS) : 왼쪽메뉴 있음</li>
+	</ul>
+				<div class="tempGrid gridSub subType01">
+		<div class="gridDsc">
+			<div class="gridID"><span><strong>#wrap.snbWrap.contents</strong></span>
+				<div class="gridBox optyGrid" style="opacity: 0.3;">
+					<div class="gridDsc">&nbsp;
+						<div class="gridID"><span><strong>#header</strong></span></div>
+					</div>
+				</div>
+
+				<div class="gridBox gridContainer">
+					<div class="gridDsc">&nbsp;
+						<div class="gridID"><span><strong>#container</strong></span>
+							<div class="clfix">
+								<div class="gridBox bg2 gridLnb">
+									<div class="gridDsc">&nbsp;
+										<div class="gridID"><span><strong>#snbWrap</strong></span></div>
+									</div>
+								</div>
+
+								<div class="gridBox bg2 gridContents">
+									<div class="gridDsc">&nbsp;
+										<div class="gridID"><span><strong>#contents</strong></span></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="gridBox optyGrid" style="opacity: 0.3;">
+					<div class="gridDsc">&nbsp;
+						<div class="gridID"><span><strong>#footer</strong></span></div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+				<h4>SUB - TYPE.2</h4>
+				<ul class="desc-guide">
+		<li>SUB LAYOUT 1단(CONTENTS) : 왼쪽메뉴 없음</li>
+	</ul>
+				<div class="tempGrid gridMain">
+		<div class="gridDsc">
+			<div class="gridID"><span><strong>#wrap.main</strong></span>
+				<div class="gridBox">
+					<div class="gridDsc">&nbsp;
+						<div class="gridID"><span><strong>#header</strong></span></div>
+					</div>
+				</div>
+
+				<div class="gridBox gridContainer">
+					<div class="gridDsc">&nbsp;
+						<div class="gridID"><span><strong>#container</strong></span>
+
+							<div class="gridBox bg2 gridContents" style="height:225px">
+								<div class="gridDsc">&nbsp;
+									<div class="gridID"><span><strong>#contents</strong></span></div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+				<div class="gridBox">
+					<div class="gridDsc">&nbsp;
+						<div class="gridID"><span><strong>#footer</strong></span></div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+				
+				
+				
+			 </div>
+            <!-- //콘텐츠 끝 -->
+    
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- diFooter -->
+
+<!-- 전체메뉴 박스 -->
+		
+
+<article class="dcSiteMapWrap">
+	<div class="dcSiteMapLi">
+		<h2 class="blind">주메뉴</h2>
+		<ol>
+			<li id="di1depthm001"><button class="mo_sub_btn" type="button">퍼플리싱 방향</button>
+				<div class="depth_wrap">
+					<ul class="dc2depthWrap">
+						<li>
+							<a href="javascript:void(0);" class="child">개요</a>
+							<ul class="dc3depth">
+								<li><a href="sub_01_01_01.html#section01_01">목적</a></li>
+								<li><a href="sub_01_01_01.html#section01_02">구성</a></li>
+								<li><a href="sub_01_01_01.html#section01_03">활용 방법</a></li>
+								<li><a href="sub_01_01_01.html#section01_04">적용 범위</a></li>
+								<li><a href="sub_01_01_01.html#section01_05">적용 기준</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="javascript:void(0);" class="child">기본규칙</a>
+							<ul class="dc3depth">
+								<li><a href="sub_01_02_01.html#section02_01">기본정책</a></li>
+								<li><a href="sub_01_02_01.html#section02_02">네이밍 규칙</a></li>
+								<li><a href="sub_01_02_01.html#section02_03">HTML 코드 작성 규칙</a></li>
+								<li><a href="sub_01_02_01.html#section02_04">HTML 엘리먼트 작성 규칙</a></li>
+								<li><a href="sub_01_02_01.html#section02_05">CSS 코드 작성 규칙</a></li>
+								<li><a href="sub_01_02_01.html#section02_06">속성의 축약/약식 속성 사용</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="javascript:void(0);" class="child">화면규칙</a>
+							<ul class="dc3depth">
+								<li><a href="sub_01_03_01.html#section03_01">레이아웃 구조</a></li>
+								<li><a href="sub_01_03_01.html#section03_02">반응형 분기</a></li>
+								<li><a href="sub_01_03_01.html#section03_03">서체</a></li>
+							</ul>
+						</li>
+					</ul>					
+				</div>
+			</li>
+			<li id="di1depthm002"><button class="mo_sub_btn" type="button">템플릿</button>
+				<div class="depth_wrap">
+					<ul class="dc2depthWrap">
+						<li><a href="javascript:void(0);" class="child">04</a>
+							<ul class="depth3">
+								<li><a href="#" target="_self">04</a></li>
+							</ul>					
+						</li>
+						
+					</ul>
+				</div>
+			</li>
+		</ol>
+	 <button class="dcBtnAllMenuClose tooltip-close" title="클릭하시면 전체메뉴를 닫습니다"><span>　</span></button>
+	</div>
+</article>
+<div class="bgAllmenu"></div>
+			<!-- //전체메뉴 박스 -->
+
+
+		</div> 
+	  <!-- //div = diContents --> 
+		 </article> <!-- //<article id="diContainer"> --> 
+		
+		
+		</div>  
+	 <!-- //div = diWrap -->
+	
+<!-- 20240319 스크립트 수정 start -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>		
+	<script>
+		// 3. 웹 문서가 로드되면 클립보드 객체 생성
+		$(document).ready(function(){
+
+			var clipboard = new Clipboard('.btn');
+		// 알림창 옵션 설정
+	var toastrOptions = {
+	  "debug": false,
+	  "newestOnTop": false,
+	  "progressBar": false,
+	  "positionClass": "toast-top-right",
+	  "preventDuplicates": true,
+	  "onclick": null,
+	  "showDuration": "100",
+	  "hideDuration": "100",
+	  "timeOut": "100",
+	  "extendedTimeOut": "100",
+	  "showEasing": "swing",
+	  "hideEasing": "linear",
+	  "showMethod": "fadeIn",
+	  "hideMethod": "fadeOut",
+	};
+
+	// 스크립트 복사 성공 시 알림창 띄우기
+	clipboard.on('success', function(e) {
+	  console.log("Success");
+	  var selection = window.getSelection();
+	  selection.removeAllRanges();
+	  toastr.success("클립보드에 복사 되었습니다.", toastrOptions);
+	});
+
+			clipboard.on('error', function(e) {
+				console.log("Fail");
+			});
+
+			 var btns = document.querySelectorAll('button');
+			var clipboard = new Clipboard(btns);
+
+		});
+	</script>
+<!-- 20240319 스크립트 수정 end -->
+</body>
+</html>
