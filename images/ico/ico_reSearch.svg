@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="crop" width="32" height="32" transform="translate(0.122)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="벡터_고급_개체" data-name="벡터 고급 개체" transform="translate(-0.122)" clip-path="url(#clip-path)">
+    <g id="레이어_2" data-name="레이어 2">
+      <circle id="타원_471" data-name="타원 471" cx="16.061" cy="16.061" r="16.061" transform="translate(0.122 -0.122)"/>
+    </g>
+    <g id="레이어_1_사본" data-name="레이어 1 사본">
+      <g id="add_text_font_type_interface_type_letter_add_new_text" data-name="add text font type interface type letter add new text">
+        <path id="패스_45117" data-name="패스 45117" d="M5.22,12.447H8.833v8.432a1.2,1.2,0,1,0,2.409,0V12.447h3.614a1.2,1.2,0,0,0,0-2.409H5.22a1.2,1.2,0,1,0,0,2.409Z" fill="#fff"/>
+        <path id="패스_45118" data-name="패스 45118" d="M13.652,16.061a1.2,1.2,0,0,0,1.2,1.2H21.08a1.2,1.2,0,1,0,0-2.409H14.856A1.2,1.2,0,0,0,13.652,16.061Z" fill="#fff"/>
+        <path id="패스_45119" data-name="패스 45119" d="M13.652,20.879a1.2,1.2,0,0,0,1.2,1.2H25.9a1.2,1.2,0,1,0,0-2.409H14.856A1.2,1.2,0,0,0,13.652,20.879Z" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.2.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Decorative_icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 45 45" style="enable-background:new 0 0 45 45;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0;}
+	.st1{fill:#444444;}
+	.st2{fill:none;}
+	.st3{fill:none;stroke:#B9B9B9;}
+</style>
+<g>
+	<g id="Placement_Area" transform="translate(6.512 8.016)" class="st0">
+		<rect x="0.4" y="0.7" class="st1" width="33" height="34"/>
+		<rect x="0.8" y="1.1" class="st2" width="32.1" height="33.1"/>
+	</g>
+	<g id="Icon" transform="translate(0 0)">
+		<g id="Canvas" transform="translate(6.512 8.016)" class="st0">
+			<rect x="0.4" y="0.7" class="st1" width="33" height="34"/>
+			<rect x="0.8" y="1.1" class="st3" width="32.1" height="33.1"/>
+		</g>
+		<path id="패스_508" class="st1" d="M40.9,22.1l0.1,2.5c0,0.7,0.4,1.3,1,1.7l2.1,1.2l-2.4,0.1c-0.7,0-1.3,0.4-1.6,1l-1.2,2.2
+			l-0.1-2.5c0-0.7-0.4-1.3-1-1.7l-2.1-1.2l2.4-0.1c0.7,0,1.3-0.4,1.7-1L40.9,22.1z"/>
+		<path id="패스_509" class="st1" d="M10.2,1.3l0.2,4.4c0,1.2,0.7,2.4,1.8,3l3.8,2.2L11.6,11c-1.2,0.1-2.3,0.8-2.9,1.8l-2.1,3.9
+			l-0.2-4.4c0-1.2-0.7-2.4-1.8-3L0.9,7.1L5.2,7c1.2-0.1,2.3-0.8,2.9-1.8L10.2,1.3z"/>
+		<path id="패스_510" class="st1" d="M34.6,14.5c0-0.9-0.7-1.6-1.6-1.6c0,0,0,0,0,0H22.4v1.2c0.1,0.8-0.6,1.6-1.4,1.6l-4.7,0.2
+			c-0.4,0-0.8,0.3-1,0.7l-1,2.1v19.7c0,0.9,0.7,1.6,1.6,1.6H33c0.9,0,1.6-0.7,1.6-1.6L34.6,14.5z M16.4,19.1h5.6v2.1h-5.6V19.1z
+			 M16.4,23.3h9.1v2.1h-9.1V23.3z M16.4,27.5h10.9v2.1H16.4V27.5z M32.6,33.7H16.4v-2.1h16.2V33.7z"/>
+		<path id="패스_511" class="st1" d="M37.9,3.9l0.4,2.9c0.1,0.8,0.6,1.5,1.4,1.8l2.6,1.2l-2.8,0.4c-0.8,0.1-1.5,0.6-1.8,1.4
+			l-1.1,2.6l-0.4-2.9c-0.1-0.8-0.6-1.5-1.4-1.8l-2.6-1.2L35,7.9c0.8-0.1,1.5-0.6,1.8-1.4L37.9,3.9z"/>
+	</g>
+</g>
+</svg>
