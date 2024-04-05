@@ -24,6 +24,13 @@ ul.tabBar.col8 li{width:12.5%;}
 ul.tabBar.col12 li{width:7.777%;}
 ul.tabBar.col12 li.large{width:10%}
 
+/* title_area */
+h1 {font-size:3rem;}
+h2 {font-size:2rem;}
+h3 {font-size:1.8rem;}
+h4 {font-size:1.6rem;}
+h5 {font-size:1.4rem;}
+
 /* 박스 */
 .report{border:solid 1px #d7d7d7; padding:30px;}
 
@@ -166,7 +173,7 @@ ul.tabBar.col12 li.large{width:10%}
 
 /* search */
 .search_all_wrap {margin:10px 0;}
-.search_all_area {position:relative;border-radius:5px;padding:10px;border:2px solid #24292F; background:#fff;}
+.search_all_area {position:relative;border-radius:5px;padding:10px;border:2px solid #24292F; background:#fff; line-height: 1.5;}
 .search_area_title {position:relative; padding:10px 0;}
 .search_area_title h3 {font-size:20px;}
 .search_area_title h3:before {content:"\eae3"; font-family:"xeicon"; vertical-align:top; margin-right:5px;}
@@ -180,8 +187,8 @@ ul.tabBar.col12 li.large{width:10%}
 .search_type_input input {padding:12px 10px 12px 50px; font-size:16px;border:none;width: 100%;}
 .search_type_input input::placeholder {font-size:15px;}
 .search_type_select select {padding:11px 10px 11px 10px; font-size:16px;border:none;width:100%;}
-.search_type_btn {position: absolute;top:50%;right:10px;transform: translate(0, -50%);font-size:30px;background:#24292F; border-radius:5px;width: 100px;height:50px;text-align:center;color:#fff;}
-.search_type_btn:hover{background:#052249;}
+.search_type_btn {position: absolute;top:50%;right:10px;transform: translate(0, -50%);font-size:30px;background:#2d53bf; border-radius:5px;width: 100px;height:50px;text-align:center;color:#fff;}
+.search_type_btn:hover{background:#1439a2;}
 .search_type_btn a {display: block; color:#fff;}	
 
 /* 에러페이지 */	
