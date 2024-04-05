@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+<title>화면</title>
+	
+<!-- 공통 CSS -->		
+<link rel="stylesheet" type="text/css" href="../css/common.css">
+	
+<!-- 레이아웃 CSS -->	
+<link rel="stylesheet" type="text/css" href="../css/guide.css">
+	
+<!-- 콘텐츠 CSS -->		
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../css/gnb.css">
+<link rel="stylesheet" type="text/css" href="../css/btn.css">
+<link rel="stylesheet" type="text/css" href="../css/board.css">
+<link rel="stylesheet" type="text/css" href="../css/dingbat_xeicon.css">
+	
+<!-- 팝업 -->
+<script src="../js/jquery-1.11.3.min.js"></script>
+<script src="../js/common.js"></script>	
+	
+<!-- 공통 -->
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/common.js"></script>		
+<script src="../js/sub.js"></script>
+
+<!-- 메뉴 -->	
+<script src="../js/jquery-3.3.1.min.js"></script>
+<script src="../js/common_turu.js"></script>
+<script src="../js/bootstrap.min.js"></script>	
+	
+</head>
+
+<body>
+
+<!-- 본문 바로가기 영역 -->
+<div id="dimed"></div>
+<!-- 메뉴 마스크 영역 -->	
+<header>
+<!-- gnbWrap -->
+  <div class="gnbWrap"> 
+	<!-- gnbArea -->
+	<div class="gnbArea">
+	  <h1> <a href="#"><img src="../images/ico/logo.png" alt="시스템게이트"/></a></h1>
+	  <!-- gnbNavi -->
+	  <div class="gnbNavi" style="float: none;">
+		<div id="gnb">
+		  <ul class="nav">
+			<li id="menu_width1" class="menuDepth1" style=""> <a href="sub_04_01_01.html">적용 화면</a>
+			  <ul class="menuDepth2">
+				<li><a href="sub_04_01_01.html">게시판 - 리스트</a></li>
+				<li><a href="sub_04_01_02.html">서브 TYPE 2</a></li>
+			  </ul>
+			</li>
+			<li id="menu_width2" class="menuDepth1"> <a href="../template/sub_02_01_01.html">템플릿</a>
+			  <ul class="menuDepth2">
+				<li><a href="../template/sub_02_01_01.html">템플릿</a></li>
+				<li><a href="../template/sub_02_02_01.html">주요태그</a></li>
+				<li><a href="../template/sub_02_03_01.html">화면설정</a></li>
+			  </ul>
+			</li>
+			<li id="menu_width3" class="menuDepth1"> <a href="../w3c_site/sub_03_01.html">웹 접근성</a>
+			  <ul class="menuDepth2">
+				<li><a href="../w3c_site/sub_03_01.html">웹 접근성 개요</a></li>
+				<li><a href="../w3c_site/sub_03_02_01.html">웹 접근성 실무 가이드</a></li>
+				<li><a href="../w3c_site/sub_03_03.html">웹 접근성 지침</a></li>
+				<li><a href="../w3c_site/sub_03_04.html">웹 접근성 체크리스트</a></li>
+			  </ul>
+			</li>
+			<li id="menu_width4" class="menuDepth1"> <a href="../design_guide/sub_01_01_01.html">퍼플리싱 방향</a>
+			  <ul class="menuDepth2">
+				<li><a href="../design_guide/sub_01_01_01.html">개요</a></li>
+				<li><a href="../design_guide/sub_01_02_01.html">기본규칙</a></li>
+				<li><a href="../design_guide/sub_01_03_01.html">화면규칙</a></li>
+			  </ul>
+			</li>
+		  </ul>
+		</div>
+	  </div>
+	  <!-- //gnbNavi --> 
+		  <!-- 로그인, 회원가입 -->
+	  <div class="loginArea">
+		<div class="login_after_box">
+		  <ul>
+			  <li>
+			  <div class="workChange">
+				<a class="l_change_n" href="#">홍길동님</a>
+			  </div>
+			  <div class="moreWork" style="display: none;">
+				<ul>
+				  <li> <a href="#"><span>마이페이지</span></a></li>
+				  <li> <a href="#"> <span>회원정보수정</span> </a> </li>
+				  <li> <a href="#"> <span>로그아웃</span> </a> </li>
+				</ul>
+			  </div>
+			</li>				
+		  </ul>
+		</div>	
+	  </div>
+	  <!-- //로그인, 회원가입 -->
+	  <div class="mobile_gnb">
+		<div class="hamburger mobile_gnb_open_btn" id="hamburger-1"><span class="line"></span><span class="line"></span><span class="line"></span></div>
+		<div class="mobile_gnb_list">
+		  <div class="mobileLogin"> <a href="#">로그인</a> </div>
+		  <div class="gnb_area">
+				<div id="menu_width1" class="oneD depth"> <a href="#">MENU 01</a></div>
+					<div class="twoD"> <a href="#">MENU 01_01</a></div>
+				<div id="menu_width2" class="oneD depth"> <a href="#">MENU 02</a></div>
+				<div class="twoD"> <a href="#">MENU 02_01</a></div>
+				<div id="menu_width3" class="oneD depth"> <a href="#">MENU 03</a></div>
+				<div class="twoD"> <a href="#">MENU 03_01</a></div>
+				<div id="menu_width4" class="oneD depth"> <a href="#">MENU 04</a></div>
+				<div class="twoD"> <a href="#">MENU 04_01</a></div>
+				<div id="menu_width5" class="oneD depth"> <a href="#">MENU 05</a></div>
+				<div class="twoD"> <a href="#">MENU 05_01</a> </div>
+			  </div>
+			 
+			 
+			</div>
+		  </div>
+		  <!-- //gnbArea --> 
+		</div>
+	  </div>
+	  <!-- //gnbWrap -->
+ <form class="authority2" id="loginForm2" name="loginForm2" method="post">
+	<input type="hidden" id="athrCd" name="athrCd" value="100004">
+  </form>
+ <!-- gnb_layout :e -->
+</header>
+	
+<div id="container">
+	<div class="contents">
+<h4 class="mB30">게시판 리스트</h4>
+<!-- 검색창 -->
+<div class="search_all_wrap">
+	<div class="search_all_area">
+		<div class="search_type_select">
+		<p>
+			<select id="contest1" name="contest" title="공모선택">
+				<option value="공모전체">공모전체</option>
+				<option value="일반설계공모">일반설계공모</option>
+				<option value="제한공모">제한공모</option>
+				<option value="제안공모">제안공모</option>
+			</select>
+		</p>
+		<p>
+			<select id="year" name="year" title="공모연도">
+				<option value="연도전체">공모연도 전체</option>
+				<option value="2023">2023</option>
+				<option value="2022">2022</option>
+				<option value="2021">2021</option>
+				<option value="2020">2020</option>
+				<option value="2019">2019</option>
+				<option value="2018">2018</option>
+				<option value="2017">2017</option>
+			</select>
+		</p>
+		</div>
+		<div class="search_type_input">
+			<p><i class="xi-paper-o"></i><input type="text" placeholder="공모명을 입력하세요." title="공모명 입력란"></p>
+			<p><i class="xi-book-o"></i><input type="text" placeholder="발주기관명을 입력하세요." title="발주기관명 입련란"></p>
+		</div>
+		<div class="search_type_btn">
+			<a href="#" role="button"><i class="xi-search"><span class="hide">검색</span></i></a>
+		</div>
+	</div>
+</div>
+<!-- //검색창 -->
+<!-- 게시판 -->		
+<div class="nxb-list_header-top">
+	<strong>총 <strong>1</strong> 건이 검색되었습니다.</strong>
+		<div class="nxb-list_search">
+			<div class="nxb-list_search-select-wrap">
+				<select name="s_selectCtgrDsncCd" class="nxb-list_search-select" title="검색조건 분류 선택" tabindex="1">
+					<option value="all">전체</option>
+					<option value="">일반공지</option>
+					<option value="">사업안내</option>
+				</select>
+			</div>
+			<div class="nxb-list_search-input-wrap">
+				<input type="text" name="s_noticeTtl" id="s_noticeTtl" class="nxb-list_search-keyword" placeholder="제목을 입력해주세요." value="">
+				<a href="#" class="nxb-list_search-submit">검색</a>
+			</div>
+		</div>
+	</div>	
+<div class="base_table_area width_type mB50">
+	<table class="base_table">
+		<caption>기본테이블:번호, 연도, 제목, 등록일</caption>
+		<colgroup>
+			<col style="width:15%;">
+			<col style="width:15%;">
+			<col style="width:55%;">
+			<col style="width:15%;">
+		</colgroup>
+		<thead>
+			<tr>
+				<th scope="col">번호</th>
+				<th scope="col">연도</th>
+				<th scope="col">제목</th>
+				<th scope="col">등록일</th>
+			</tr>
+		</thead>
+		<tbody>
+		<tr>
+			<td data-title="번호">4</td> <!-- td에 th해당되는 제목을 data-title로 추가 -->
+			<td data-title="연도">2024</td>
+			<td data-title="제목" class="text_con slide_animation"><a href="#">이 기상과 이 맘으로 충성을 다하여 괴로우나 즐거우나 나라 사랑하세</a></td>
+			<td data-title="등록일">2024-01-05</td>
+		</tr>
+		<tr>
+			<td data-title="번호">3</td>
+			<td data-title="연도">2024</td>
+			<td data-title="제목" class="text_con slide_animation"><a href="#">가을 하늘 공활한데 높고 구름 없이 밝은 달은 우리 가슴 일편단심일세</a></td>
+			<td data-title="등록일">2024-01-01</td>
+		</tr>
+		<tr>
+			<td data-title="번호">2</td>
+			<td data-title="연도">2023</td>
+			<td data-title="제목" class="text_con slide_animation"><a href="#">남산 위에 저 소나무 철갑을 두른 듯 바람 서리 불변함은 우리 기상일세</a></td>
+			<td data-title="등록일">2023-12-25</td>
+		</tr>
+		<tr>
+			<td data-title="번호">1</td>
+			<td data-title="연도">2023</td>
+			<td data-title="제목" class="text_con slide_animation"><a href="#">동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세</a></td>
+			<td data-title="등록일">2023-12-20</td>
+		</tr>
+		</tbody>
+	</table>
+</div>
+<div class="paging">
+	<ul>
+		<li class="pg first"><a href="#" class="prevAll"><span class="blind">처음페이지</span></a></li>
+		<li class="pg prev"><a href="#" class="prev"><span class="blind">이전페이지</span></a></li>
+		<li class="pg"><a href="#" class="active">1</a></li>
+		<li class="pg"><a href="#">2</a></li>
+		<li class="pg"><a href="#">3</a></li>
+		<li class="pg"><a href="#">4</a></li>
+		<li class="pg"><a href="#">5</a></li>
+		<li class="pg"><a href="#">6</a></li>
+		<li class="pg"><a href="#">7</a></li>
+		<li class="pg next"><a href="#" class="next"><span class="blind">다음페이지</span></a></li>
+		<li class="pg last"><a href="#" class="nextAll"><span class="blind">마지막페이지</span></a></li>
+	</ul>
+</div>
+	
+<div class="box_right mT20"><a href="#" class="base_button bg_gray">기본버트 - 글쓰기</a></div>
+		
+<!-- //게시판 -->	
+<br>	
+<br>	
+<br>	
+<br>	
+<br>	
+<h4 class="mB30">게시판 상세</h4>
+
+<div class="notice_view">
+	<div class="tit">
+		<h1 class="bbsTitle">테스트 01</h1>
+	</div>
+
+	<table class="borad_view border_Tnone">
+		<caption>기본 테이블 상세화면</caption>
+		<colgroup>
+			<col data-view="th" style="width:15%">
+			<col data-view="td" style="width:35%">
+			<col data-view="th" style="width:15%">
+			<col data-view="td" style="width:35%">
+		</colgroup>
+		<tbody>
+			<tr class="nxb-list-table_num">
+				<th scope="row" data-view="date" class="nxb-list-table_num">작성자</th>
+				<td class="textLenter nxb-list-table_num">홍길동</td>
+				<th scope="row" data-view="count" class="nxb-list-table_num">조회수</th>
+				<td class="textLenter nxb-list-table_num">743</td>
+			</tr>
+			<tr class="">
+				<th scope="row">등록 일자</th>
+				<td class="textLenter">2023-12-29</td>
+				<th scope="row" class="nxb-list-table_num">수정 일자</th>
+				<td class="textLenter nxb-list-table_num">2023-12-29</td>
+			</tr>
+			<tr>
+				<td colspan="4" class="conts">
+					<div class="conts textLenter" style="min-height: 200px;">
+						테스트01
+					</div>
+				</td>
+			</tr>
+				<tr>
+					<th scope="row">첨부파일</th>
+					<td colspan="3">등록된 첨부파일이 없습니다.</td>	
+				</tr>
+
+		</tbody>
+	</table>
+
+	<div class="box_center mT20">
+		<a href="#" class="base_button bg_blue">기본버트 - 수정</a>
+		<a href="#" class="base_button bg_white">기본버트 - 목록</a>
+	</div>
+</div>	
+		<br>
+		<br>
+		<br>
+		
+	</div>
+</div>
+<div id="footer">Copyright(c) 2024 SYSTEMGATE. All rights reserved</div>
+</body>
+</html>
