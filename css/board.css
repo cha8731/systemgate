@@ -7,7 +7,7 @@
 .base_table td:last-child {border-right:none;}
 .base_table .text_con {text-align: left; padding-left:3rem;}
 
-.nxb-list_header-top{display:flex;flex-wrap:wrap;justify-content:flex-end;gap:10px; width: 100%; position: relative;}
+.nxb-list_header-top{display:flex;flex-wrap:wrap;justify-content:flex-end;gap:10px; width: 100%; position: relative; margin-top: 50px;}
 .nxb-list_header-top > strong{font-size: 18px; color: #111; font-weight: 500; position: absolute; top:15px; left:0;}
 .nxb-list_header-top > strong > span{font-size:23px; color: #000000;}
 
@@ -29,8 +29,8 @@
 .nxb-list_search-select-wrap select::-ms-expand{display:none}
 .nxb-list_search-input-wrap{display:flex;width:400px;}
 .nxb-list_search-keyword{width:100%;max-width:320px;height:50px;padding:0 15px;font-size:16px;color:#666;border:1px solid #ddd;vertical-align:middle;}
-.nxb-list_search-submit{flex-shrink:0;width:80px;height:50px;font-size:15px;color:#fff;border:0;background-color:#333;vertical-align:middle; text-align: center; line-height: 52px;}
-.nxb-list_search-submit:hover {background-color:#111;}
+.nxb-list_search-submit{flex-shrink:0;width:80px;height:50px;font-size:15px;color:#fff;border:0;background-color:#3555af;vertical-align:middle; text-align: center; line-height: 52px;}
+.nxb-list_search-submit:hover {background-color:#153389;}
 
 .nxb-list_search-submit1{flex-shrink:0;width:80px;height:50px;font-size:15px;color:#fff;border:0;background-color:#6f4242;vertical-align:middle; text-align: center; line-height: 52px;}
 .nxb-list_search-submit1:hover {background-color:#111;}
