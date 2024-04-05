@@ -1,3 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*서브레이아웃*/
+#container{width:100%; background-color: #fff;}
+.container_wrap{width: 1200px; margin: 0 auto; display: flex;}
+.contents{width: 1200px; margin: 0 auto; padding-top:80px;}
+#footer{width: 100%; background-color: #fff; border-top: solid 1px #cecece; position:relative; padding:30px 0; text-align: center;}
+
 /* 2024-03-29 추가 */
 .toast-top-right {position: fixed; bottom:3%; right:3%; height: 65px; overflow: hidden;}
 .toast-message {color:#fff; padding:1rem; border-radius: 0.5rem; box-shadow: 0.2rem 0.3rem 0.5rem 0rem #5d5353; font-size:0.9rem; margin:10px; background: #333333;}
