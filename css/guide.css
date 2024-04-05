@@ -4,7 +4,7 @@
 /*서브레이아웃*/
 #container{width:100%; background-color: #fff;}
 .container_wrap{width: 1200px; margin: 0 auto; display: flex;}
-.contents{width: 1200px; margin: 0 auto; padding-top:80px;}
+.contents{width: 1200px; margin: 0 auto; padding-top:80px; line-height: 1.5;}
 #footer{width: 100%; background-color: #fff; border-top: solid 1px #cecece; position:relative; padding:30px 0; text-align: center;}
 
 /* 2024-03-29 추가 */
@@ -1148,7 +1148,6 @@ ul.bg_process li:last-child{margin-right: 0;}
 .dd_position dt:before {width:3px; height:3px; background-color: #014279; content: ""; position: absolute; top:9px; left: 0;}
 .dd_position dl dd {padding-left:12px;}
 
-
 @media all and (max-width:1024px) {
 body { overflow-x:hidden; }
 
@@ -1380,6 +1379,10 @@ body { overflow-x:hidden; }
 .dcSubConWarp .dcContentsWrap .dcSatisfactionWrap .dcSatisBox .dcAdminWrap ul li{display:inline-block; font-size:14px; font-weight:300; color:#333; padding-right:15px; margin-right:15px; background:url(/ko/img/common/ft_bar01.png) right center no-repeat; }
 .dcSubConWarp .dcContentsWrap .dcSatisfactionWrap .dcSatisBox .dcAdminWrap ul li:last-child{background:none;}	
 .dcSiteMapWrap .dcBtnAllMenuClose span {line-height:57px;background: url("../images/btn_allmenuclose.png") center center no-repeat;background-size: 20px;text-indent: -99999px;}
+}
+
+@media all and (max-width:1200px) {
+	.contents{width: 100%; padding: 0 15px;}
 }
 
 @media all and (max-width:890px) {
