@@ -57,16 +57,14 @@ $(document).ready( function() {
 	<div class="search_all_area">
 		<div class="search_type_select">
 		<p>
-			<select id="contest1" name="contest" title="공모선택">
-				<option value="공모전체">공모전체</option>
-				<option value="일반설계공모">일반설계공모</option>
-				<option value="제한공모">제한공모</option>
-				<option value="제안공모">제안공모</option>
+			<select id="contest1" name="contest" title="공지 공개여부">
+				<option value="공개">공개</option>
+				<option value="비공개">비공개</option>
 			</select>
 		</p>
 		<p>
-			<select id="year" name="year" title="공모연도">
-				<option value="연도전체">공모연도 전체</option>
+			<select id="year" name="year" title="등록연도">
+				<option value="연도전체">등록연도 전체</option>
 				<option value="2023">2023</option>
 				<option value="2022">2022</option>
 				<option value="2021">2021</option>
@@ -78,8 +76,8 @@ $(document).ready( function() {
 		</p>
 		</div>
 		<div class="search_type_input">
-			<p><i class="xi-paper-o"></i><input type="text" placeholder="공모명을 입력하세요." title="공모명 입력란"></p>
-			<p><i class="xi-book-o"></i><input type="text" placeholder="발주기관명을 입력하세요." title="발주기관명 입련란"></p>
+			<p><i class="xi-paper-o"></i><input type="text" placeholder="제목을 입력하세요." title="제목"></p>
+			<p><i class="xi-book-o"></i><input type="text" placeholder="등록자를 입력하세요." title="등록자 입련란"></p>
 		</div>
 		<div class="search_type_btn">
 			<a href="#" role="button"><i class="xi-search"><span class="hide">검색</span></i></a>
