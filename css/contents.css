@@ -1,6 +1,8 @@
 @charset "utf-8";
 
 /* CSS Document */
+.width_scroll {overflow: auto;}
+.width_scroll table {width: 100%;}
 
 /* 탭 */
 body ul.tabBar{margin-top: 20px;}
