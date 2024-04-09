@@ -1,6 +1,40 @@
 @charset "utf-8";
 /* CSS Document */
 
+/* 퀵메뉴 */
+.float-box {position: fixed; right:50%; top: 50%; opacity: 1; z-index: 90; text-align: right; transform: translate(-50%, -50%); max-width:1920px; margin-right:-980px;}
+.float-box .wrap-float {text-align:center; display:inline-block;}
+@media (max-width:1920px) {
+  .float-box {position: fixed; right:20px; top: 50%; opacity: 1; z-index: 90; text-align: right; transform: translate(0%, -50%); margin-right:unset;}
+}
+.sub .wrap-float {opacity: 1; top: 50%;}
+.wrap-float ul {overflow: hidden;display: flex;flex-direction: column;width: 90px;height:308px;border-radius: 100px;box-shadow: 1px 1px 10px rgba(0,0,0,.3); flex-wrap:wrap;}
+.wrap-float li { flex-grow: 1; display: flex;justify-content: center;align-items: center;}
+.wrap-float li.color2 {background: #333; flex-wrap:wrap;}
+.sub .wrap-float li.give {background: #128B4A; border-top:none;}
+.wrap-float li.give {background: #005128;margin-top:-1px; border-top:1px solid #fff;}
+.wrap-float li.give a { font-size:14px; color:#fff; display:inline-block;}
+
+.wrap-float li button {width: 100%;font-size: 14px;text-align: center;color: #fff; background:none;}
+.wrap-float li.color1 button {padding-top: 25px;font-size:14px;padding: 25px 0 10px 0;}
+.wrap-float li.color2 span {font-size:14px;color:#fff;position:relative;height: auto; width:100%;}
+.wrap-float li.color2 div {width:100%; position:relative;}
+.wrap-float li.color2 div::before {content:''; width:70px; height:1px; background:rgba(255,255,255,1); position:absolute; bottom:0; left:50%; margin-left:-35px;}
+.wrap-float li.color2 div:last-child::before {display:none;}
+.wrap-float li.color2 .service-list > div {opacity:0.5;}
+.wrap-float li.color2 .service-list > div:hover {opacity:1;}
+.wrap-float li.color2 button {font-family:'Noto Regular'; font-size:13px; line-height:40px;}
+.wrap-float li.color3 button {padding:10px 0 20px 0;}
+.wrap-float li.color1 button::before,
+.wrap-float li.color2 button::before,
+.wrap-float li.color3 button::before{content: ''; display: block; margin: 0 auto; margin-bottom: 10px;}
+.wrap-float li.color1 button::before {width: 22px; height: 24px; background: url('../../images/common/ic-popup.png') no-repeat center;}
+.wrap-float li.color2 button::before {width: 20px; height: 20px; background: url('../../images/common/ic-user-service.png') no-repeat center;}
+.wrap-float li.color3 button::before {width: 23px; height: 25px; background: url('../../images/common/ic-floating-notice.png') no-repeat center;}
+.wrap-float li.color2 .service-list button::before {display:none;}
+.wrap-float .top-button {display: inline-block; width: 65px; height: 65px; margin-top: 20px; background: rgba(0,0,0,0.4); border-radius: 100%; font-family: 'Mont Regular'; font-size: 14px; color: #fff;}
+.wrap-float .top-button::before {content: ''; display: block; width: 20px; height: 12px; margin: 0 auto; margin-bottom: 5px; background: url('../images/ic-go-top.png') no-repeat center;}
+
 /*서브레이아웃*/
 #container{width:100%; background-color: #fff;}
 .container_wrap{width: 1200px; margin: 0 auto; display: flex;}
