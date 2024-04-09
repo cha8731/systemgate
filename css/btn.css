@@ -176,7 +176,8 @@ color:#fff;
 
 @media (max-width:768px) {
 	.search_button{padding: 8px 11px 5px 37px; height: 42px;}
-	
+	.box_area {flex-direction: column;}
+	.box_area div {width: 100%;}
 }
 @media (max-width:450px) {
 .btnRightFl{display:block;float:none;text-align: right;text-align:center; margin-top:0;width:100%;}
