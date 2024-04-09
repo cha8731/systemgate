@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+<title>화면</title>
+	
+<!-- 공통 CSS -->		
+<link rel="stylesheet" type="text/css" href="../css/common.css">
+	
+<!-- 레이아웃 CSS -->	
+<link rel="stylesheet" type="text/css" href="../css/guide.css">
+	
+<!-- 콘텐츠 CSS -->		
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../css/gnb.css">
+<link rel="stylesheet" type="text/css" href="../css/btn.css">
+<link rel="stylesheet" type="text/css" href="../css/board.css">
+<link rel="stylesheet" type="text/css" href="../css/dingbat_xeicon.css">
+	
+<!-- 팝업 -->
+<script src="../js/jquery-1.11.3.min.js"></script>
+<script src="../js/common.js"></script>	
+	
+<!-- 공통 -->	
+<script src="../js/sub.js"></script>
+	
+<!-- 인클루드 -->
+<script type="text/javascript">   
+$(document).ready( function() {
+	$("#gnb_menu").load("../include/screen_gnb_menu.html");  //헤더 인클루드
+				}
+	);
+</script>
+<!-- 인클루드 -->
+	
+</head>
+
+<body>
+
+<!-- 본문 바로가기 영역 -->
+<div id="dimed"></div>
+<!-- 메뉴 마스크 영역 -->	
+<header>
+<div id="gnb_menu"></div>
+</header>
+	
+<div id="container">
+	<div class="contents">
+		
+	<!-- 도움말 -->
+	<div class="help_area mB50">
+		<div class="help_box">
+			<h3>도움말</h3>
+			<div class="help_box_text">
+				<p>
+					메밀꽃 필 무렵 여름장이란 애시 당초에 글러서 해는 아직 중천에 있건만 장판은 벌써 쓸쓸하고 더운 햇발이 벌려
+					놓은 전시장메밀꽃 필 무렵 여름장이란 애시 당초에 글러서 해는 아직 중천에 있건만 장판은 벌써 쓸쓸하고 더운 햇발이 벌려 놓은 전시장
+				</p>
+			</div>
+		</div>
+	</div>	
+
+	<!-- 탭 -->
+	<ul class="tabBar_t bar col9">
+		<li class="active"><a class="on" href="#">탭 01</a></li>
+		<li><a class="off" href="#">탭 02</a></li>
+		<li><a class="off" href="#">탭 03</a></li>
+		<li><a class="off" href="#">탭 04</a></li>
+		<li><a class="off" href="#">탭 05</a></li>
+		<li><a class="off" href="#">탭 06</a></li>
+	</ul>
+	<div class="tabBox">
+			<div class="box_area box_divide"> <!-- box_divide 추가 -->
+					<div class="text_title">
+						<h3>테이블 세로형</h3>
+					</div>
+					<div class="btn_box btn_basics">
+						<a href="#" class="table_button bg_blue">table_button - 등록</a>
+						<a href="#" class="table_button bg_red">table_button - 삭제</a>
+					</div>
+				</div>
+			<div class="tableStyle01">
+				<table class="borderTop">
+					<caption>
+					기본 테이블 세로형
+					</caption>
+					<colgroup>
+						<col width="20%;">
+						<col width="30%;">
+						<col width="20%;">
+						<col width="30%;">
+					</colgroup>
+					<tbody>
+						<tr>
+							<th scope="row">제목</th> 
+							<td class="taL">내용</td>
+							<th scope="row">제목</th> 
+							<td class="taL">내용</td>
+						</tr>
+						<tr>
+							<th scope="row">제목</th>
+							<td class="taL">내용</td>
+							<th scope="row">제목</th>
+							<td class="taL">내용</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>	
+		
+			
+			<div class="box_area box_divide"> 
+				<div class="text_title">
+					<h3>테이블 가로형</h3>
+				</div>
+				<div class="btn_box">		
+					<a href="#" class="table_button bg_white">table_button - 목록</a>
+					<a href="#" class="table_button bg_gray">table_button - 등록</a>
+				</div>
+			</div>
+		
+			<div class="tableStyle01">
+				<table class="borderTop">
+					<caption>
+					기본 테이블 세로형
+					</caption>
+					<colgroup>
+						<col width="50%;">
+						<col width="50%;">
+					</colgroup>
+					<thead>
+						<tr><th scope="col">제목</th>
+						<th scope="col">제목</th>
+					</tr></thead>
+					<tbody>
+						<tr>
+							<td>내용</td>
+							<td><a href="#" class="tag bg_gray">테이블 버튼 - 등록</a></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+	</div>
+		
+		
+<br>		
+</div>
+</div>
+<div id="footer">Copyright(c) 2024 SYSTEMGATE. All rights reserved</div>
+
+</body>
+</html>
