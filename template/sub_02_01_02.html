@@ -481,6 +481,124 @@ $(document).ready( function() {
 	&lt;/table&gt;
 &lt;/div&gt;</span></span></span></code></pre>
 	</div>
+<h4>2중 테이블</h4>
+<div class="tableStyle03">
+	<table class="borderTop">
+		<caption>
+		기본 테이블 세로형
+		</caption>
+		<colgroup>
+			<col width="20%;">
+			<col width="30%;">
+			<col width="20%;">
+			<col width="30%;">
+		</colgroup>
+		<tbody>
+			<tr>
+				<th class="borL0 bg tl" scope="row">제목</th> 
+				<td colspan="3" class="taL">
+					<table class="innerTable">
+						<colgroup>
+							<col width="30%" class="bl_none">
+							<col width="32%">
+							<col width="8%">
+							<col width="8%" class="bl_none">
+							<col width="11%" class="bl_none">
+							<col width="11%" class="bl_none">
+						</colgroup>
+						<tbody>
+							<tr>
+								<th class="bl_none">제출서류명</th>
+								<th>제출서류설명</th>
+								<th>필수여부</th>
+								<th class="bl_none">확장자</th>
+								<th class="bl_none">심사용서류여부</th>
+								<th class="bl_none">허용크기(MB)</th>
+							</tr>
+								<tr>
+									<td class="tl bl_none">공모안취합본1부</td>
+									<td class="tl">-</td>
+									<td class="tc">
+										필수
+									</td>
+									<td class="bl_none">
+										전체
+									</td>
+									<td class="bl_none">
+										예
+									</td>
+									<td class="bl_none">
+										10
+									</td>
+								</tr>
+						</tbody>
+					</table>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>	
+<div class="guide-code">
+<button class="code_btn btn" data-clipboard-target="#foo11">copy</button>
+<pre id="foo11"><code class="syntax highlighted syntax-theme-base syntax-theme-bright"><span class="html xml"><span class="text"><span class="xml-tag">&#x3C;div class=&#x22;tableStyle03&#x22;&#x3E;
+&#x9;&#x3C;table class=&#x22;borderTop&#x22;&#x3E;
+&#x9;&#x9;&#x3C;caption&#x3E;
+&#x9;&#x9;&#xAE30;&#xBCF8; &#xD14C;&#xC774;&#xBE14; &#xC138;&#xB85C;&#xD615;
+&#x9;&#x9;&#x3C;/caption&#x3E;
+&#x9;&#x9;&#x3C;colgroup&#x3E;
+&#x9;&#x9;&#x9;&#x3C;col width=&#x22;20%;&#x22;&#x3E;
+&#x9;&#x9;&#x9;&#x3C;col width=&#x22;30%;&#x22;&#x3E;
+&#x9;&#x9;&#x9;&#x3C;col width=&#x22;20%;&#x22;&#x3E;
+&#x9;&#x9;&#x9;&#x3C;col width=&#x22;30%;&#x22;&#x3E;
+&#x9;&#x9;&#x3C;/colgroup&#x3E;
+&#x9;&#x9;&#x3C;tbody&#x3E;
+&#x9;&#x9;&#x9;&#x3C;tr&#x3E;
+&#x9;&#x9;&#x9;&#x9;&#x3C;th class=&#x22;borL0 bg tl&#x22; scope=&#x22;row&#x22;&#x3E;&#xC81C;&#xBAA9;&#x3C;/th&#x3E; 
+&#x9;&#x9;&#x9;&#x9;&#x3C;td colspan=&#x22;3&#x22; class=&#x22;taL&#x22;&#x3E;
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x3C;table class=&#x22;innerTable&#x22;&#x3E;
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x3C;colgroup&#x3E;
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x3C;col width=&#x22;30%&#x22; class=&#x22;bl_none&#x22;&#x3E;
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x3C;col width=&#x22;32%&#x22;&#x3E;
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x3C;col width=&#x22;8%&#x22;&#x3E;
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x3C;col width=&#x22;8%&#x22; class=&#x22;bl_none&#x22;&#x3E;
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x3C;col width=&#x22;11%&#x22; class=&#x22;bl_none&#x22;&#x3E;
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x3C;col width=&#x22;11%&#x22; class=&#x22;bl_none&#x22;&#x3E;
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x3C;/colgroup&#x3E;
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x3C;tbody&#x3E;
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x3C;tr&#x3E;
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x3C;th class=&#x22;bl_none&#x22;&#x3E;&#xC81C;&#xCD9C;&#xC11C;&#xB958;&#xBA85;&#x3C;/th&#x3E;
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x3C;th&#x3E;&#xC81C;&#xCD9C;&#xC11C;&#xB958;&#xC124;&#xBA85;&#x3C;/th&#x3E;
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x3C;th&#x3E;&#xD544;&#xC218;&#xC5EC;&#xBD80;&#x3C;/th&#x3E;
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x3C;th class=&#x22;bl_none&#x22;&#x3E;&#xD655;&#xC7A5;&#xC790;&#x3C;/th&#x3E;
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x3C;th class=&#x22;bl_none&#x22;&#x3E;&#xC2EC;&#xC0AC;&#xC6A9;&#xC11C;&#xB958;&#xC5EC;&#xBD80;&#x3C;/th&#x3E;
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x3C;th class=&#x22;bl_none&#x22;&#x3E;&#xD5C8;&#xC6A9;&#xD06C;&#xAE30;(MB)&#x3C;/th&#x3E;
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x3C;/tr&#x3E;
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x3C;tr&#x3E;
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x3C;td class=&#x22;tl bl_none&#x22;&#x3E;&#xACF5;&#xBAA8;&#xC548;&#xCDE8;&#xD569;&#xBCF8;1&#xBD80;&#x3C;/td&#x3E;
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x3C;td class=&#x22;tl&#x22;&#x3E;-&#x3C;/td&#x3E;
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x3C;td class=&#x22;tc&#x22;&#x3E;
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#xD544;&#xC218;
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x3C;/td&#x3E;
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x3C;td class=&#x22;bl_none&#x22;&#x3E;
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#xC804;&#xCCB4;
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x3C;/td&#x3E;
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x3C;td class=&#x22;bl_none&#x22;&#x3E;
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#xC608;
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x3C;/td&#x3E;
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x3C;td class=&#x22;bl_none&#x22;&#x3E;
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;10
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x3C;/td&#x3E;
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x3C;/tr&#x3E;
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x3C;/tbody&#x3E;
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x3C;/table&#x3E;
+&#x9;&#x9;&#x9;&#x9;&#x3C;/td&#x3E;
+&#x9;&#x9;&#x9;&#x3C;/tr&#x3E;
+&#x9;&#x9;&#x3C;/tbody&#x3E;
+&#x9;&#x3C;/table&#x3E;
+&#x3C;/div&#x3E;</span></span></span></code></pre>
+	</div>				
+				
+				
 				<h4>공동 페이지네이션</h4>
 				<div class="paging">
 		<ul>
