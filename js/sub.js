@@ -1,4 +1,3 @@
-/*��� 醫�륫 硫�� 濡ㅻ�*/
 $(window).scroll(function(event){
 	var x=$(this).scrollTop(),
 		Cont_width=$('body').width(),
@@ -847,4 +846,81 @@ $(function() {
 	});
 
 });
+
+/*2024-04-11*/
+var winWidth, winHeight, winPos;
+
+
+$(function($) {
+"use strict";
+winWidth = $(window).width();
+winHeight = $(window).height();
+winPos = $(window).scrollTop();
+	
+	
+/* faq */	
+	$(".faqList dl dt a").on("click", function() {
+		if($(this).parent().next().css("display") === "none") {
+			$(".faqList dl dt a").removeClass('on');
+			$(".faqList dl dd").slideUp(150);
+			$(this).addClass('on');
+			$(this).parent().next().slideDown(150);
+		} else {
+			$(".faqList dl dt a").removeClass('on');
+			$(".faqList dl dd").slideUp(150);
+		}
+	});
+	
+	
+	
+		if( winPos > $(".gnbTopArea").height() + $(".gnbWrap").height() ) {
+			if( $(".gnbWrap").hasClass("fixed") ) {
+				
+			} else {
+				$(".gnbWrap").addClass("fixed");
+				
+				if( winWidth < 768 ) {
+					$(".searchWrap").addClass("fixed");
+				}
+			}
+		} else {
+			if( $(".gnbWrap").hasClass("fixed") ) {
+				$(".gnbWrap").removeClass("fixed");
+				
+				if( winWidth < 768 ) {
+					$(".searchWrap").removeClass("fixed");
+				}
+			}
+		}
+
+
+	$(window).scroll(function() {
+		winWidth = $(window).width();
+		winPos = $(window).scrollTop();
+
+
+		if( winPos > $(".gnbTopArea").height() + $(".gnbWrap").height() ) {
+			if( $(".gnbWrap").hasClass("fixed") ) {
+				
+			} else {
+				$(".gnbWrap").addClass("fixed");
+				
+				if( winWidth < 768 ) {
+					$(".searchWrap").addClass("fixed");
+				}
+			}
+		} else {
+			if( $(".gnbWrap").hasClass("fixed") ) {
+				$(".gnbWrap").removeClass("fixed");
+				
+				if( winWidth < 768 ) {
+					$(".searchWrap").removeClass("fixed");
+				}
+			}
+		}
+
+	});
+
+});
+
 
