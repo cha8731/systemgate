@@ -1418,6 +1418,10 @@ body { overflow-x:hidden; }
 	.contents{width: 100%; padding: 0 15px;}
 }
 
+@media all and (max-width:1100px) {
+	#quick_menu{display: none;}
+}
+
 @media all and (max-width:890px) {
 	ul.bg_process li{width:49%;}
 }
