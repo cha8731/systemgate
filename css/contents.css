@@ -31,14 +31,14 @@ h3 {font-size:1.8rem;}
 h4 {font-size:1.6rem;}
 h5 {font-size:1.4rem;}
 
-.title1{font-size:1.4rem; position: relative; padding-left:15px;}
+.title1{font-size:1.3rem; position: relative; padding-left:30px;}
 .title1::before {content: '';
     width: 10px;
     height: 10px;
     border: 3px solid #11416b;
     position: absolute;
     left: .2rem;
-    top: 0.55em;}
+    top:8px;}
 
 /* 박스 */
 .report{border:solid 1px #d7d7d7; padding:30px;}
