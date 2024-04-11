@@ -31,6 +31,9 @@ h3 {font-size:1.8rem;}
 h4 {font-size:1.6rem;}
 h5 {font-size:1.4rem;}
 
+.title1{font-size:1.4rem;}
+.title1::before {content: ''; width: .3rem; height: .45rem; background: #f49f17; -webkit-transform: skew(-20deg); transform: skew(-20deg); position: absolute; top: .85rem; left: 0;}
+
 /* 박스 */
 .report{border:solid 1px #d7d7d7; padding:30px;}
 
