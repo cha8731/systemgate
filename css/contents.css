@@ -31,14 +31,14 @@ h3 {font-size:1.8rem;}
 h4 {font-size:1.6rem;}
 h5 {font-size:1.4rem;}
 
-.title1{font-size:1.3rem; position: relative; padding-left:30px;}
+.title1{font-size:1.4rem; position: relative; padding-left:15px;}
 .title1::before {content: '';
     width: 10px;
     height: 10px;
     border: 3px solid #11416b;
     position: absolute;
     left: .2rem;
-    top:8px;}
+    top: 0.55em;}
 
 /* 박스 */
 .report{border:solid 1px #d7d7d7; padding:30px;}
@@ -248,6 +248,25 @@ ul.tabBar_t.col8 li, ul.tabBar2.col8 li{width:12.5%;}
 ul.tabBar_t.col9 li, ul.tabBar2.col8 li{width:10%;}
 ul.tabBar_t.col12 li, ul.tabBar2.col12 li{width:7.777%;}
 ul.tabBar_t.col12 li.large, ul.tabBar2.col12 li.large{width:10%}
+
+/* FAQ */
+.faqList {border-top: 2px solid #7c7f8b; margin-bottom: 25px;}
+.faqList dl {border-bottom: 1px solid #e1e2e2;}
+.faqList dl dt {margin: 0; padding: 0;}
+.faqList dl dt a {position: relative;display: block;padding-left: 90px;min-height: 14px;padding: 13px 41px 13px 90px; color: #5e5e5f;}
+.faqList dl dt a .count {position: absolute; top: 12px; left: 0; width: 72px; color: #6c6e6f; text-align: center;}
+.faqList dl dt a .wordQ {position: absolute; top: 12px; left: 72px; font-size: 0.9375rem;}
+.faqList dl dt a .title {display: block}
+.faqList dl dt a .arrow {position: absolute; top: 50%; right: 20px; margin-top: -3px; width: 12px; height: 6px; display: block; background: url("../images/ico/icon_arrow_down01.png") no-repeat 0 0;}
+.faqList dl dt a.on, .faqList dl dt a.on .count {background: #7c7f8b; color: #fff; text-shadow:1px 1px 1px #333;}
+.faqList dl dt a.on .arrow {background: url(../images/ico/icon_arrow_up01.png) no-repeat 0 0;}
+.faqList dl dd {position: relative;display: none;padding: 27px 41px 23px 90px;background: #eff0f1;color: #5e5e5f; font-weight: 400; }
+.faqList dl dd .wordA {position: absolute; top: 27px; left: 72px; color: #ff6f4d; font-size:18px;}
+.faqList dl dd .faqFileLink {display: block; color: #554246; text-decoration: underline; font-weight: 700}
+.faqList.type02 dl dt a.on .icon.bg15{background:#fff;color:#1c98de; text-shadow:none;}
+.faqList.type02 dl dt a .title {padding-left:141px;}
+.faqList.type02 dl dt a em{margin-left: -141px;margin-right: 10px;}
+.faqList.type02 dl dt a .titleTxt {word-break:keep-all;}
 
 
 @media screen and (max-width: 1100px) {
