@@ -8,9 +8,9 @@
   .float-box {position: fixed; right:20px; top: 50%; opacity: 1; z-index: 90; text-align: right; transform: translate(0%, -50%); margin-right:unset;}
 }
 .sub .wrap-float {opacity: 1; top: 50%;}
-.wrap-float ul {overflow: hidden;display: flex;flex-direction: column;width: 90px;height:308px;border-radius: 100px;box-shadow: 1px 1px 10px rgba(0,0,0,.3); flex-wrap:wrap;}
+.wrap-float ul {overflow: hidden;display: flex;flex-direction: column;width: 90px;height:auto;border-radius: 100px;box-shadow: 1px 1px 10px rgba(0,0,0,.3); flex-wrap:wrap;}
 .wrap-float li { flex-grow: 1; display: flex;justify-content: center;align-items: center;}
-.wrap-float li.color2 {background: #333; flex-wrap:wrap;}
+.wrap-float li.color2 {background: #333; flex-wrap:wrap; padding: 20px 0;}
 .sub .wrap-float li.give {background: #128B4A; border-top:none;}
 .wrap-float li.give {background: #005128;margin-top:-1px; border-top:1px solid #fff;}
 .wrap-float li.give a { font-size:14px; color:#fff; display:inline-block;}
