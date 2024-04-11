@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,400,700&subset=korean');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
 
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -52,7 +51,7 @@ legend, caption {display:none;}
 button {border:none;cursor:pointer;}
 p {line-height:1.7em;}
 a {text-decoration:none;font-weight:400;color:#333;}
-select {padding:11px 10px; height:44px;border-radius:4px;}
+input[readOnly] {background: #dddddd;}
 .clFix:after {content:'';clear:both;display:table;}
 .blind {border:0; clip:rect(0 0 0 0); height:1px; margin:-1px; overflow:hidden; padding:0; position:absolute; width:1px}
 .layout_noFix {table-layout:auto;}
