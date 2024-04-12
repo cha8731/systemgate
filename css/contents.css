@@ -269,7 +269,7 @@ ul.tabBar_t.col12 li.large, ul.tabBar2.col12 li.large{width:10%}
 
 @media screen and (max-width: 1100px) {
 	.width_scroll{overflow:auto; width:100%;}
-	.width_scroll table{width:1000px;}
+	.width_scroll table{width:1000px !important;}
 }
 
 @media screen and (max-width: 1000px) {
