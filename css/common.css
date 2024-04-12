@@ -39,7 +39,7 @@ q:before, q:after {
 table {
   border-collapse:collapse;border-spacing:0;
 }
-
+input, textarea, select{border: solid 1px #d7d7d7;}
 /*font*/
 body, input, textarea, select {font-family:'Noto Sans KR', '맑은고딕', 'Malgun Gothic', sans-serif;font-size:14px;}
 /*common*/
