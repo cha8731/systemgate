@@ -195,7 +195,134 @@ $(document).ready( function() {
 		</table>
 	</div>
 </div>
-	
+<br><br><br>
+<div class="box_area box_divide"> 
+	<div class="text_title">
+		<h5 class="mB30 title1">회원정보 수정</h5>
+	</div>
+	<div class="btn_box btn_basics">
+		<p class="tbTopTxt"><strong class="star mR5">*</strong>필수입력</p>
+	</div>
+</div>		
+<div class="apply_table">
+	<div class="tableStyle01">
+		<table class="borderTop"><caption>undefined</caption>
+		<colgroup>
+			<col width="20%;">
+			<col width="30%;">
+			<col width="20%;">
+			<col width="30%;">
+		</colgroup>
+		<tbody>
+			<tr>
+				<th scope="row">가입유형</th>
+				<td colspan="3" class="taL">사업담당자</td>
+			</tr>
+			<tr>
+				<th scope="row"><label for="text_in08">아이디</label> <strong class="star mL5">*</strong></th>
+				<td colspan="3" class="taL"><input id="text_in08" type="text" title="아이디" readonly="readonly" value="admin"></td>
+			</tr>
+			<tr>
+				<th scope="row"><label for="text_in09">비밀번호 찾기 질문</label></th>
+				<td colspan="3" class="taL">
+					<select class="w30" id="text_in09" title="비밀번호 찾기 정답">
+						<option value="">비밀번호 찾기 질문</option>
+							<option value="01">
+								가장 감명깊게 본 영화는?
+							</option>
+							<option value="02">
+								가장 기억에 남는 선생님 성함은?
+							</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><label for="text_in10">비밀번호 찾기 답</label></th>
+				<td colspan="3" class="taL"><input class="w30" type="text" id="text_in010" value="테스트1"></td>
+			</tr>
+			<tr>
+				<th scope="row"><label for="text_in11">이메일</label> <strong class="star mL5">*</strong></th>
+				<td colspan="3" class="taL">
+					<input type="text" id="emailfirst" placeholder="이메일 입력" maxlength="4" title="이메일 입력">
+					<select id="emailselect" title="이메일 주소 선택" aria-label="선택하세요">
+					  <option>이메일 주소 선택</option>
+						<option value="naver.com">naver.com</option>
+						<option value="gmail.com">gmail.com</option>
+						<option value="hanmail.net">hanmail.net</option>
+						<option value="daum.net">daum.net</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><label for="text_in12">성명</label> <strong class="star mL5">*</strong></th>
+				<td class="taL"><input id="text_in12" type="text" title="성명" readonly="readonly" value="관리자"></td>
+				<th scope="row"><label for="text_in13">생년월일</label> <strong class="star mL5">*</strong></th>
+				<td class="taL"><input id="text_in13" type="text" title="생년월일" readonly="readonly" value="1111-11-11"></td>
+			</tr>
+			<tr>
+				<th scope="row"><label for="phonefirst_m">연락처(유선)</label></th>
+				<td colspan="3" class="taL">
+					<select id="phonefirst_m" title="앞 번호" aria-label="선택하세요">
+					  <option>앞 번호</option>
+					  <option value="010" selected="selected">010</option>
+						<option value="011">011</option>
+						<option value="016">016</option>
+						<option value="017">017</option>
+						<option value="018">018</option>
+					</select>
+					 <input type="text" id="phonemiddle_m" placeholder="중간 번호" maxlength="4" title="중간 번호">
+					<input type="text" id="phoneend_m" placeholder="끝 번호" maxlength="4" title="끝 번호">
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><label for="phonefirst_s">연락처(무선)</label></th>
+				<td colspan="3" class="taL">
+					<select id="phonefirst_s" title="앞 번호" aria-label="선택하세요">
+					  <option>앞 번호</option>
+					  <option value="010" selected="selected">010</option>
+						<option value="011">011</option>
+						<option value="016">
+							
+							016</option>
+						<option value="017">017</option>
+						<option value="018">018</option>
+					</select>
+					 <input type="text" id="phonemiddle_s" placeholder="중간 번호" maxlength="4" title="중간 번호">
+					<input type="text" id="phoneend_s" placeholder="끝 번호" maxlength="4" title="끝 번호">
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><label for="text_in14">성별</label> <strong class="star mL5">*</strong></th>
+				<td colspan="3" class="taL"><input id="text_in14" type="text" title="성별" readonly="readonly" value="남성"></td>
+			</tr>
+			<tr><th scope="row"><label for="text_in15">소속기관명</label> <strong class="star mL5">*</strong></th>
+				<td colspan="3" class="taL"><input id="xt_in15" type="text" title="소속기관명" readonly="readonly" value="000기관"></td>
+			</tr>
+			<tr>
+				<th scope="row"><label for="text_in16">부서</label></th>
+				<td class="taL"><input class="w30" type="text" id="text_in016" value="개발팀"></td>
+				<th scope="row"><label for="text_in17">직위</label></th>				
+				<td class="taL">
+					<select id="text_in17" name="posCd" class="w30" title="직위를 선택해주세요">
+							<option value="">:::선택:::</option>
+								<option value="01">
+									대표이사
+								</option>
+								<option value="02">
+									이사
+								</option>
+						</select>
+				</td>
+			</tr>
+		</tbody>
+		</table>
+	</div>
+</div>
+<div class="box_center mT50">
+	<button type="button" class="base_button bg_blue">base_button - 저장</button>
+	<button type="button" class="base_button bg_red">base_button - 탈퇴</button>
+	<button type="button" class="base_button bg_gray">base_button - 취소</button>
+</div>
 		
 <br>		
 </div>
