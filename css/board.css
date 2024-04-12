@@ -142,6 +142,12 @@ p + .tableStyle03,p + .tableStyle02 {margin-top: 6px;}
 .slide_animation:hover:after {content: ''; display: block; position: absolute; left: 0; top: 0; z-index: 1; width: 0; height: 100%; background: #E0EBFF; animation: slide 0.5s 0.2s forwards; animation-timing-function: cubic-bezier(0.77, 0, 0.175, 1);}
 @keyframes slide {0% {width: 0} 100% {width: 100%}}
 
+@media all and (max-width:850px) {
+.tableStyle01{overflow:auto;width: 100%;}
+.tableStyle01 table{width:825px;}	
+.tableStyle01 table colgroup{display: none;}
+}
+
 @media all and (max-width:767px) {
 
 /* 게시판 리스트 */
