@@ -62,62 +62,72 @@ $(document).ready( function() {
 	</div>
 </div>
 
-<div class="width_scroll">
-	<div class="tableStyle01">
-		<table class="borderTop" id="targetTable" name="targetTable">
-			<caption>검토위원 상세</caption>
-			<colgroup>
-				<col width="14%">
-				<col width="*%">
-				<col width="18%">
-				<col width="18%">
-				<col width="15%">
-				<col width="15%">
-			</colgroup>
-			<thead>
-				<tr class="">
-					<th scope="col">위원구분 <strong class="star" title="필수항목">*</strong></th>
-					<th scope="col">기관명 <strong class="star" title="필수항목">*</strong></th>
-					<th scope="col">성명 <strong class="star" title="필수항목">*</strong></th>
-					<th scope="col">부서 <strong class="star" title="필수항목">*</strong></th>
-					<th scope="col">직위 <strong class="star" title="필수항목">*</strong></th>
-					<th scope="col"><button type="button" class="tag bg_gray">테이블 버튼 - 추가</button></th>
-				</tr>
-			</thead>
-			<tbody>				
-				<tr>
-					<td class="borL0">
-						<select name="rvExmrDsncCd" title="위원구분" class="w100">
-							<option value="01">
-								검토위원
-							</option>
-							<option value="02" selected="selected">
-								위원장
-							</option>
-						</select>
-					</td>
-					<td>
-						<label class="hide" for="text_in04">시스템게이트</label>
-						<input class="w100" type="text" id="text_in04" placeholder="시스템게이트" title="입력 란">						
-					</td>
-					<td>
-						<label class="hide" for="text_in05">홍길동</label>
-						<input type="text" class="w100" id="text_in05" placeholder="홍길동" title="입력 란">	
-					</td>
-					<td>
-						<label class="hide" for="text_in06">부서</label>
-						<input type="text" class="w100" id="text_in06" placeholder="부서" title="입력 란">
-					</td>
-					<td>
-						<label class="hide" for="text_in07">직위</label>
-						<input type="text" class="w100" id="text_in07" placeholder="직위" title="입력 란">
-					</td>
-					<td><button type="button" class="tag bg_red">테이블 버튼 - 삭제</button></td>
-				</tr>
-			</tbody>
-		</table>
+<div class="width_scroll" data_liveedit_tagid="000000001A4C4D20">
+	<div class="tableStyle01" data_liveedit_tagid="000000001A4C4F80">
+		<table class="borderTop" data_liveedit_tagid="000000001A4C51E0"><caption>undefined</caption>
+		<colgroup data_liveedit_tagid="000000001A4C5440">
+			<col width="20%;" data_liveedit_tagid="000000001A4C56A0">
+			<col width="80%;" data_liveedit_tagid="000000001A4C58E0">
+		</colgroup>
+		<tbody data_liveedit_tagid="000000001A4C5C50">
+			<tr data_liveedit_tagid="000000001A4C5EB0">
+				<th data_liveedit_tagid="000000001A4C6110">공지 구분 <strong class="star" data_liveedit_tagid="000000001A4C6370">*</strong></th>
+				<td class="taL" data_liveedit_tagid="000000001A4C6700">
+					<div data_liveedit_tagid="000000001A4C6960">
+						<input type="radio" id="id_01_01" name="watchYN" value="일반공지" data_liveedit_tagid="000000001A4C6BC0">
+						<label for="id_01_01" class="view" data_liveedit_tagid="000000001A4C6E00">일반공지</label>
+						<input type="radio" id="id_01_02" name="watchYN" value="사업안내" data_liveedit_tagid="000000001A4C7190">
+						<label for="id_01_02" class="view" data_liveedit_tagid="000000001A4C73D0">사업안내</label>
+					</div>
+				</td>
+			</tr>
+			<tr data_liveedit_tagid="000000001A4C7AF0">
+				<th data_liveedit_tagid="000000001A4C7D50">공지 공개여부 <strong class="star" data_liveedit_tagid="000000001A4C7FB0">*</strong></th>
+				<td class="taL" data_liveedit_tagid="000000001A4C8340">
+					<div data_liveedit_tagid="000000001A4C85A0">
+						<input type="radio" id="id_02_01" name="watchYN" value="공개" data_liveedit_tagid="000000001A4C8800">
+						<label for="id_01_01" class="view" data_liveedit_tagid="000000001A4C8A40">공개</label>
+						<input type="radio" id="id_02_02" name="watchYN" value="비공개" data_liveedit_tagid="000000001A4C8DD0">
+						<label for="id_01_02" class="view" data_liveedit_tagid="000000001782BBB0">비공개</label>
+					</div>
+				</td>
+			</tr>
+			<tr data_liveedit_tagid="000000001782C2D0">
+				<th data_liveedit_tagid="000000001782C530">공지 유효기간</th>
+				<td class="taL" data_liveedit_tagid="000000001782C8C0">
+					<input id="noticeVldStDate" name="noticeVldStDate" type="text" title="유효시작일자" readonly="readonly" data_liveedit_tagid="000000001782CB20">
+					<button type="button" aria-label="날짜 선택" data_liveedit_tagid="000000001782CD60"><img src="../images/ico/icon_calendar.png" alt="달력 아이콘" data_liveedit_tagid="000000001782CE90"></button>
+					~
+					<input id="noticeVldStDate" name="noticeVldStDate" type="text" title="유효종료일자" readonly="readonly" data_liveedit_tagid="000000001782D0D0">
+					<button type="button" aria-label="날짜 선택" data_liveedit_tagid="000000001782D310"><img src="../images/ico/icon_calendar.png" alt="달력 아이콘" data_liveedit_tagid="000000001782D440"></button>
+				</td>
+			</tr>
+			<tr data_liveedit_tagid="000000001782D8E0">
+				<th data_liveedit_tagid="000000001782DB40"><label for="text_in01" data_liveedit_tagid="000000001782DC70">출처</label></th>
+				<td class="taL" data_liveedit_tagid="000000001782E000">
+					<input type="text" id="text_in01" title="출처" data_liveedit_tagid="000000001782E260">	
+				</td>
+			</tr>
+			<tr data_liveedit_tagid="000000001782E700">
+				<th data_liveedit_tagid="000000001782E960"><label for="text_in02" data_liveedit_tagid="000000001782EA90">제목</label> <strong class="star" data_liveedit_tagid="000000001782EE20">*</strong></th>
+				<td class="taL" data_liveedit_tagid="000000001782F1B0">
+					<input type="text" id="text_in02" title="제목" data_liveedit_tagid="000000001782F410">
+				</td>
+			</tr>
+			<tr data_liveedit_tagid="000000001782F8B0">
+				<th data_liveedit_tagid="000000001782FB10"><label for="text_in03" data_liveedit_tagid="000000001782FC40">내용</label></th>
+				<td class="taL" data_liveedit_tagid="000000001782FFD0">
+					<textarea id="text_in03" class="w100" title="내용을 입력하세요." placeholder="2,000 Bytes 이내로 작성하세요." data_liveedit_tagid="0000000017830230"></textarea>
+				</td>
+			</tr>
+			<tr data_liveedit_tagid="00000000178306F0">
+				<th scope="col" data_liveedit_tagid="0000000017830950">첨부파일</th>
+				<td class="taL" data_liveedit_tagid="0000000017830CE0"></td>
+			</tr>
+		</tbody>
+	</table>
 	</div>
-</div>
+	</div>
 	<br>	
 	<br>	
 <div class="box_area box_divide"> 
