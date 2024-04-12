@@ -4,6 +4,10 @@ input {padding:11px 10px; height:44px;border-radius:4px;}
 select {padding:11px 10px; height:44px;border-radius:4px;}
 .tableStyle01 input{height: auto;}
 
+.unicode{font-family: xeicon;font-size:28px;display: block;height: 48px;line-height: 48px; text-align:center;}
+.glyph{margin-left:50px;}
+.glyph:first-child{margin-left:0;}
+
 /* 퀵메뉴 */
 .float-box {position: fixed; right:50%; top: 50%; opacity: 1; z-index: 90; text-align: right; transform: translate(-50%, -50%); max-width:1920px; margin-right:-980px;}
 .float-box .wrap-float {text-align:center; display:inline-block;}
