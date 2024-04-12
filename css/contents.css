@@ -221,8 +221,6 @@ h5 {font-size:1.4rem;}
 .warning_box {}
 .warning_box p {color:#dc001c; font-weight:600; background:#ffeff4 url("../images/ico/warning_bg_img.png") 20px 50% no-repeat; padding:7px 20px 7px 50px; font-size:14px;  border-radius:4px; margin-bottom:5px; display:inline-block;}
 
-.width_scroll {overflow:auto;}
-
 /* 탭 */
 .tabBox {border-left:2px #666 solid; border-right:2px #666 solid; border-bottom:2px #666 solid; border-top:2px #666 solid; padding:20px; margin-top:-2px;}  
 
@@ -270,6 +268,7 @@ ul.tabBar_t.col12 li.large, ul.tabBar2.col12 li.large{width:10%}
 
 
 @media screen and (max-width: 1100px) {
+	.width_scroll {overflow:auto; width:100%;}
 	.width_scroll table {width:1000px;}
 }
 
