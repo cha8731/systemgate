@@ -69,6 +69,8 @@ input[readOnly] {background: #dddddd;}
 .mT100 {margin-top:100px;}
 .mR5 {margin-right:5px;}
 .mR10 {margin-right:10px;}
+.mR15 {margin-right:15px;}
+.mR20 {margin-right:20px;}
 .mB2 {margin-bottom:2px;}
 .mB10 {margin-bottom:10px;}
 .mB20 {margin-bottom:20px;}
@@ -78,7 +80,10 @@ input[readOnly] {background: #dddddd;}
 .mB60 {margin-bottom:60px;}
 .mB70 {margin-bottom:70px;}
 .mL0 {margin-left:0 !important;}
+.mL5 {margin-left:5 !important;}
 .mL10 {margin-left:10px !important;}
+.mL15 {margin-left:15px !important;}
+.mL20 {margin-left:20px !important;}
 /* padding */
 .pT10 {padding-top:10px !important;}
 .pT15 {padding-top:15px !important;}
