@@ -169,4 +169,16 @@ p + .tableStyle03,p + .tableStyle02 {margin-top: 6px;}
 .nxb-list_header-top > strong{position:relative; left:auto; top:auto;}
 .nxb-list_search-select-wrap{max-width:100%; margin-right:0; margin-bottom: 5px;}
 .nxb-list_search-input-wrap{width:100%;}
+
+.apply_table {width: 100%; box-sizing: border-box;}
+.apply_table table col {display: none;}
+.apply_table table tr {display: block;width: 100% !important;}
+.apply_table table td {display:flex;width: 100% !important; border:none !important; vertical-align: middle !important;align-items: center; box-sizing: border-box;}
+.apply_table table #inttTd span {width: 40%; margin-right:10px;}
+.apply_table table #inttTd span input {width: 100% !important;}
+.apply_table table td input { margin:0px 5px; height: 35px !important; padding:0 5px !important;}
+.apply_table table td select {width:40% !important; height:35px !important; margin:0px 5px;}
+.apply_table table th {display:block; width: 100%; box-sizing: border-box; height: auto !important;}
+.apply_table .borderTop {overflow: hidden;}
+.apply_table .ui-datepicker-trigger {width: 21px;height: 21px;}	
 }
