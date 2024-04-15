@@ -857,7 +857,6 @@ function fn_swichSchBox(){
           $('#searchArrow').css('transform','scaleY(1)')
       }
   }
-    </script>	
 
 /* 보이기 숨기기 */
 function openCloseToc() {
