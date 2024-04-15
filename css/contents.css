@@ -284,18 +284,13 @@ details[open] > summary ~ * { animation:reveal 0.5s;}
 }
 
 /* 접기 펼치기 1 */
-details { margin:5px 0 10px; }
-details > summary { background:#444; color:#fff; padding:10px; outline:0; border-radius:5px; cursor:pointer; transition:background 0.5s; text-align:left; box-shadow: 1px 1px 2px gray;}
-details > summary::-webkit-details-marker { background:#444; color:#fff; background-size:contain; transform:rotate3d(0, 0, 1, 90deg); transition:transform 0.25s;}
-details[open] > summary::-webkit-details-marker { transform:rotate3d(0, 0, 1, 180deg);}
-details[open] > summary { background:#444;}
-details[open] > summary ~ * { animation:reveal 0.5s;}
-.tpt { background:#444; color:#fff; margin:5px 0 10px; padding:5px 10px; line-height:25px; border-radius:5px; box-shadow: 1px 1px 2px gray;}
+summary::marker{ content: "+ 댓글 Open "; }
+details[open] summary::marker { content: "️▲ 댓글 Close "; }
 
-@keyframes reveal {
-    from { opacity:0; transform:translate3d(0, -30px, 0); }
-    to { opacity:1; transform:translate3d(0, 0, 0); }
-}
+.cvb { text-decoration:none; color:#967d09; font-weight:bold; float:right; text-align:right; cursor:pointer; border:1px solid #c9ae34; border-radius:3px; padding:2px 5px; margin:5px; background-color:#fce374; background-image:linear-gradient(to bottom, #fce374, #fcdf5b); box-shadow:inset 0 1px 0 #fff6ce, inset 0 -1px 0 #e3c852, inset 0 0 0 1px #fce88d, 0 2px 4px rgba(0, 0, 0, 0.2); color:#967d09; text-shadow:0 1px 0 rgba(255, 255, 255, 0.5);}
+.cvb:hover,
+.cvb:focus { color:#967d09; background:#fcdf5b; border-color:#967d09; box-shadow:inset 0 1px 0 #fff6ce, inset 0 -1px 0 #e3c852, inset 0 0 0 1px #fce88d; }
+.cvb:active { color:#967d09; background:#fcdf5b; box-shadow:inset 0 2px 3px rgba(0, 0, 0, 0.2); }
 
 @media screen and (max-width: 1100px) {
 	.width_scroll{overflow:auto; width:100%;}
