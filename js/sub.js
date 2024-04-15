@@ -847,16 +847,6 @@ $(function() {
 
 });
 
-/*2024-04-11*/
-var winWidth, winHeight, winPos;
-
-
-$(function($) {
-"use strict";
-winWidth = $(window).width();
-winHeight = $(window).height();
-winPos = $(window).scrollTop();
-	
 /* 펼치기 접기 */
 function openCloseToc() {
     if(document.getElementById('toc-content').style.display === 'block') {
@@ -867,6 +857,15 @@ function openCloseToc() {
       document.getElementById('toc-toggle').textContent = '숨기기';
     }
   }
+
+/*2024-04-11*/
+var winWidth, winHeight, winPos;
+
+$(function($) {
+"use strict";
+winWidth = $(window).width();
+winHeight = $(window).height();
+winPos = $(window).scrollTop();
 	
 /* faq */	
 	$(".faqList dl dt a").on("click", function() {
