@@ -283,8 +283,8 @@ details[open] > summary ~ * { animation:reveal 0.5s;}
     to { opacity:1; transform:translate3d(0, 0, 0); }
 }
 	
-summary::marker{ content: "▼ 접어서보기 "; }
-details[open] summary::marker { content: "️▲ 펼쳐서보기 "; }
+summary::marker{ content: "▲ 펼쳐서보기"; }
+details[open] summary::marker { content: "️▼ 접어서보기"; }
 
 .cvb {color:#333; font-weight:600; cursor:pointer;}
 
