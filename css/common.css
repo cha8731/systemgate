@@ -40,12 +40,10 @@ table {
   border-collapse:collapse;border-spacing:0;
 }
 input, textarea, select{border: solid 1px #d7d7d7;}
-[type="radio"], span {
-  vertical-align: middle;
-}
 
 [type="radio","checkbox"] {
 cursor: pointer;
+vertical-align: middle;
 }
 
 /*font*/
