@@ -857,6 +857,16 @@ winWidth = $(window).width();
 winHeight = $(window).height();
 winPos = $(window).scrollTop();
 	
+/* 펼치기 접기 */
+function openCloseToc() {
+    if(document.getElementById('toc-content').style.display === 'block') {
+      document.getElementById('toc-content').style.display = 'none';
+      document.getElementById('toc-toggle').textContent = '보이기';
+    } else {
+      document.getElementById('toc-content').style.display = 'block';
+      document.getElementById('toc-toggle').textContent = '숨기기';
+    }
+  }
 	
 /* faq */	
 	$(".faqList dl dt a").on("click", function() {
