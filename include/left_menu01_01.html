@@ -5,6 +5,20 @@
 <script src="../js/sub.js"></script>
 <!-- 공용 스타일 -->	
 
+<!-- left_on -->	
+<script type="text/javascript">  
+$(document).ready(function() {
+    $('a.link').click(function(e) {
+        e.preventDefault();
+        $('a.link').each(function() {
+            $(this).removeClass('active');
+        });
+        $(this).addClass('active');
+    });
+});	
+</script>
+<!-- left_on -->
+
 <nav id="diLeftMenuList">
 		  <ul>
 			<li class="dc1depth active" style="border-radius:1rem 0 0 0;">
