@@ -847,27 +847,6 @@ $(function() {
 
 });
 
-/* 펼치기 접기 */
-function fn_swichSchBox(){
-      if($('.sub_sch_box').css('display')=='none'){
-          $('.sub_sch_box').show();
-          $('#searchArrow').css('transform','scaleY(-1)')
-      }else{
-          $('.sub_sch_box').hide();
-          $('#searchArrow').css('transform','scaleY(1)')
-      }
-  }
-
-/* 보이기 숨기기 */
-function openCloseToc() {
-    if(document.getElementById('toc-content').style.display === 'block') {
-      document.getElementById('toc-content').style.display = 'none';
-      document.getElementById('toc-toggle').textContent = '보이기';
-    } else {
-      document.getElementById('toc-content').style.display = 'block';
-      document.getElementById('toc-toggle').textContent = '숨기기';
-    }
-  }
 
 /*2024-04-11*/
 var winWidth, winHeight, winPos;
