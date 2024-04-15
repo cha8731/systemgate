@@ -929,7 +929,7 @@
 .xi-youtube:before{content:"\ec31"}
 .xi-youtube-play:before{content:"\ec32"}
 /* makes the font 33% larger relative to the icon container */
-.xi-x{font-size:40px;line-height:0.75em;vertical-align:-15%}
+.xi-x{font-size:1.33333em;}
 .xi-2x{font-size:2em}
 .xi-3x{font-size:3em}
 .xi-4x{font-size:4em;}
