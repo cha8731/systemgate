@@ -44,44 +44,10 @@ input, textarea, select{border: solid 1px #d7d7d7;}
   vertical-align: middle;
 }
 
-[type="radio"] {
-  appearance: none;
-  border: max(2px, 0.1em) solid gray;
-  border-radius: 50%;
-  width: 1.25em;
-  height: 1.25em;
-  transition: border 0.5s ease-in-out;
+[type="radio","checkbox"] {
+cursor: pointer;
 }
 
-[type="radio"]:checked {
-  border: 0.4em solid tomato;
-}
-
-[type="radio"]:focus-visible {
-  outline-offset: max(2px, 0.1em);
-  outline: max(2px, 0.1em) dotted tomato;
-}
-
-[type="radio"]:hover {
-  box-shadow: 0 0 0 max(4px, 0.2em) lightgray;
-  cursor: pointer;
-}
-
-[type="radio"]:hover + span {
-  cursor: pointer;
-}
-
-[type="radio"]:disabled {
-  background-color: lightgray;
-  box-shadow: none;
-  opacity: 0.7;
-  cursor: not-allowed;
-}
-
-[type="radio"]:disabled + span {
-  opacity: 0.7;
-  cursor: not-allowed;
-}
 /*font*/
 body, input, textarea, select {font-family:'Noto Sans KR', '맑은고딕', 'Malgun Gothic', sans-serif;font-size:14px;}
 /*common*/
