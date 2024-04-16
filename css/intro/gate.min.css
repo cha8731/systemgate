@@ -85,4 +85,5 @@
 		.main-gate .box-container{width: 100% !important; max-width: 100% !important;}
 		.main-gate .box-container .box-item{padding-bottom:20px !important;}
 		.box{max-width: 100% !important; max-height: inherit !important; height: auto !important;}
+		.main-gate .box-container .arr-link .tit em br{display: none;}
 	}
