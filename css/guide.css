@@ -5,7 +5,7 @@ select {padding:11px 10px; height:44px;border-radius:4px;}
 .tableStyle01 input{height: auto;}
 
 .unicode{font-family: xeicon;font-size:28px;display: block;height: 48px;line-height: 48px; text-align:center;}
-.glyph{margin-left:50px;}
+.glyph{margin-left:0 25px;}
 .glyph:first-child{margin-left:0;}
 
 /* 퀵메뉴 */
@@ -1421,6 +1421,10 @@ body { overflow-x:hidden; }
 .dcSubConWarp .dcContentsWrap .dcSatisfactionWrap .dcSatisBox .dcAdminWrap ul li{display:inline-block; font-size:14px; font-weight:300; color:#333; padding-right:15px; margin-right:15px; background:url(/ko/img/common/ft_bar01.png) right center no-repeat; }
 .dcSubConWarp .dcContentsWrap .dcSatisfactionWrap .dcSatisBox .dcAdminWrap ul li:last-child{background:none;}	
 .dcSiteMapWrap .dcBtnAllMenuClose span {line-height:57px;background: url("../images/btn_allmenuclose.png") center center no-repeat;background-size: 20px;text-indent: -99999px; display: block; width:20px; height:20px;}
+}
+
+@media all and (max-width:1500px) {
+	.glyph{margin-left:25px;}
 }
 
 @media all and (max-width:1200px) {
