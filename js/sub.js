@@ -51,17 +51,6 @@ jQuery(function($){
 
 	});
 
-	sideMenudep2A.on("mouseover focus",function () {
-		sideMenudep2A.removeClass("on");
-		$(this).addClass("on");	
-	});
-
-	$("#diLeftMenuList>ul>li>.dc2depth>li").last().find("a").on("focusout",function () {
-		$(sideMenu_sub).removeClass("on").stop().slideUp("fast");
-		sideMenuLi.removeClass("over");
-		sideMenuA.removeClass("on");
-	});
-
 });
 
 
