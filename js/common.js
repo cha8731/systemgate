@@ -9,7 +9,7 @@ winPos = $(window).scrollTop();
 
 	
 	
-// ÆË¾÷Ã¢ //
+// íŒì—…ì°½ //
 $(".openLayerPopup").on(
 "click",
 function(e) {
@@ -68,7 +68,7 @@ $(function() {
 		$(this).find("div").slideDown("fast");
 	}).mouseleave(function() {
 		$(this).find("div:visible").slideUp(50, function() {
-			// #menubar-menus li:hover Ã³¸®¸¦ ÇÏÁö ¾ÊÀ» °æ¿ì ¾Æ·¡ ¶óÀÎ È°¼º,
+			// #menubar-menus li:hover ì²˜ë¦¬ë¥¼ í•˜ì§€ ì•Šì„ ê²½ìš° ì•„ëž˜ ë¼ì¸ í™œì„±,
 			$(this).parent().css("background", "#666");
 			$(this).parent().children("a").css("color", "#FFF");
 		});
@@ -79,44 +79,6 @@ $(function() {
 
 });
 
-/* ÅÇ */
-$(function() {
-
-	var wrap = $("#wrap"); // ÀüÃ¼°¨½Î±â
-	var tab = $("#snb .nav>ul"); // ¼­ºê¿ÞÂÊ ¸Þ´º depth2
-	var depth3 = tab.find(".depth3"); // ¼­ºê¿ÞÂÊ ¸Þ´º depth3
-	var depth4 = $(".depth4"); // ÅÇ¸Þ´º depth4
-	var depth5 = $("#depth5_menu_ul"); // ÅÇ¸Þ´º depth5
-	var contView = $(".content_body"); // ÄÜÅÙÃ÷ ¿µ¿ª
-	var table = contView.find("table"); // ÄÜÅÙÃ÷ ¼Ó¾È¿¡ Å×ÀÌºí
-	
-	/*
-	 * ======================= ¸ð¹ÙÀÏ¿ë =======================
-	 */
-
-	if ($(window).width() < 1005) {
-		var snbActive = $("#snb ul>li.active>a");
-		snbActive.next().hide();
-		snbActive.on("click", function() {
-			$(this).next().show();
-			tab.children().toggleClass("on");
-			event.stopPropagation();
-			return false;
-		});
-		$(".depth4 li.active a").on("click", function() {
-			depth4.children().toggleClass("on");
-			event.stopPropagation();
-			return false;
-		});
-		$("#depth5_menu_ul li.active a").on("click", function() {
-			depth5.children().toggleClass("on");
-			event.stopPropagation();
-			return false;
-		});
-	}
-
-
-});
 
 
 
