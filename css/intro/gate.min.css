@@ -48,7 +48,7 @@
 			}
 			.d-screen .box-container.active .box-item.active{z-index:10;}
 			.d-screen .box-container.active .box-item.active .box:before {
-				transform:scale(9);transform-origin:center center;
+				transform:scale(5);transform-origin:center center;
 				-o-transition: all .65s 0s ease-in-out;
 				-ms-transition: all .65s 0s ease-in-out;
 				-moz-transition: all .65s 0s ease-in-out;
