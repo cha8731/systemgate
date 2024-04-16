@@ -464,53 +464,6 @@ jQuery(function($){
 	});
 
 
-	/*메인 메뉴 롤링*/
-	$(window).scroll(function(event){
-		var x=$(this).scrollTop(),
-			Cont_width=$('body').width(),
-			side_height='',
-			header_confirm=$('div').hasClass('dcHeader'),
-			header_move=$("#diContents").offset(),
-			footer_move=$("#diFooter").offset(),
-			header_class=$('.tab_box').attr('class');
-		if(header_confirm==true){
-		  if(Cont_width>1000&&(GetIEVersion()>8||GetIEVersion()==0)){
-			if(x>header_move.top){
-			  side_height=$('.tab_box').innerHeight()
-			  if(x>footer_move.top-side_height){
-				$('.tab_box').removeClass().addClass('web_end');
-			  }else{
-				$('.tab_box').removeClass().addClass('web_move');
-			  };
-			}else if(x<header_move.top){
-			  if(header_class=='web_move'){
-				$('.tab_box').removeClass('web_move');
-			  };
-			};
-		  }else{
-			return false;
-		  };
-		}else{
-		  header_class=$('#diContents').attr('class');
-		  if(Cont_width>767&&(GetIEVersion()>8||GetIEVersion()==0)){
-			if(x>header_move.top){
-			  if(header_class!='web_move'){
-				$('#diContents').removeClass().addClass('web_move');
-			  };
-			}else if(x<header_move.top){
-			  if(header_class=='web_move'){
-				$('#diContents').removeClass('web_move');
-				$('#diSideMenu').removeClass('leftMenuMvEnd');
-			  };
-			};
-		  }else{
-			return false;
-		  };
-
-		};
-	});
-
-	
 	/*메인 최신 게시판 탭 메뉴*/
 	var tabA = $(".tabs>li>a");
 	var tabS = $(".tabs>li>.dcBbsConList");
