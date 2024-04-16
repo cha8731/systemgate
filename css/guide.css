@@ -1339,7 +1339,7 @@ body { overflow-x:hidden; }
 .dcSiteMapWrap .dcSiteMapLi ol > li > .depth_wrap > ul > li > ul > li{background-color:#ccc;}
 .dcSiteMapWrap .dcSiteMapLi ol > li > .depth_wrap > ul > li > ul > li > a{display: block; font-size:16px; font-weight:500; color:#333; text-align:left; width:100%; padding:5px 20px 5px 30px;}
 .dcSiteMapWrap .dcSiteMapLi ol > a{display:block; width:100%; font-size:16px; font-weight:400; color:#fff; padding:15px;}
-.dcSiteMapWrap .dcBtnAllMenuClose{position: absolute; top:0; right:0; width:60px; background-color:#476ff3; }
+.dcSiteMapWrap .dcBtnAllMenuClose{position: absolute; top:19px; right:-14px; width:60px; background-color:#476ff3; }
 .dcSiteMapWrap .dcBtnAllMenuClose p{line-height:60px; background:url(/ko/img/common/btn_allmenuclose.png) center center no-repeat; background-size:20px; text-indent:-99999px;}
 
 .bgAllmenu{display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.6); z-index:101;}
