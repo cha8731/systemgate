@@ -1259,7 +1259,9 @@ body { overflow-x:hidden; }
 #diHeader .dcHeaderMenu .dcLogoWarp h1 a { display:block; background:url("../images/logo.png") center center no-repeat; background-size:100%; text-indent:-9999px; }
 #diHeader .dcHeaderMenu .dcLogoWarp h2 { float:left; width:155px; line-height:100px; }
 #diHeader .dcHeaderMenu .dcLogoWarp h2 a { display:block; background:url(../images/newBI.png) center center no-repeat; background-size:100%; text-indent:-9999px; }
+#diHeader .dcHeaderMenu .dcLogoWarp h1{margin-left:15px;}
 
+	
 #diHeader .dcHeaderMenu .dcMenuWrap {margin-right:30px; display:none;}
 #diHeader .dcHeaderMenu .dcMenuWrap ol { }
 #diHeader .dcHeaderMenu .dcMenuWrap ol li { float:left; }
