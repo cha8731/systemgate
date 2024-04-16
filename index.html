@@ -7,75 +7,7 @@
 
 <title>퍼블리싱 UI가이드</title>
 <style type="text/css">
-		.help-tooltip .tooltip-label{top:25px;}
-		.help-tooltip .tooltip-label:after{top:-13px;}
-	.wrapper{background: url("images/wave-01.png") no-repeat bottom left; height:100%;}
-		body.overflow-hide {overflow:hidden;}
-		@media(min-width: 1080px) {
-			.d-screen .box-container * {
-				-o-transition: all .45s 0s ease-in-out;
-				-ms-transition: all .45s 0s ease-in-out;
-				-moz-transition: all .45s 0s ease-in-out;
-				-webkit-transition: all .45s 0s ease-in-out;
-				transition: all .45s 0s ease-in-out;
-			}
-			.d-screen .box-container .box-item-banking {transform:scale(1);transform-origin:left center;}
-			.d-screen .box-container .box-item-banking.on {z-index:1;}
-			.d-screen .box-container .box-item-banking.on {transform:scale(1.12);}
-			.d-screen .box-container .box-item-banking.out {transform:scale(.94);filter:blur(4px);}
-			.d-screen .box-container .box-item-atm {transform:scale(1);transform-origin:right center;}
-			.d-screen .box-container .box-item-atm.on {z-index:1;}
-			.d-screen .box-container .box-item-atm.on {transform:scale(1.12);}
-			.d-screen .box-container .box-item-atm.out {transform:scale(.94);filter:blur(4px);}
-
-			.d-screen .box-container .box {position:relative;}
-			.d-screen .box-container .box:before {content:"";position:absolute;top:0;left:0;width:100%;height:100%;border-radius:32px;background:linear-gradient(0deg,#ab68ec,#a661e9);border:1px solid #8932dd;}
-			.d-screen .box-container .blue-box:before {content:"";position:absolute;top:0;left:0;width:100%;height:100%;border-radius:32px;background:linear-gradient(0deg,#5586fd,#597df5);border:1px solid #3366e0;}
-
-			.d-screen .box-container .gray-box:before {background:linear-gradient(0deg,#bdac95,#bdac95);border-color:#aa9578;}
 	
-
-			.d-screen .box-container.active {}
-			.d-screen .box-container.active .box .tit,
-			.d-screen .box-container.active .tooltip {
-				opacity:0;
-				-o-transition: all .35s 0s ease-in-out;
-				-ms-transition: all .35s 0s ease-in-out;
-				-moz-transition: all .35s 0s ease-in-out;
-				-webkit-transition: all .35s 0s ease-in-out;
-				transition: all .35s 0s ease-in-out;
-			}
-			.d-screen .box-container.active .box-item.active{z-index:10;}
-			.d-screen .box-container.active .box-item.active .box:before {
-				transform:scale(5);transform-origin:center center;
-				-o-transition: all .65s 0s ease-in-out;
-				-ms-transition: all .65s 0s ease-in-out;
-				-moz-transition: all .65s 0s ease-in-out;
-				-webkit-transition: all .65s 0s ease-in-out;
-				transition: all .65s 0s ease-in-out;
-			}
-
-			.d-screen .box-container.on:before {bottom:-30px;}
-			.d-screen .box-container:before {
-				filter:blur(3px);
-				-o-transition: all .45s 0s ease-in-out;
-				-ms-transition: all .45s 0s ease-in-out;
-				-moz-transition: all .45s 0s ease-in-out;
-				-webkit-transition: all .45s 0s ease-in-out;
-				transition: all .45s 0s ease-in-out;
-			}
-		}
-			.d-screen .box-container .box{content:"";width:100%;height:100%;border-radius:32px;background:linear-gradient(0deg,#ab68ec,#a661e9);border:1px solid #8932dd;}
-			.d-screen .box-container .gray-box{background:linear-gradient(0deg,#bdac95,#bdac95);border-color:#aa9578;}
-			.d-screen .box-container .blue-box{content:"";width:100%;height:100%;border-radius:32px;background:linear-gradient(0deg,#5586fd,#597df5);border:1px solid #3366e0;}
-	@media(max-width: 1080px) {
-		.box-container{display: block !important;}
-		.main-gate .box-container .box-item-banking .tooltip{display: none;}
-		.main-gate .box-container .box-item-atm .tooltip{display: none;}
-		.main-gate .box-container{width: 100% !important; max-width: 100% !important;}
-		.main-gate .box-container .box-item{padding-bottom:20px !important;}
-		.box{max-width: 100% !important; max-height: inherit !important; height: auto !important;}
-	}
 	</style>	
 <!-- 공통 CSS -->		
 	
@@ -150,36 +82,46 @@
 					<div id="boxContainer" class="box-container">
 						<div class="box-item box-item-banking">
 							<a href="design_guide/sub_01_01_01.html" class="link arr-link">
-								<div class="box">+
-									<span class="tit"><em>퍼블리싱 방향</em></span>
+								<div class="box">
+									<span class="tit"><em>템플릿</em></span>
 								</div>
 							</a>
-							<div class="tooltip tooltip-t">
+							<div class="tooltip tooltip-t tip_way1">
 								<div class="img-char img-char-main-1"></div>
-								<span class="tooltip-label"><span class="tooltip-label-txt">css 기본 규칙 및 <br>가이드를 제공합니다.</span></span>
+								<span class="tooltip-label"><span class="tooltip-label-txt">HTML 요소 와 <br>태그 사용 방법을 <br>제공합니다.</span></span>
 							</div>
 						</div>
 						<div class="box-item box-item-banking">
 							<a href="template/sub_02_01_01.html" class="link arr-link">
-								<div class="box blue-box">
-									<span class="tit"><em>템플릿</em></span>
-								</div>
-							</a>
-							<div class="tooltip tooltip-t">
-								<div class="img-char img-char-main-3"></div>
-								<span class="tooltip-label"><span class="tooltip-label-txt">HTML 요소 와 <br>태그 사용 방법을 <br>제공합니다.</span></span>
-							</div>
-						</div>
-						<div class="box-item box-item-atm">
-							<a href="w3c_site/sub_03_01.html" class="link arr-link">
-								<div class="box gray-box">
+								<div class="box yellow-box">
 									<span class="tit"><em>웹 접근성</em></span>
 								</div>
 							</a>
-							<div class="tooltip tooltip-t tooltip-t-r">
-								<div class="img-char img-char-main-2"></div>
+							<div class="tooltip tooltip-t tip_way2">
+								<div class="img-char img-char-main-3"></div>
 								<span class="tooltip-label"><span class="tooltip-label-txt">웹 사이트 인증마크에 <br>필요한 부분을 제공합니다.</span></span>
 							</div>
+						</div>
+						<div class="box-item box-item-atm" style="z-index:1;">
+							<a href="w3c_site/sub_03_01.html" class="link arr-link">
+								<div class="box blue-box">
+									<span class="tit"><em>퍼블리싱<br> 방향</em></span>
+								</div>
+							</a>
+							<div class="tooltip tooltip-t tooltip-t-r tip_way3">
+								<div class="img-char img-char-main-2"></div>
+								<span class="tooltip-label"><span class="tooltip-label-txt">css 기본 규칙 및 <br>가이드를 제공합니다.</span></span>
+							</div>
+						</div>
+						<div class="box-item box-item-atm" style="z-index:0;">
+							<a href="w3c_site/sub_03_01.html" class="link arr-link">
+								<div class="box gray-box">
+									<span class="tit"><em>적용 화면</em></span>
+								</div>
+							</a>
+							<div class="tooltip tooltip-t tooltip-t-r tip_way4">
+								<span class="tooltip-label"><span class="tooltip-label-txt">템플릿을 활용한<br>화면들을 제공합니다.</span></span>
+							</div>							
 						</div>
 					</div>
 				</div>
