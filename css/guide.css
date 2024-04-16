@@ -577,7 +577,7 @@ select {padding:11px 10px; height:44px;border-radius:4px;}
 .dcSubConWarp #diSideMenu .dcLeftMenuWrap .dcLeftMenu #diLeftMenuList ul li {
     border-bottom: 1px solid #e6ebf3;
     line-height: 74px;
-    background: url("../images/bg_left_menu.png") 90% 50% no-repeat #fff;
+    background: url("../images/bg_left_menu.png") 90% 50% no-repeat #fafafa;
 }
 
 .dcSubConWarp #diSideMenu .dcLeftMenuWrap .dcLeftMenu #diLeftMenuList ul li:last-child {
