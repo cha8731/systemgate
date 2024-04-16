@@ -64,7 +64,7 @@ select {padding:11px 10px; height:44px;border-radius:4px;}
 #diHeader .dcHeaderTop .dcLinkWrap a.lang_e {color: #4263ad;font-weight: 700;}
 #diHeader .dcHeaderMenu {position: relative; height: 100px;}
 #diHeader .dcHeaderMenu .dcLogoWarp {float: left; margin-right: 0;}
-#diHeader .dcHeaderMenu .dcLogoWarp h1 {float: left; width: 152px;line-height: 100px; margin-right: 22px; margin-left: 30px;}
+#diHeader .dcHeaderMenu .dcLogoWarp h1 {float: left; width: 152px;line-height: 100px; margin-right: 22px; margin-left:60px;}
 #diHeader .dcHeaderMenu .dcLogoWarp h1 a {display: block; background: url("../images/logo.png") center center no-repeat; background-size: 100%;    text-indent: -9999px;}
 #diHeader .dcHeaderMenu .dcLogoWarp h2 {
     float: left;
