@@ -977,7 +977,7 @@ table.waChkLst.blue .bg_dep02 {background:#e9efff;}
 table.waChkLst.blue .bg_dep02 td {font-weight:500; color:#33363B;border-top:1px #21409a solid;border-bottom:1px #21409a solid;}
 table.waChkLst .dscBox.type01 {background:#f8f8f8; margin:5px; border:solid 1px #ddd;}
 table.waChkLst .dscBox.type01 .exCord {padding:10px 5px;}
-table.waChkLst .dscBox.type01 .exCord .lstDsc > li {background:url("../images/ico/ico_dot_gray.gif") 5px .65em no-repeat; padding-left:15px; line-height:23px; font-size: 14px;}
+table.waChkLst .dscBox.type01 .exCord .lstDsc > li {padding-left:15px; line-height:23px; font-size: 14px;}
 p.lstDsc {background:url(../images/ico/ico_ar_red.gif) 5px .55em no-repeat; padding-left:15px; line-height:1.5em;}
 .waChkLst1{margin-bottom: -21px;}
 .waChkLst1 td{background-color:#21409A; color: #fff; padding:7px;}
