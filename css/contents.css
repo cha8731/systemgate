@@ -302,7 +302,7 @@ details[open] summary::marker { content: "️▼ 접어서보기"; }
 .depth4 li.on {border:1px solid #e1e6eb;}
 .depth4 li.active {border:1px solid #043763;}
 .depth4 li.active a::after,
-#depth5_menu_ul li.active a::after { content: '\e942'; font-family: "xeicon"; font-size:17px; display: block; position: absolute; right:10px; top:11px; z-index: 2; color:#666; -webkit-transition: all 0.2s; transition: all 0.2s;}
+#depth5_menu_ul li.active a::after { content: '\e942'; font-family: "xeicon"; font-size:17px; display: block; position: absolute; right:10px; top:11px; z-index:4; color:#666; -webkit-transition: all 0.2s; transition: all 0.2s;}
 	
 .basicTopSearch {width: 100%;}
 .basicTopSearchCont{width:100%;}
